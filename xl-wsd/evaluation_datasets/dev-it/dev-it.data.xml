@@ -1,0 +1,3650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus lang="it" name="dev-it" sources="semeval2010-it_semeval2015-it_semeval2013-it">
+   <text id="d000">
+      <sentence id="d000.s000" source="semeval2015-it">
+         <wf pos="X">Come</wf>
+         <instance id="d000.s000.t000" lemma="agire" pos="VERB">agisce</instance>
+         <wf lemma="alimta" pos="NOUN">Alimta</wf>
+         <wf pos="X">?</wf>
+      </sentence>
+      <sentence id="d000.s001" source="semeval2010-it">
+         <wf lemma="A" pos="X">A</wf>
+         <wf lemma="livello" pos="X">livello</wf>
+         <wf lemma="nazionale" pos="X">nazionale</wf>
+         <wf lemma="tali" pos="X">tali</wf>
+         <wf lemma="strategie" pos="X">strategie</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="politica" pos="X">politica</wf>
+         <wf lemma="ambientale" pos="X">ambientale</wf>
+         <wf lemma="trovano" pos="X">trovano</wf>
+         <wf lemma="realizzazione" pos="X">realizzazione</wf>
+         <wf lemma="mediante" pos="X">mediante</wf>
+         <wf lemma="strumenti" pos="X">strumenti</wf>
+         <wf lemma="quali" pos="X">quali</wf>
+         <wf lemma="Carta" pos="X">Carta</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="6" pos="X">6</wf>
+         <wf lemma="dicembre" pos="X">dicembre</wf>
+         <instance id="d000.s001.t000" lemma="articolo" pos="NOUN">articolo</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="riguarda" pos="X">riguarda</wf>
+         <wf lemma="un'" pos="X">un'</wf>
+         <wf lemma="indagine" pos="X">indagine</wf>
+         <wf lemma="complessiva" pos="X">complessiva</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <instance id="d000.s001.t001" lemma="patrimonio" pos="NOUN">patrimonio</instance>
+         <wf lemma="naturale" pos="X">naturale</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="nostro" pos="X">nostro</wf>
+         <instance id="d000.s001.t002" lemma="paese" pos="NOUN">paese</instance>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="APAT" pos="X">APAT</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="2003" pos="X">2003</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="la" pos="X">la</wf>
+      </sentence>
+      <sentence id="d000.s002" source="semeval2013-it">
+         <wf lemma="inoltre" pos="ADV">Inoltre</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="forte" pos="ADJ">forte</wf>
+         <wf lemma="rete_di_sicurezza_sociale" pos="NOUN">rete_di_sicurezza_sociale</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="contribuire" pos="VERB">contribuito</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="proteggere" pos="VERB">proteggere</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s002.t000" lemma="povero" pos="NOUN">poveri</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s003" source="semeval2013-it">
+         <wf lemma="a" pos="X">A</wf>
+         <instance id="d000.s003.t000" lemma="catena" pos="NOUN">catena</instance>
+         <wf lemma="nuovo" pos="ADJ">nuovi</wf>
+         <instance id="d000.s003.t001" lemma="problema" pos="NOUN">problemi</instance>
+         <wf lemma="sorgere" pos="VERB">sorgono</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <instance id="d000.s003.t002" lemma="causa" pos="NOUN">causa</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <instance id="d000.s003.t003" lemma="clamore" pos="NOUN">clamore</instance>
+         <wf lemma="intorno" pos="ADV">intorno</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="Josef" pos="NOUN">Josef</wf>
+         <wf lemma="Ackermann" pos="NOUN">Ackermann</wf>
+         <wf lemma="," pos="X">,</wf>
+         <instance id="d000.s003.t004" lemma="CEO" pos="NOUN">CEO</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="deutsche_bank" pos="NOUN">Deutsche_Bank</wf>
+         <wf lemma=":" pos="X">:</wf>
+         <wf lemma="deutsche_bank" pos="NOUN">Deutsche_Bank</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="fronte" pos="NOUN">fronte</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="svariato" pos="ADJ">svariati</wf>
+         <instance id="d000.s003.t005" lemma="milione" pos="NOUN">milioni</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s003.t006" lemma="sterlina" pos="NOUN">sterline</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s003.t007" lemma="multa" pos="NOUN">multa</instance>
+         <wf lemma="nel" pos="X">negli</wf>
+         <instance id="d000.s003.t008" lemma="stati_uniti" pos="NOUN">Stati_Uniti</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s004" source="semeval2013-it">
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="il" pos="X">La</wf>
+         <instance id="d000.s004.t000" lemma="commissione" pos="NOUN">commissione</instance>
+         <wf lemma="economico" pos="ADJ">economica</wf>
+         <wf lemma="del" pos="X">delle</wf>
+         <instance id="d000.s004.t001" lemma="nazioni_unite" pos="NOUN">Nazioni_Unite</instance>
+         <wf lemma="'" pos="X">'</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s004.t002" lemma="america_latina" pos="NOUN">America_Latina</instance>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="riferire" pos="VERB">riferito</wf>
+         <wf lemma="questo" pos="X">questa</wf>
+         <instance id="d000.s004.t003" lemma="settimana" pos="NOUN">settimana</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s004.t004" lemma="percentuale" pos="NOUN">percentuale</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="latino-americano" pos="NOUN">latino-americani</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="vivere" pos="VERB">vivono</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s004.t005" lemma="povertà" pos="NOUN">povertà</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="aumentare" pos="VERB">aumentata</wf>
+         <wf lemma="solo" pos="ADV">solo</wf>
+         <wf lemma="marginalmente" pos="ADV">marginalmente</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="@card@" pos="NOUN">2009</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="scendere" pos="VERB">scesa</wf>
+         <wf lemma="anche" pos="ADV">anche</wf>
+         <wf lemma="quest'" pos="X">quest'</wf>
+         <instance id="d000.s004.t006" lemma="anno" pos="NOUN">anno</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="@card@" pos="NOUN">32</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma=".-RRB-" pos="NOUN">.-RRB-</wf>
+      </sentence>
+      <sentence id="d000.s005" source="semeval2015-it">
+         <wf pos="X">La</wf>
+         <wf lemma="dose" pos="NOUN">dose</wf>
+         <wf lemma="raccomandata" pos="NOUN">raccomandata</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="alimta" pos="NOUN">Alimta</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf pos="X">di</wf>
+         <wf pos="X">500</wf>
+         <wf lemma="mg" pos="NOUN">mg</wf>
+         <wf pos="X">per</wf>
+         <instance id="d000.s005.t000" lemma="metro_quadrato" pos="NOUN">metro_quadrato</instance>
+         <wf pos="X">di</wf>
+         <wf lemma="superficie_corporeo" pos="NOUN">superficie_corporea</wf>
+         <wf pos="X">(</wf>
+         <wf lemma="calcolare" pos="VERB">calcolata</wf>
+         <wf lemma="utilizzare" pos="VERB">utilizzando</wf>
+         <wf pos="X">l</wf>
+         <wf lemma="altezza" pos="NOUN">altezza</wf>
+         <wf pos="X">e</wf>
+         <wf pos="X">il</wf>
+         <wf lemma="peso" pos="NOUN">peso</wf>
+         <wf pos="X">del</wf>
+         <wf lemma="paziente" pos="NOUN">paziente</wf>
+         <wf pos="X">)</wf>
+         <wf pos="X">da</wf>
+         <wf lemma="somministrare" pos="VERB">somministrare</wf>
+         <wf pos="X">per</wf>
+         <wf lemma="infusione_endovenoso" pos="NOUN">infusione_endovenosa</wf>
+         <wf pos="X">in</wf>
+         <wf pos="X">10</wf>
+         <wf lemma="minuto" pos="NOUN">minuti</wf>
+         <wf pos="X">una</wf>
+         <wf lemma="volta" pos="NOUN">volta</wf>
+         <wf lemma="ogni" pos="ADJ">ogni</wf>
+         <wf lemma="tre" pos="ADJ">tre</wf>
+         <wf lemma="settimana" pos="NOUN">settimane</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s006" source="semeval2010-it">
+         <wf lemma="Una" pos="X">Una</wf>
+         <instance id="d000.s006.t000" lemma="spedizione" pos="NOUN">spedizione</instance>
+         <wf lemma="scientifica" pos="X">scientifica</wf>
+         <wf lemma="alla" pos="X">alla</wf>
+         <wf lemma="scoperta" pos="X">scoperta</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="soft" pos="X">soft</wf>
+         <wf lemma="coral" pos="X">coral</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="indonesiani" pos="X">indonesiani</wf>
+      </sentence>
+      <sentence id="d000.s007" source="semeval2015-it">
+         <wf lemma="potere" pos="VERB">Puoi</wf>
+         <instance id="d000.s007.t000" lemma="avere" pos="VERB">avere</instance>
+         <wf pos="X">più</wf>
+         <wf lemma="grafico" pos="NOUN">grafici</wf>
+         <wf pos="X">nella</wf>
+         <instance id="d000.s007.t001" lemma="stesso" pos="ADJ">stessa</instance>
+         <wf lemma="vista" pos="NOUN">vista</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s008" source="semeval2010-it">
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s008.t000" lemma="montagna" pos="NOUN">montagna</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="collina" pos="X">collina</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="pianura" pos="X">pianura</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s008.t001" lemma="costa" pos="NOUN">costa</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s009" source="semeval2013-it">
+         <wf lemma="nicolas_sarkozy" pos="NOUN">Nicolas_Sarkozy</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="volere" pos="VERB">voluto</wf>
+         <wf lemma="iniziare" pos="VERB">iniziare</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="suo" pos="X">suo</wf>
+         <instance id="d000.s009.t000" lemma="mandato" pos="NOUN">mandato</instance>
+         <wf lemma="cercare" pos="VERB">cercando</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s009.t001" lemma="punto" pos="NOUN">punti</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s009.t002" lemma="crescita" pos="NOUN">crescita</instance>
+         <wf lemma="mancare" pos="VERB">mancanti</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="with" pos="NOUN">with</wf>
+         <wf lemma="the" pos="NOUN">the</wf>
+         <wf lemma="teeth" pos="NOUN">teeth</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s010" source="semeval2015-it">
+         <wf pos="X">Lo</wf>
+         <wf lemma="studio" pos="NOUN">studio</wf>
+         <wf pos="X">si</wf>
+         <wf lemma="basare" pos="VERB">basa</wf>
+         <wf pos="X">su</wf>
+         <wf pos="X">195</wf>
+         <wf lemma="intervista" pos="NOUN">interviste</wf>
+         <wf lemma="personale" pos="ADJ">personali</wf>
+         <wf pos="X">con</wf>
+         <wf lemma="alto" pos="ADJ">alti</wf>
+         <wf lemma="dirigente" pos="NOUN">dirigenti</wf>
+         <wf pos="X">delle</wf>
+         <wf lemma="parte_sociale" pos="NOUN">parti_sociali</wf>
+         <wf pos="X">,</wf>
+         <wf pos="X">in</wf>
+         <wf lemma="rappresentanza" pos="NOUN">rappresentanza</wf>
+         <wf pos="X">delle</wf>
+         <wf lemma="principale" pos="ADJ">principali</wf>
+         <wf lemma="organizzazione" pos="NOUN">organizzazioni</wf>
+         <wf lemma="nazionale" pos="ADJ">nazionali</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="quindici" pos="ADJ">quindici</wf>
+         <instance id="d000.s010.t000" lemma="paese_europeo" pos="NOUN">paesi_europei</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s011" source="semeval2015-it">
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf pos="X">non</wf>
+         <instance id="d000.s011.t000" lemma="presentare" pos="VERB">presenta</instance>
+         <instance id="d000.s011.t001" lemma="particolare" pos="ADJ">particolari</instance>
+         <instance id="d000.s011.t002" lemma="rischio" pos="NOUN">rischi</instance>
+         <wf pos="X">per</wf>
+         <wf lemma="l" pos="X">l</wf>
+         <instance id="d000.s011.t003" lemma="uomo" pos="NOUN">uomo</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s012" source="semeval2015-it">
+         <instance id="d000.s012.t000" lemma="ciascuno" pos="ADV">Ciascuna</instance>
+         <instance id="d000.s012.t001" lemma="compressa" pos="NOUN">compressa</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="marcare" pos="VERB">marcata</wf>
+         <wf pos="X">da</wf>
+         <wf pos="X">un</wf>
+         <instance id="d000.s012.t002" lemma="lato" pos="NOUN">lato</instance>
+         <wf pos="X">con</wf>
+         <wf pos="X">il</wf>
+         <instance id="d000.s012.t003" lemma="logo" pos="NOUN">logo</instance>
+         <wf lemma="pfizer" pos="NOUN">Pfizer</wf>
+         <wf pos="X">e</wf>
+         <wf lemma="dall" pos="NOUN">dall</wf>
+         <instance id="d000.s012.t004" lemma="altro" pos="ADJ">altro</instance>
+         <instance id="d000.s012.t005" lemma="lato" pos="NOUN">lato</instance>
+         <wf pos="X">con</wf>
+         <wf pos="X">le</wf>
+         <instance id="d000.s012.t006" lemma="lettera" pos="NOUN">lettere</instance>
+         <wf pos="X">MPT</wf>
+         <wf pos="X">e</wf>
+         <wf pos="X">con</wf>
+         <instance id="d000.s012.t007" lemma="numero" pos="NOUN">numeri</instance>
+         <wf pos="X">che</wf>
+         <instance id="d000.s012.t008" lemma="indicare" pos="VERB">indicano</instance>
+         <wf pos="X">la</wf>
+         <instance id="d000.s012.t009" lemma="quantità" pos="NOUN">quantità</instance>
+         <wf pos="X">di</wf>
+         <wf lemma="maropitant" pos="NOUN">maropitant</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s013" source="semeval2015-it">
+         <instance id="d000.s013.t000" lemma="ctrl" pos="NOUN">Ctrl</instance>
+         <instance id="d000.s013.t001" lemma="q" pos="NOUN">Q</instance>
+         <instance id="d000.s013.t002" lemma="uscire" pos="VERB">Esci</instance>
+      </sentence>
+      <sentence id="d000.s014" source="semeval2010-it">
+         <wf lemma="L'" pos="X">L'</wf>
+         <wf lemma="uso" pos="X">uso</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="DGPS" pos="X">DGPS</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="fase" pos="X">fase</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="raccolta" pos="X">raccolta</wf>
+         <instance id="d000.s014.t000" lemma="dato" pos="NOUN">dati</instance>
+         <wf lemma="consentirà" pos="X">consentirà</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="rapido" pos="X">rapido</wf>
+         <wf lemma="posizionamento" pos="X">posizionamento</wf>
+         <wf lemma="cartografico" pos="X">cartografico</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s015" source="semeval2010-it">
+         <wf lemma="Nell'" pos="X">Nell'</wf>
+         <wf lemma="ambito" pos="X">ambito</wf>
+         <wf lemma="dello" pos="X">dello</wf>
+         <wf lemma="studio" pos="X">studio</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="stati" pos="X">stati</wf>
+         <wf lemma="scelti" pos="X">scelti</wf>
+         <wf lemma="tre" pos="X">tre</wf>
+         <wf lemma="differenti" pos="X">differenti</wf>
+         <wf lemma="siti" pos="X">siti</wf>
+         <wf lemma="disposti" pos="X">disposti</wf>
+         <wf lemma="intorno" pos="X">intorno</wf>
+         <wf lemma="all'" pos="X">all'</wf>
+         <instance id="d000.s015.t000" lemma="isola" pos="NOUN">isola</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="ciascuno" pos="X">ciascuno</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="essi" pos="X">essi</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="stati" pos="X">stati</wf>
+         <wf lemma="prelevati" pos="X">prelevati</wf>
+         <instance id="d000.s015.t001" lemma="campione" pos="NOUN">campioni</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="riferimento" pos="X">riferimento</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="classificazione" pos="X">classificazione</wf>
+         <wf lemma="tassonomica" pos="X">tassonomica</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="stata" pos="X">stata</wf>
+         <wf lemma="stimata" pos="X">stimata</wf>
+         <wf lemma="l'" pos="X">l'</wf>
+         <wf lemma="abbondanza" pos="X">abbondanza</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <wf lemma="diversi" pos="X">diversi</wf>
+         <wf lemma="generi" pos="X">generi</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="sia" pos="X">sia</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="corrispondenza" pos="X">corrispondenza</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="margine" pos="X">margine</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="barriera" pos="X">barriera</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="sia" pos="X">sia</wf>
+         <wf lemma="nell'" pos="X">nell'</wf>
+         <wf lemma="area" pos="X">area</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="margine" pos="X">margine</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="spiaggia" pos="X">spiaggia</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s016" source="semeval2013-it">
+         <wf lemma="e" pos="X">E</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="secondo" pos="X">secondo</wf>
+         <wf lemma="quanto" pos="ADV">quanto</wf>
+         <wf lemma="riferire" pos="VERB">riferito</wf>
+         <wf lemma="dal" pos="X">dall'</wf>
+         <wf lemma="emittente" pos="NOUN">emittente</wf>
+         <wf lemma="statunitense" pos="ADJ">statunitense</wf>
+         <wf lemma="CNBC" pos="NOUN">CNBC</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="Citigroup" pos="NOUN">Citigroup</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="anche" pos="ADV">anche</wf>
+         <instance id="d000.s016.t000" lemma="intenzione" pos="NOUN">intenzione</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="restituire" pos="VERB">restituire</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s016.t001" lemma="sostegno" pos="NOUN">sostegno</instance>
+         <wf lemma="ricevere" pos="VERB">ricevuto</wf>
+         <wf lemma="dal" pos="X">dallo</wf>
+         <instance id="d000.s016.t002" lemma="stato" pos="NOUN">stato</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s017" source="semeval2015-it">
+         <wf pos="X">Per</wf>
+         <wf pos="X">che</wf>
+         <wf lemma="cosa" pos="NOUN">cosa</wf>
+         <wf pos="X">si</wf>
+         <instance id="d000.s017.t000" lemma="usare" pos="VERB">usa</instance>
+         <wf lemma="alimta" pos="NOUN">Alimta</wf>
+         <wf pos="X">?</wf>
+      </sentence>
+      <sentence id="d000.s018" source="semeval2013-it">
+         <wf lemma="tra" pos="X">Tra</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s018.t000" lemma="partecipante" pos="NOUN">partecipanti</instance>
+         <wf lemma="al" pos="X">alla</wf>
+         <instance id="d000.s018.t001" lemma="cena" pos="NOUN">cena</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="c'" pos="X">c'</wf>
+         <wf lemma="era" pos="VERB">era</wf>
+         <wf lemma="anche" pos="ADV">anche</wf>
+         <wf lemma="mitch_mcconnell" pos="NOUN">Mitch_McConnell</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="importante" pos="ADJ">importante</wf>
+         <instance id="d000.s018.t002" lemma="senatore" pos="NOUN">senatore</instance>
+         <wf lemma="repubblicano" pos="ADJ">repubblicano</wf>
+         <wf lemma="dichiaratosi" pos="ADJ">dichiaratosi</wf>
+         <wf lemma="fortemente" pos="ADV">fortemente</wf>
+         <wf lemma="avverso" pos="ADJ">avverso</wf>
+         <wf lemma="al" pos="X">alla</wf>
+         <instance id="d000.s018.t003" lemma="legge" pos="NOUN">legge</instance>
+         <wf lemma="sanitario" pos="ADJ">sanitaria</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s019" source="semeval2013-it">
+         <wf lemma="in" pos="X">In</wf>
+         <instance id="d000.s019.t000" lemma="realtà" pos="NOUN">realtà</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s019.t001" lemma="giudice" pos="NOUN">giudici</instance>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="esente" pos="ADJ">esenti</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="coda" pos="NOUN">Code</wf>
+         <wf lemma="of" pos="NOUN">of</wf>
+         <wf lemma="Conduct" pos="NOUN">Conduct</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="regolare" pos="VERB">regola</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <instance id="d000.s019.t002" lemma="azione" pos="NOUN">azioni</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="comune" pos="NOUN">comuni</wf>
+         <instance id="d000.s019.t003" lemma="giudice" pos="NOUN">giudici</instance>
+         <wf lemma="federale" pos="ADJ">federali</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s020" source="semeval2010-it">
+         <wf lemma="L'" pos="X">L'</wf>
+         <wf lemma="eterogeneità" pos="X">eterogeneità</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <instance id="d000.s020.t000" lemma="fondo" pos="NOUN">fondi</instance>
+         <wf lemma="duri" pos="X">duri</wf>
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="infatti" pos="X">infatti</wf>
+         <wf lemma="maggiore" pos="X">maggiore</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="quella" pos="X">quella</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <instance id="d000.s020.t001" lemma="fondo" pos="NOUN">fondi</instance>
+         <wf lemma="molli" pos="X">molli</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="determinando" pos="X">determinando</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="ricchezza" pos="X">ricchezza</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s020.t002" lemma="ambiente" pos="NOUN">ambienti</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="popolamenti" pos="X">popolamenti</wf>
+         <wf lemma="diversificati" pos="X">diversificati</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="contrastano" pos="X">contrastano</wf>
+         <wf lemma="vistosamente" pos="X">vistosamente</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="l'" pos="X">l'</wf>
+         <wf lemma="apparente" pos="X">apparente</wf>
+         <wf lemma="uniformità" pos="X">uniformità</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <instance id="d000.s020.t003" lemma="fondo" pos="NOUN">fondi</instance>
+         <wf lemma="molli" pos="X">molli</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s021" source="semeval2015-it">
+         <wf pos="X">Dai</wf>
+         <instance id="d000.s021.t000" lemma="risultato" pos="NOUN">risultati</instance>
+         <wf pos="X">degli</wf>
+         <wf lemma="studio" pos="NOUN">studi</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <instance id="d000.s021.t001" lemma="emergere" pos="VERB">emerso</instance>
+         <wf pos="X">che</wf>
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf pos="X">più</wf>
+         <instance id="d000.s021.t002" lemma="efficace" pos="ADJ">efficace</instance>
+         <wf pos="X">del</wf>
+         <instance id="d000.s021.t003" lemma="placebo" pos="NOUN">placebo</instance>
+         <wf pos="X">:</wf>
+         <wf pos="X">nei</wf>
+         <instance id="d000.s021.t004" lemma="cane" pos="NOUN">cani</instance>
+         <instance id="d000.s021.t005" lemma="trattare" pos="VERB">trattati</instance>
+         <wf pos="X">con</wf>
+         <wf pos="X">il</wf>
+         <instance id="d000.s021.t006" lemma="medicinale" pos="NOUN">medicinale</instance>
+         <wf pos="X">gli</wf>
+         <instance id="d000.s021.t007" lemma="attacco" pos="NOUN">attacchi</instance>
+         <wf pos="X">di</wf>
+         <instance id="d000.s021.t008" lemma="vomito" pos="NOUN">vomito</instance>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="essere" pos="VERB">stati</wf>
+         <wf pos="X">meno</wf>
+         <instance id="d000.s021.t009" lemma="frequente" pos="ADJ">frequenti</instance>
+         <instance id="d000.s021.t010" lemma="rispetto" pos="NOUN">rispetto</instance>
+         <wf pos="X">agli</wf>
+         <instance id="d000.s021.t011" lemma="animale" pos="NOUN">animali</instance>
+         <instance id="d000.s021.t012" lemma="trattare" pos="VERB">trattati</instance>
+         <wf pos="X">con</wf>
+         <wf pos="X">il</wf>
+         <instance id="d000.s021.t013" lemma="placebo" pos="NOUN">placebo</instance>
+         <wf pos="X">,</wf>
+         <wf pos="X">sia</wf>
+         <wf pos="X">nel</wf>
+         <instance id="d000.s021.t014" lemma="trattamento" pos="NOUN">trattamento</instance>
+         <wf pos="X">che</wf>
+         <wf pos="X">nella</wf>
+         <instance id="d000.s021.t015" lemma="prevenzione" pos="NOUN">prevenzione</instance>
+         <wf pos="X">del</wf>
+         <instance id="d000.s021.t016" lemma="vomito" pos="NOUN">vomito</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s022" source="semeval2015-it">
+         <wf pos="X">Il</wf>
+         <instance id="d000.s022.t000" lemma="presente" pos="ADJ">presente</instance>
+         <instance id="d000.s022.t001" lemma="documento" pos="NOUN">documento</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf pos="X">la</wf>
+         <instance id="d000.s022.t002" lemma="sintesi" pos="NOUN">sintesi</instance>
+         <wf pos="X">di</wf>
+         <wf pos="X">una</wf>
+         <instance id="d000.s022.t003" lemma="relazione" pos="NOUN">relazione</instance>
+         <wf pos="X">di</wf>
+         <instance id="d000.s022.t004" lemma="valutazione" pos="NOUN">valutazione</instance>
+         <instance id="d000.s022.t005" lemma="pubblico" pos="ADJ">pubblica</instance>
+         <instance id="d000.s022.t006" lemma="europeo" pos="ADJ">europea</instance>
+         <wf pos="X">(</wf>
+         <wf lemma="epar" pos="NOUN">EPAR</wf>
+         <wf pos="X">)</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s023" source="semeval2010-it">
+         <wf lemma="-" pos="X">-</wf>
+         <wf lemma="recepire" pos="X">recepire</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="unico" pos="X">unico</wf>
+         <wf lemma="strumento" pos="X">strumento</wf>
+         <wf lemma="pianificatorio" pos="X">pianificatorio</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="livello" pos="X">livello</wf>
+         <wf lemma="regionale" pos="X">regionale</wf>
+         <wf lemma="tutte" pos="X">tutte</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="aree" pos="X">aree</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s023.t000" lemma="tutela" pos="NOUN">tutela</instance>
+         <wf lemma="previste" pos="X">previste</wf>
+         <wf lemma="dalle" pos="X">dalle</wf>
+         <wf lemma="differenti" pos="X">differenti</wf>
+         <wf lemma="normative" pos="X">normative</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="livello" pos="X">livello</wf>
+         <wf lemma="regionale" pos="X">regionale</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="nazionale" pos="X">nazionale</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="comunitario" pos="X">comunitario</wf>
+         <wf lemma=";" pos="X">;</wf>
+      </sentence>
+      <sentence id="d000.s024" source="semeval2010-it">
+         <wf lemma="Particolare" pos="X">Particolare</wf>
+         <wf lemma="attenzione" pos="X">attenzione</wf>
+         <wf lemma="verrà" pos="X">verrà</wf>
+         <wf lemma="rivolta" pos="X">rivolta</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <instance id="d000.s024.t000" lemma="confronto" pos="NOUN">confronto</instance>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <instance id="d000.s024.t001" lemma="fondo" pos="NOUN">fondi</instance>
+         <wf lemma="duri" pos="X">duri</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="prospicienti" pos="X">prospicienti</wf>
+         <instance id="d000.s024.t002" lemma="fondo" pos="NOUN">fondi</instance>
+         <wf lemma="molli" pos="X">molli</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="verranno" pos="X">verranno</wf>
+         <wf lemma="considerati" pos="X">considerati</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="siti" pos="X">siti</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s024.t003" lemma="confronto" pos="NOUN">confronto</instance>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s025" source="semeval2010-it">
+         <wf lemma="Le" pos="X">Le</wf>
+         <wf lemma="mangrovie" pos="X">mangrovie</wf>
+         <wf lemma="forniscono" pos="X">forniscono</wf>
+         <wf lemma="l'" pos="X">l'</wf>
+         <instance id="d000.s025.t000" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="all'" pos="X">all'</wf>
+         <wf lemma="85%" pos="X">85%</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <instance id="d000.s025.t001" lemma="pesce" pos="NOUN">pesci</instance>
+         <wf lemma="commerciali" pos="X">commerciali</wf>
+         <wf lemma="tropicali" pos="X">tropicali</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="essenziali" pos="X">essenziali</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="mantenere" pos="X">mantenere</wf>
+         <wf lemma="gli" pos="X">gli</wf>
+         <wf lemma="stock" pos="X">stock</wf>
+         <wf lemma="ittici" pos="X">ittici</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="quindi" pos="X">quindi</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="base" pos="X">base</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="risorse" pos="X">risorse</wf>
+         <wf lemma="alimentari" pos="X">alimentari</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s026" source="semeval2010-it">
+         <wf lemma="Il" pos="X">Il</wf>
+         <wf lemma="Dipartimento" pos="X">Dipartimento</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="lo" pos="X">lo</wf>
+         <instance id="d000.s026.t000" lemma="Sviluppo" pos="NOUN">Sviluppo</instance>
+         <wf lemma="delle" pos="X">delle</wf>
+         <instance id="d000.s026.t001" lemma="ricerca" pos="NOUN">Ricerche</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="Tecnologie" pos="X">Tecnologie</wf>
+         <wf lemma="Marine" pos="X">Marine</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="rIma" pos="X">rIma</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="dell'" pos="X">dell'</wf>
+         <wf lemma="Istituto" pos="X">Istituto</wf>
+      </sentence>
+      <sentence id="d000.s027" source="semeval2015-it">
+         <wf pos="X">Per</wf>
+         <wf pos="X">il</wf>
+         <wf lemma="trattamento" pos="NOUN">trattamento</wf>
+         <wf pos="X">del</wf>
+         <instance id="d000.s027.t000" lemma="carcinoma_polmonare" pos="NOUN">carcinoma_polmonare</instance>
+         <wf pos="X">non</wf>
+         <wf pos="X">a</wf>
+         <wf lemma="piccolo" pos="ADJ">piccole</wf>
+         <wf lemma="cellula" pos="NOUN">cellule</wf>
+         <wf pos="X">,</wf>
+         <wf pos="X">gli</wf>
+         <wf lemma="effetto" pos="NOUN">effetti</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="alimta" pos="NOUN">Alimta</wf>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="essere" pos="VERB">stati</wf>
+         <wf lemma="confrontare" pos="VERB">confrontati</wf>
+         <wf pos="X">con</wf>
+         <wf pos="X">quelli</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="docetaxel" pos="NOUN">docetaxel</wf>
+         <wf pos="X">(</wf>
+         <wf pos="X">un</wf>
+         <wf lemma="altro" pos="ADJ">altro</wf>
+         <wf lemma="farmaco" pos="NOUN">farmaco</wf>
+         <wf lemma="antitumorale" pos="ADJ">antitumorale</wf>
+         <wf pos="X">)</wf>
+         <wf pos="X">in</wf>
+         <wf pos="X">uno</wf>
+         <wf lemma="studio" pos="NOUN">studio</wf>
+         <wf lemma="condurre" pos="VERB">condotto</wf>
+         <wf pos="X">su</wf>
+         <wf pos="X">571</wf>
+         <wf lemma="paziente" pos="NOUN">pazienti</wf>
+         <wf pos="X">con</wf>
+         <wf lemma="tumore" pos="NOUN">tumore</wf>
+         <wf pos="X">in</wf>
+         <wf lemma="fase" pos="NOUN">fase</wf>
+         <wf lemma="avanzato" pos="ADJ">avanzata</wf>
+         <wf pos="X">o</wf>
+         <wf lemma="metastatico" pos="ADJ">metastatica</wf>
+         <wf pos="X">,</wf>
+         <wf pos="X">già</wf>
+         <wf lemma="sottoporre" pos="VERB">sottoposti</wf>
+         <wf pos="X">in</wf>
+         <wf lemma="precedenza" pos="NOUN">precedenza</wf>
+         <wf pos="X">a</wf>
+         <wf lemma="chemioterapia" pos="NOUN">chemioterapia</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s028" source="semeval2015-it">
+         <wf lemma="kalgebra" pos="NOUN">kalgebra</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf pos="X">una</wf>
+         <wf lemma="calcolatrice" pos="NOUN">calcolatrice</wf>
+         <wf lemma="grafico" pos="ADJ">grafica</wf>
+         <instance id="d000.s028.t000" lemma="basare" pos="VERB">basata</instance>
+         <wf pos="X">sul</wf>
+         <instance id="d000.s028.t001" lemma="linguaggio" pos="NOUN">linguaggio</instance>
+         <wf lemma="mathml" pos="NOUN">MathML</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s029" source="semeval2010-it">
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="fortemente" pos="X">fortemente</wf>
+         <wf lemma="influenzato" pos="X">influenzato</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s029.t000" lemma="fenomeno" pos="NOUN">fenomeni</instance>
+         <wf lemma="quali" pos="X">quali</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="frammentazione" pos="X">frammentazione</wf>
+         <wf lemma="degli" pos="X">degli</wf>
+         <instance id="d000.s029.t001" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="generalmente" pos="X">generalmente</wf>
+         <wf lemma="legati" pos="X">legati</wf>
+         <wf lemma="all'" pos="X">all'</wf>
+         <instance id="d000.s029.t002" lemma="attività" pos="NOUN">attività</instance>
+         <wf lemma="antropica" pos="X">antropica</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s030" source="semeval2015-it">
+         <instance id="d000.s030.t000" lemma="ctrl" pos="NOUN">Ctrl</instance>
+         <instance id="d000.s030.t001" lemma="c" pos="NOUN">C</instance>
+         <instance id="d000.s030.t002" lemma="caricare" pos="VERB">Carica</instance>
+         <wf lemma="script" pos="NOUN">script</wf>
+      </sentence>
+      <sentence id="d000.s031" source="semeval2015-it">
+         <wf pos="X">Lo</wf>
+         <wf lemma="studio" pos="NOUN">studio</wf>
+         <wf pos="X">si</wf>
+         <instance id="d000.s031.t000" lemma="basare" pos="VERB">basa</instance>
+         <wf pos="X">su</wf>
+         <wf pos="X">195</wf>
+         <instance id="d000.s031.t001" lemma="intervista" pos="NOUN">interviste</instance>
+         <instance id="d000.s031.t002" lemma="personale" pos="ADJ">personali</instance>
+         <wf pos="X">con</wf>
+         <wf lemma="alto" pos="ADJ">alti</wf>
+         <instance id="d000.s031.t003" lemma="dirigente" pos="NOUN">dirigenti</instance>
+         <wf pos="X">delle</wf>
+         <instance id="d000.s031.t004" lemma="parte" pos="NOUN">parti</instance>
+         <instance id="d000.s031.t005" lemma="sociale" pos="ADJ">sociali</instance>
+         <wf pos="X">,</wf>
+         <wf pos="X">in</wf>
+         <instance id="d000.s031.t006" lemma="rappresentanza" pos="NOUN">rappresentanza</instance>
+         <wf pos="X">delle</wf>
+         <instance id="d000.s031.t007" lemma="principale" pos="ADJ">principali</instance>
+         <instance id="d000.s031.t008" lemma="organizzazione" pos="NOUN">organizzazioni</instance>
+         <instance id="d000.s031.t009" lemma="nazionale" pos="ADJ">nazionali</instance>
+         <wf pos="X">di</wf>
+         <instance id="d000.s031.t010" lemma="quindici" pos="ADJ">quindici</instance>
+         <instance id="d000.s031.t011" lemma="paese" pos="NOUN">paesi</instance>
+         <instance id="d000.s031.t012" lemma="europeo" pos="ADJ">europei</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s032" source="semeval2013-it">
+         <wf lemma="dal" pos="X">Dalla</wf>
+         <instance id="d000.s032.t000" lemma="parte" pos="NOUN">parte</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="costa_rica" pos="NOUN">Costa_Rica</wf>
+         <wf lemma="solo" pos="ADV">solo</wf>
+         <wf lemma="uno" pos="ADJ">uno</wf>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="@card@" pos="NOUN">22</wf>
+         <instance id="d000.s032.t001" lemma="giocatore" pos="NOUN">giocatori</instance>
+         <wf lemma="convocare" pos="VERB">convocati</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="raggiungere" pos="VERB">raggiunto</wf>
+         <wf lemma="@card@" pos="NOUN">50</wf>
+         <wf lemma="partita" pos="NOUN">partite</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s033" source="semeval2013-it">
+         <instance id="d000.s033.t000" lemma="immigrato" pos="NOUN">Immigrati</instance>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="qualificare" pos="VERB">qualificati</wf>
+         <wf lemma="lavorare" pos="VERB">lavorano</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s033.t001" lemma="settore" pos="NOUN">settori</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="attirare" pos="VERB">attirano</wf>
+         <instance id="d000.s033.t002" lemma="manodopera" pos="NOUN">manodopera</instance>
+         <wf lemma="locale" pos="ADJ">locale</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="quello" pos="X">quelli</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="altamente" pos="ADV">altamente</wf>
+         <wf lemma="specializzato" pos="ADJ">specializzati</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s033.t003" lemma="settore" pos="NOUN">settori</instance>
+         <wf lemma="dinamico" pos="ADJ">dinamici</wf>
+         <wf lemma="nel" pos="X">nei</wf>
+         <wf lemma="quale" pos="X">quali</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s033.t004" lemma="formazione" pos="NOUN">formazione</instance>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="collegare" pos="VERB">collegata</wf>
+         <wf lemma="al" pos="X">all'</wf>
+         <instance id="d000.s033.t005" lemma="offerta" pos="NOUN">offerta</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s033.t006" lemma="lavoro" pos="NOUN">lavoro</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s034" source="semeval2013-it">
+         <instance id="d000.s034.t000" lemma="minuto" pos="NOUN">Minuto</instance>
+         <wf lemma="per" pos="X">per</wf>
+         <instance id="d000.s034.t001" lemma="minuto" pos="NOUN">minuto</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="inviare" pos="VERB">inviato</wf>
+         <wf lemma="resoconto" pos="NOUN">resoconti</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s034.t002" lemma="testimonianza" pos="NOUN">testimonianze</instance>
+         <wf lemma="raccapricciante" pos="ADJ">raccapriccianti</wf>
+         <wf lemma="via" pos="ADV">via</wf>
+         <wf lemma="Twitter" pos="NOUN">Twitter</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s035" source="semeval2013-it">
+         <wf lemma="essere" pos="VERB">Siamo</wf>
+         <wf lemma="fiducioso" pos="ADJ">fiduciosi</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s035.t000" lemma="compagnia" pos="NOUN">compagnia</instance>
+         <wf lemma="cinese" pos="ADJ">cinese</wf>
+         <wf lemma="essere" pos="VERB">sarà</wf>
+         <wf lemma="al" pos="X">alla</wf>
+         <wf lemma="pari" pos="ADV">pari</wf>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="suo" pos="X">suoi</wf>
+         <instance id="d000.s035.t001" lemma="concorrente" pos="NOUN">concorrenti</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="mantenere" pos="VERB">manterrà</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="suo" pos="X">suoi</wf>
+         <wf lemma="impegno" pos="NOUN">impegni</wf>
+         <wf lemma="nel" pos="X">nei</wf>
+         <wf lemma="confronto" pos="NOUN">confronti</wf>
+         <wf lemma="del" pos="X">dell'</wf>
+         <instance id="d000.s035.t002" lemma="Iraq" pos="NOUN">Iraq</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s036" source="semeval2015-it">
+         <wf pos="X">Quali</wf>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf pos="X">i</wf>
+         <instance id="d000.s036.t000" lemma="rischio" pos="NOUN">rischi</instance>
+         <instance id="d000.s036.t001" lemma="associare" pos="VERB">associati</instance>
+         <wf pos="X">a</wf>
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf pos="X">?</wf>
+      </sentence>
+      <sentence id="d000.s037" source="semeval2013-it">
+         <instance id="d000.s037.t000" lemma="giovedì" pos="NOUN">Giovedì</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <wf lemma="ampiamente" pos="ADV">ampiamente</wf>
+         <wf lemma="seguito" pos="ADJ">seguito</wf>
+         <instance id="d000.s037.t001" lemma="processo" pos="NOUN">processo</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Steven" pos="NOUN">Steven</wf>
+         <wf lemma="J." pos="NOUN">J.</wf>
+         <wf lemma="Hayes" pos="NOUN">Hayes</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="quale" pos="X">quale</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="essere|stare" pos="VERB">stato</wf>
+         <wf lemma="condannare" pos="VERB">condannato</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="avere" pos="VERB">aver</wf>
+         <wf lemma="uccidere" pos="VERB">ucciso</wf>
+         <wf lemma="tre" pos="ADJ">tre</wf>
+         <instance id="d000.s037.t002" lemma="membro" pos="NOUN">membri</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s037.t003" lemma="famiglia" pos="NOUN">famiglia</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Cheshire" pos="NOUN">Cheshire</wf>
+         <wf lemma="," pos="X">,</wf>
+         <instance id="d000.s037.t004" lemma="Connecticut" pos="NOUN">Connecticut</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="prevedere" pos="VERB">previsto</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="raggiungimento" pos="NOUN">raggiungimento</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <instance id="d000.s037.t005" lemma="fine" pos="NOUN">fine</instance>
+         <wf lemma="ufficiale" pos="ADJ">ufficiale</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <wf lemma="imposizione" pos="NOUN">imposizione</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <instance id="d000.s037.t006" lemma="giudice" pos="NOUN">giudice</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s037.t007" lemma="pena_di_morte" pos="NOUN">pena_di_morte</instance>
+         <wf lemma="votare" pos="VERB">votata</wf>
+         <wf lemma="dal" pos="X">dalla</wf>
+         <instance id="d000.s037.t008" lemma="giuria" pos="NOUN">giuria</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s038" source="semeval2010-it">
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s038.t000" lemma="riduzione" pos="NOUN">riduzione</instance>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="quantità" pos="X">quantità</wf>
+         <wf lemma="totale" pos="X">totale</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="dato" pos="X">dato</wf>
+         <wf lemma="tipo" pos="X">tipo</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s038.t001" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="ripartizione" pos="X">ripartizione</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="intesa" pos="X">intesa</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="disposizione" pos="X">disposizione</wf>
+         <wf lemma="nello" pos="X">nello</wf>
+         <wf lemma="spazio" pos="X">spazio</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="porzioni" pos="X">porzioni</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s038.t002" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="rimanenti" pos="X">rimanenti</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s038.t003" lemma="elemento" pos="NOUN">elementi</instance>
+         <wf lemma="più" pos="X">più</wf>
+         <wf lemma="isolati" pos="X">isolati</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="minori" pos="X">minori</wf>
+         <wf lemma="dimensioni" pos="X">dimensioni</wf>
+      </sentence>
+      <sentence id="d000.s039" source="semeval2013-it">
+         <wf lemma="deutsche_bank" pos="NOUN">Deutsche_Bank</wf>
+         <wf lemma="dovere" pos="VERB">deve</wf>
+         <wf lemma="fronteggiare" pos="VERB">fronteggiare</wf>
+         <wf lemma="anche" pos="ADV">anche</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s039.t000" lemma="azione_legale" pos="NOUN">azione_legale</instance>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s039.t001" lemma="parte" pos="NOUN">parte</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="FHFA" pos="NOUN">FHFA</wf>
+         <wf lemma="riguardo" pos="NOUN">riguardo</wf>
+         <wf lemma="vario" pos="ADJ">varie</wf>
+         <wf lemma="transazione" pos="NOUN">transazioni</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <instance id="d000.s039.t002" lemma="valore" pos="NOUN">valore</instance>
+         <wf lemma="totale" pos="ADJ">totale</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="@card@" pos="NOUN">14,2</wf>
+         <instance id="d000.s039.t003" lemma="miliardo" pos="NOUN">miliardi</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s039.t004" lemma="dollaro" pos="NOUN">dollari</instance>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="@card@" pos="NOUN">2005</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="@card@" pos="NOUN">2007</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s040" source="semeval2013-it">
+         <wf lemma="Kagan" pos="NOUN">Kagan</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="dare" pos="VERB">dato</wf>
+         <wf lemma="alcuno" pos="X">alcuna</wf>
+         <instance id="d000.s040.t000" lemma="indicazione" pos="NOUN">indicazione</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="lo" pos="X">lo</wf>
+         <wf lemma="fare" pos="VERB">farà</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s041" source="semeval2015-it">
+         <wf pos="X">I</wf>
+         <wf lemma="soggetto" pos="NOUN">soggetti</wf>
+         <wf pos="X">a</wf>
+         <wf pos="X">cui</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="essere" pos="VERB">stato</wf>
+         <instance id="d000.s041.t000" lemma="somministrare" pos="VERB">somministrato</instance>
+         <wf lemma="alimta" pos="NOUN">Alimta</wf>
+         <wf pos="X">in</wf>
+         <instance id="d000.s041.t001" lemma="combinazione" pos="NOUN">combinazione</instance>
+         <wf pos="X">con</wf>
+         <wf lemma="cisplatino" pos="NOUN">cisplatino</wf>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <instance id="d000.s041.t002" lemma="sopravvivere" pos="VERB">sopravvissuti</instance>
+         <wf pos="X">in</wf>
+         <instance id="d000.s041.t003" lemma="media" pos="NOUN">media</instance>
+         <wf pos="X">12,1</wf>
+         <instance id="d000.s041.t004" lemma="mese" pos="NOUN">mesi</instance>
+         <wf pos="X">,</wf>
+         <instance id="d000.s041.t005" lemma="rispetto" pos="NOUN">rispetto</instance>
+         <wf pos="X">ai</wf>
+         <wf pos="X">9,3</wf>
+         <instance id="d000.s041.t006" lemma="mese" pos="NOUN">mesi</instance>
+         <wf pos="X">dei</wf>
+         <instance id="d000.s041.t007" lemma="paziente" pos="NOUN">pazienti</instance>
+         <wf pos="X">che</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <instance id="d000.s041.t008" lemma="assumere" pos="VERB">assunto</instance>
+         <wf lemma="cisplatino" pos="NOUN">cisplatino</wf>
+         <wf pos="X">in</wf>
+         <wf lemma="monoterapia" pos="NOUN">monoterapia</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s042" source="semeval2013-it">
+         <wf lemma="ancora" pos="ADV">Ancora</wf>
+         <instance id="d000.s042.t000" lemma="svantaggio" pos="NOUN">svantaggi</instance>
+      </sentence>
+      <sentence id="d000.s043" source="semeval2013-it">
+         <wf lemma="anche" pos="ADV">Anche</wf>
+         <wf lemma="se" pos="X">se</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s043.t000" lemma="confine" pos="NOUN">confine</instance>
+         <wf lemma="tra" pos="X">tra</wf>
+         <instance id="d000.s043.t001" lemma="furbizia" pos="NOUN">furbizia</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s043.t002" lemma="violazione" pos="NOUN">violazione</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s043.t003" lemma="legge" pos="NOUN">legge</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="chiaro" pos="ADJ">chiaro</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="questo" pos="X">questa</wf>
+         <instance id="d000.s043.t004" lemma="occasione" pos="NOUN">occasione</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="credere" pos="VERB">credo</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="essere" pos="VERB">sia</wf>
+         <wf lemma="essere|stare" pos="VERB">stato</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="chiaro" pos="ADJ">chiaro</wf>
+         <instance id="d000.s043.t005" lemma="caso" pos="NOUN">caso</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s043.t006" lemma="furbizia" pos="NOUN">furbizia</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s044" source="semeval2013-it">
+         <wf lemma="Eidson" pos="NOUN">Eidson</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="Pnini" pos="NOUN">Pnini</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="giocare" pos="VERB">giocato</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <instance id="d000.s044.t000" lemma="ruolo" pos="NOUN">ruolo</instance>
+         <wf lemma="decisivo" pos="ADJ">decisivo</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="ritorno" pos="NOUN">ritorno</wf>
+         <wf lemma="del" pos="X">degli</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="yellows" pos="NOUN">yellows</wf>
+         <wf lemma="'" pos="X">'</wf>
+         <wf lemma="al" pos="X">alla</wf>
+         <wf lemma="luce" pos="NOUN">luce</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s045" source="semeval2010-it">
+         <wf lemma="Marano" pos="X">Marano</wf>
+         <wf lemma="ad" pos="X">ad</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="distanza" pos="X">distanza</wf>
+         <wf lemma="dalla" pos="X">dalla</wf>
+         <wf lemma="linea" pos="X">linea</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s045.t000" lemma="costa" pos="NOUN">costa</instance>
+         <wf lemma="compresa" pos="X">compresa</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="2" pos="X">2</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="17" pos="X">17</wf>
+         <wf lemma="km" pos="X">km</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="profondità" pos="X">profondità</wf>
+         <wf lemma="variabile" pos="X">variabile</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+      </sentence>
+      <sentence id="d000.s046" source="semeval2013-it">
+         <wf lemma="il" pos="X">L'</wf>
+         <instance id="d000.s046.t000" lemma="affermazione" pos="NOUN">affermazione</instance>
+         <wf lemma="potere" pos="VERB">potrebbe</wf>
+         <wf lemma="costringere" pos="VERB">costringere</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s046.t001" lemma="giudice" pos="NOUN">giudici</instance>
+         <wf lemma="d'" pos="X">d'</wf>
+         <instance id="d000.s046.t002" lemma="appello" pos="NOUN">appello</instance>
+         <wf lemma="ad" pos="X">ad</wf>
+         <wf lemma="esprimere" pos="VERB">esprimersi</wf>
+         <wf lemma="sul" pos="X">sulla</wf>
+         <instance id="d000.s046.t003" lemma="possibilità" pos="NOUN">possibilità</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="nuovo" pos="ADJ">nuova</wf>
+         <instance id="d000.s046.t004" lemma="tecnologia" pos="NOUN">tecnologia</instance>
+         <wf lemma="richiedere" pos="VERB">richieda</wf>
+         <wf lemma="nuovo" pos="ADJ">nuove</wf>
+         <instance id="d000.s046.t005" lemma="regola" pos="NOUN">regole</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s046.t006" lemma="tribunale" pos="NOUN">tribunale</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s047" source="semeval2013-it">
+         <wf lemma="mentre" pos="X">Mentre</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="campione_del_mondo" pos="NOUN">campioni del mondo</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="d'" pos="X">d'</wf>
+         <instance id="d000.s047.t000" lemma="europa" pos="NOUN">Europa</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="numero" pos="NOUN">numero</wf>
+         <wf lemma="uno" pos="ADJ">uno</wf>
+         <wf lemma="nel" pos="X">nella</wf>
+         <wf lemma="top" pos="NOUN">top</wf>
+         <wf lemma="mensile" pos="ADJ">mensile</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <wf lemma="fifa" pos="NOUN">FIFA</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="lungo" pos="ADJ">lunga</wf>
+         <wf lemma="lista" pos="NOUN">lista</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s047.t001" lemma="scelta" pos="NOUN">scelte</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="primo" pos="ADJ">prima</wf>
+         <wf lemma="classe" pos="NOUN">classe</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="nazionale" pos="ADJ">nazionale</wf>
+         <wf lemma="costaricano" pos="NOUN">Costaricana</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="solamente" pos="ADV">solamente</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s047.t002" lemma="difensore" pos="NOUN">difensore</instance>
+         <wf lemma="Michael" pos="NOUN">Michael</wf>
+         <wf lemma="Umana" pos="NOUN">Umana</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="unico" pos="ADJ">unico</wf>
+         <instance id="d000.s047.t003" lemma="giocatore" pos="NOUN">giocatore</instance>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="@card@" pos="NOUN">50</wf>
+         <wf lemma="partita" pos="NOUN">partite</wf>
+         <wf lemma="internazionale" pos="ADJ">internazionali</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s048" source="semeval2013-it">
+         <wf lemma="il" pos="X">La</wf>
+         <wf lemma="controversia" pos="NOUN">controversia</wf>
+         <wf lemma="sembrare" pos="VERB">sembra</wf>
+         <wf lemma="derivare" pos="VERB">derivare</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <wf lemma="due" pos="ADJ">due</wf>
+         <instance id="d000.s048.t000" lemma="fattore" pos="NOUN">fattori</instance>
+         <wf lemma=":" pos="X">:</wf>
+         <wf lemma="poiché" pos="X">poiché</wf>
+         <wf lemma="riguardare" pos="VERB">riguardava</wf>
+         <wf lemma="due" pos="ADJ">due</wf>
+         <wf lemma="autoespulsioni" pos="NOUN">autoespulsioni</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s048.t001" lemma="modo" pos="NOUN">modo</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="cui" pos="X">cui</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="comunicazione" pos="NOUN">comunicazione</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s048.t002" lemma="direttiva" pos="NOUN">direttiva</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="essere|stare" pos="VERB">stata</wf>
+         <wf lemma="effettuare" pos="VERB">effettuata</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="causare" pos="VERB">causarle</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s049" source="semeval2015-it">
+         <wf lemma="essere" pos="VERB">Sono</wf>
+         <wf lemma="essere" pos="VERB">stati</wf>
+         <wf lemma="condurre" pos="VERB">condotti</wf>
+         <wf lemma="numeroso" pos="ADJ">numerosi</wf>
+         <wf lemma="studio" pos="NOUN">studi</wf>
+         <wf pos="X">con</wf>
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf pos="X">,</wf>
+         <wf pos="X">sia</wf>
+         <wf pos="X">su</wf>
+         <wf lemma="cane" pos="NOUN">cani</wf>
+         <wf pos="X">da</wf>
+         <wf lemma="laboratorio" pos="NOUN">laboratorio</wf>
+         <wf pos="X">sia</wf>
+         <wf pos="X">su</wf>
+         <wf lemma="animale" pos="NOUN">animali</wf>
+         <wf pos="X">in</wf>
+         <wf lemma="cura" pos="NOUN">cura</wf>
+         <wf pos="X">presso</wf>
+         <wf lemma="studio" pos="NOUN">studi</wf>
+         <wf lemma="veterinario" pos="ADJ">veterinari</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="diverso" pos="ADJ">diversi</wf>
+         <instance id="d000.s049.t000" lemma="paese_europeo" pos="NOUN">paesi_europei</instance>
+         <wf pos="X">e</wf>
+         <wf pos="X">negli</wf>
+         <wf lemma="stato" pos="NOUN">Stati</wf>
+         <wf lemma="unito" pos="ADJ">Uniti</wf>
+         <wf pos="X">d</wf>
+         <wf lemma="america" pos="NOUN">America</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s050" source="semeval2013-it">
+         <wf lemma="il" pos="X">I</wf>
+         <instance id="d000.s050.t000" lemma="rendimento" pos="NOUN">rendimenti</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="bond" pos="NOUN">bond</wf>
+         <wf lemma="decennale" pos="ADJ">decennali</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="tesoro" pos="NOUN">tesoro</wf>
+         <wf lemma="essere|sonare" pos="VERB">sono</wf>
+         <wf lemma="salire" pos="VERB">saliti</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="@card@" pos="NOUN">3.540</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="contro" pos="X">contro</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="@card@" pos="NOUN">3.482</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s050.t001" lemma="martedì" pos="NOUN">Martedì</instance>
+         <instance id="d000.s050.t002" lemma="sera" pos="NOUN">sera</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="mentre" pos="X">mentre</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s050.t003" lemma="rendimento" pos="NOUN">rendimenti</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="bond" pos="NOUN">bond</wf>
+         <wf lemma="trentennale" pos="ADJ">trentennali</wf>
+         <wf lemma="essere|sonare" pos="VERB">sono</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="@card@" pos="NOUN">4.497</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="contro" pos="X">contro</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="@card@" pos="NOUN">4.492</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s050.t004" lemma="notte" pos="NOUN">notte</instance>
+         <wf lemma="precedente" pos="ADJ">precedente</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s051" source="semeval2010-it">
+         <instance id="d000.s051.t000" lemma="percentuale" pos="NOUN">Percentuale</instance>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="portata" pos="X">portata</wf>
+         <wf lemma="totale" pos="X">totale</wf>
+         <wf lemma="annua" pos="X">annua</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="ha" pos="X">ha</wf>
+         <wf lemma="subito" pos="X">subito</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="impatto" pos="X">impatto</wf>
+         <wf lemma="violento" pos="X">violento</wf>
+         <wf lemma="o" pos="X">o</wf>
+         <wf lemma="moderato" pos="X">moderato</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="causa" pos="X">causa</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="dighe" pos="X">dighe</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="Nilsson" pos="X">Nilsson</wf>
+         <wf lemma="et" pos="X">et</wf>
+         <wf lemma="al." pos="X">al.</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="2005" pos="X">2005</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s052" source="semeval2013-it">
+         <wf lemma="ma" pos="X">Ma</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s052.t000" lemma="ricercatore" pos="NOUN">ricercatori</instance>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="scoprire" pos="VERB">scoperto</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s052.t001" lemma="batterio" pos="NOUN">batterio</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="scoprire" pos="VERB">scoperto</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="mono_lake" pos="NOUN">Mono_Lake</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s052.t002" lemma="California" pos="NOUN">California</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="grado" pos="NOUN">grado</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="continuare" pos="VERB">continuare</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="crescere" pos="VERB">crescere</wf>
+         <wf lemma="dopo" pos="X">dopo</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="sostituzione" pos="NOUN">sostituzione</wf>
+         <wf lemma="del" pos="X">dell'</wf>
+         <instance id="d000.s052.t003" lemma="arsenico" pos="NOUN">arsenico</instance>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s052.t004" lemma="fosforo" pos="NOUN">fosforo</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s053" source="semeval2013-it">
+         <wf lemma="stare" pos="VERB">Stando</wf>
+         <wf lemma="al" pos="X">ai</wf>
+         <instance id="d000.s053.t000" lemma="dato" pos="NOUN">dati</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s053.t001" lemma="chiusura" pos="NOUN">chiusura</instance>
+         <wf lemma="conclusivo" pos="ADJ">conclusivi</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s053.t002" lemma="dow_jones_industrial_average" pos="NOUN">Dow_Jones_Industrial_Average</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="salire" pos="VERB">salito</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="@card@" pos="NOUN">65.67</wf>
+         <instance id="d000.s053.t003" lemma="punto" pos="NOUN">punti</instance>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="quota" pos="NOUN">quota</wf>
+         <wf lemma="@card@" pos="NOUN">10471.50</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="mentre" pos="X">mentre</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s053.t004" lemma="NASDAQ" pos="NOUN">NASDAQ</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <instance id="d000.s053.t005" lemma="preponderanza" pos="NOUN">preponderanza</instance>
+         <wf lemma="tecnologico" pos="ADJ">tecnologica</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="scendere|scernere" pos="VERB">sceso</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="@card@" pos="NOUN">0.55</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <instance id="d000.s053.t006" lemma="punto" pos="NOUN">punti</instance>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="quota" pos="NOUN">quota</wf>
+         <wf lemma="@card@" pos="NOUN">2190.31</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s054" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <instance id="d000.s054.t000" lemma="giudice" pos="NOUN">giudice</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <instance id="d000.s054.t001" lemma="processo" pos="NOUN">processo</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="Jon" pos="NOUN">Jon</wf>
+         <wf lemma="C." pos="NOUN">C.</wf>
+         <wf lemma="blu" pos="NOUN">Blu</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s054.t002" lemma="corte_superiore" pos="NOUN">Corte_Superiore</instance>
+         <wf lemma="del" pos="X">dello</wf>
+         <instance id="d000.s054.t003" lemma="stato" pos="NOUN">Stato</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="respingere" pos="VERB">respinto</wf>
+         <wf lemma="seccamente" pos="ADJ">seccamente</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <wf lemma="rivendicazione" pos="NOUN">rivendicazioni</wf>
+         <wf lemma="tramite" pos="X">tramite</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s054.t004" lemma="sentenza" pos="NOUN">sentenza</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <wf lemma="scorso" pos="ADJ">scorsa</wf>
+         <instance id="d000.s054.t005" lemma="settimana" pos="NOUN">settimana</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="dire" pos="VERB">dicendo</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="mezzo_di_informazione" pos="NOUN">mezzi_di_informazione</wf>
+         <wf lemma="essere|sonare" pos="VERB">sono</wf>
+         <wf lemma="essere|stare" pos="VERB">stati</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="attentamente" pos="ADV">attentamente</wf>
+         <wf lemma="controllato" pos="ADJ">controllati</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="vi" pos="X">vi</wf>
+         <wf lemma="essere" pos="VERB">era</wf>
+         <wf lemma="alcuno" pos="X">alcuna</wf>
+         <instance id="d000.s054.t006" lemma="prova" pos="NOUN">prova</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s054.t007" lemma="giuria" pos="NOUN">giuria</instance>
+         <wf lemma="essere" pos="VERB">sia</wf>
+         <wf lemma="essere|stare" pos="VERB">stata</wf>
+         <wf lemma="condizionare" pos="VERB">condizionata</wf>
+         <wf lemma="dal" pos="X">dall'</wf>
+         <instance id="d000.s054.t008" lemma="opinione_pubblica" pos="NOUN">opinione_pubblica</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s055" source="semeval2013-it">
+         <wf lemma="un" pos="X">Un</wf>
+         <wf lemma="altro" pos="ADJ">altro</wf>
+         <instance id="d000.s055.t000" lemma="sponsor" pos="NOUN">sponsor</instance>
+         <wf lemma="essere" pos="VERB">era</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="gigante" pos="NOUN">gigante</wf>
+         <wf lemma="farmaceutico" pos="ADJ">farmaceutico</wf>
+         <wf lemma="pfizer" pos="NOUN">Pfizer</wf>
+         <wf lemma="Inc" pos="NOUN">Inc</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="enorme" pos="ADJ">enorme</wf>
+         <instance id="d000.s055.t001" lemma="interesse" pos="NOUN">interesse</instance>
+         <wf lemma="finanziario" pos="ADJ">finanziario</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <instance id="d000.s055.t002" lemma="risultato" pos="NOUN">risultato</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <wf lemma="controversia" pos="NOUN">controversia</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s056" source="semeval2015-it">
+         <wf pos="X">L</wf>
+         <wf lemma="epar" pos="NOUN">EPAR</wf>
+         <instance id="d000.s056.t000" lemma="descrivere" pos="VERB">descrive</instance>
+         <wf pos="X">il</wf>
+         <instance id="d000.s056.t001" lemma="modo" pos="NOUN">modo</instance>
+         <wf pos="X">in</wf>
+         <wf pos="X">cui</wf>
+         <wf pos="X">il</wf>
+         <instance id="d000.s056.t002" lemma="comitato" pos="NOUN">comitato</instance>
+         <wf pos="X">per</wf>
+         <wf pos="X">i</wf>
+         <instance id="d000.s056.t003" lemma="medicinale" pos="NOUN">medicinali</instance>
+         <wf pos="X">per</wf>
+         <instance id="d000.s056.t004" lemma="uso" pos="NOUN">uso</instance>
+         <instance id="d000.s056.t005" lemma="umano" pos="ADJ">umano</instance>
+         <wf pos="X">(</wf>
+         <wf lemma="chmp" pos="NOUN">CHMP</wf>
+         <wf pos="X">)</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <instance id="d000.s056.t006" lemma="valutare" pos="VERB">valutato</instance>
+         <wf pos="X">gli</wf>
+         <instance id="d000.s056.t007" lemma="studio" pos="NOUN">studi</instance>
+         <instance id="d000.s056.t008" lemma="scientifico" pos="ADJ">scientifici</instance>
+         <instance id="d000.s056.t009" lemma="effettuare" pos="VERB">effettuati</instance>
+         <wf pos="X">e</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <instance id="d000.s056.t010" lemma="formulare" pos="VERB">formulato</instance>
+         <wf pos="X">le</wf>
+         <instance id="d000.s056.t011" lemma="raccomandazione" pos="NOUN">raccomandazioni</instance>
+         <wf pos="X">su</wf>
+         <wf pos="X">come</wf>
+         <instance id="d000.s056.t012" lemma="usare" pos="VERB">usare</instance>
+         <wf pos="X">il</wf>
+         <instance id="d000.s056.t013" lemma="medicinale" pos="NOUN">medicinale</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s057" source="semeval2010-it">
+         <wf lemma="La" pos="X">La</wf>
+         <wf lemma="strategia" pos="X">strategia</wf>
+         <wf lemma="adottata" pos="X">adottata</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s057.t000" lemma="rappresentazione" pos="NOUN">rappresentazione</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="paesaggio" pos="X">paesaggio</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="funzione" pos="X">funzione</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <instance id="d000.s057.t001" lemma="presenza" pos="NOUN">presenza</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s057.t002" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="idonei" pos="X">idonei</wf>
+         <wf lemma="alla" pos="X">alla</wf>
+         <wf lemma="specie" pos="X">specie</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="riferimento" pos="X">riferimento</wf>
+         <wf lemma="ha" pos="X">ha</wf>
+         <wf lemma="previsto" pos="X">previsto</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="definizione" pos="X">definizione</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="set" pos="X">set</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="regole" pos="X">regole</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="lettura" pos="X">lettura</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="paesaggio" pos="X">paesaggio</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s058" source="semeval2015-it">
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="generalmente" pos="ADV">generalmente</wf>
+         <wf lemma="bene" pos="ADV">ben</wf>
+         <wf lemma="tollerare" pos="VERB">tollerato</wf>
+         <wf pos="X">se</wf>
+         <wf lemma="somministrare" pos="VERB">somministrato</wf>
+         <wf lemma="giornalmente" pos="ADV">giornalmente</wf>
+         <wf pos="X">con</wf>
+         <wf lemma="dose" pos="NOUN">dosi</wf>
+         <wf pos="X">fino</wf>
+         <wf pos="X">a</wf>
+         <wf pos="X">5</wf>
+         <wf lemma="volta" pos="NOUN">volte</wf>
+         <wf pos="X">la</wf>
+         <wf lemma="dose" pos="NOUN">dose</wf>
+         <wf lemma="raccomandare" pos="VERB">raccomandata</wf>
+         <wf pos="X">per</wf>
+         <wf pos="X">un</wf>
+         <instance id="d000.s058.t000" lemma="lungo_periodo" pos="ADJ">lungo_periodo</instance>
+         <wf pos="X">di</wf>
+         <wf lemma="tempo" pos="NOUN">tempo</wf>
+         <wf pos="X">(</wf>
+         <wf pos="X">fino</wf>
+         <wf pos="X">a</wf>
+         <wf pos="X">3</wf>
+         <wf lemma="volta" pos="NOUN">volte</wf>
+         <wf pos="X">la</wf>
+         <wf lemma="durata" pos="NOUN">durata</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="trattamento" pos="NOUN">trattamento</wf>
+         <wf lemma="raccomandato" pos="ADJ">raccomandata</wf>
+         <wf pos="X">)</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s059" source="semeval2015-it">
+         <wf lemma="utile" pos="NOUN">Utile</wf>
+         <instance id="d000.s059.t000" lemma="principalmente" pos="ADV">principalmente</instance>
+         <wf pos="X">per</wf>
+         <wf pos="X">le</wf>
+         <instance id="d000.s059.t001" lemma="funzione" pos="NOUN">funzioni</instance>
+         <instance id="d000.s059.t002" lemma="definire" pos="VERB">definite</instance>
+         <wf pos="X">a</wf>
+         <wf lemma="tratto" pos="NOUN">tratti</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s060" source="semeval2010-it">
+         <wf lemma="Infatti" pos="X">Infatti</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s060.t000" lemma="pianificazione" pos="NOUN">pianificazione</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="lo" pos="X">lo</wf>
+         <instance id="d000.s060.t001" lemma="sviluppo" pos="NOUN">sviluppo</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="territorio" pos="X">territorio</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="definizione" pos="X">definizione</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="strategie" pos="X">strategie</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="conservazione" pos="X">conservazione</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="risorse" pos="X">risorse</wf>
+         <wf lemma="naturali" pos="X">naturali</wf>
+         <wf lemma="implicano" pos="X">implicano</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s060.t002" lemma="riferimento" pos="NOUN">riferimento</instance>
+         <wf lemma="ad" pos="X">ad</wf>
+         <wf lemma="obiettivi" pos="X">obiettivi</wf>
+         <wf lemma="diversi" pos="X">diversi</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="legislazioni" pos="X">legislazioni</wf>
+         <wf lemma="specifiche" pos="X">specifiche</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="pertanto" pos="X">pertanto</wf>
+         <wf lemma="devono" pos="X">devono</wf>
+         <wf lemma="rispondere" pos="X">rispondere</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="diverse" pos="X">diverse</wf>
+         <wf lemma="problematiche" pos="X">problematiche</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s061" source="semeval2010-it">
+         <wf lemma="Tali" pos="X">Tali</wf>
+         <instance id="d000.s061.t000" lemma="affioramento" pos="NOUN">affioramenti</instance>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="distribuiti" pos="X">distribuiti</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="varie" pos="X">varie</wf>
+         <wf lemma="profondità" pos="X">profondità</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="distanze" pos="X">distanze</wf>
+         <wf lemma="dalla" pos="X">dalla</wf>
+         <instance id="d000.s061.t001" lemma="costa" pos="NOUN">costa</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="sul" pos="X">sul</wf>
+         <instance id="d000.s061.t002" lemma="fondale" pos="NOUN">fondale</instance>
+         <wf lemma="marino" pos="X">marino</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <wf lemma="Grado" pos="X">Grado</wf>
+         <wf lemma="ad" pos="X">ad</wf>
+         <wf lemma="Ancona" pos="X">Ancona</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s062" source="semeval2013-it">
+         <wf lemma="uno" pos="X">Uno</wf>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="provocatore|provocatorio" pos="ADJ">provocatori</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="frequente" pos="ADJ">frequenti</wf>
+         <wf lemma="resoconto" pos="NOUN">resoconti</wf>
+         <wf lemma="sul" pos="X">sul</wf>
+         <instance id="d000.s062.t000" lemma="processo" pos="NOUN">processo</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="includere" pos="VERB">incluso</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <wf lemma="ampio" pos="ADJ">ampio</wf>
+         <instance id="d000.s062.t001" lemma="uso" pos="NOUN">uso</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Twitter" pos="NOUN">Twitter</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s062.t002" lemma="parte" pos="NOUN">parte</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="principale" pos="ADJ">principali</wf>
+         <wf lemma="mezzo_di_informazione" pos="NOUN">mezzi_di_informazione</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="creare" pos="VERB">creato</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <instance id="d000.s062.t003" lemma="atmosfera" pos="NOUN">atmosfera</instance>
+         <wf lemma="circense" pos="ADJ">circense</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="immediato" pos="ADJ">immediata</wf>
+         <wf lemma="diffuso" pos="ADJ">diffusa</wf>
+         <wf lemma="saturazione" pos="NOUN">saturazione</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <instance id="d000.s062.t004" lemma="dettaglio" pos="NOUN">dettagli</instance>
+         <wf lemma="infiammatorio" pos="ADJ">infiammatori</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <instance id="d000.s062.t005" lemma="punto" pos="NOUN">punto</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s062.t006" lemma="giuria" pos="NOUN">giuria</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="essere|stare" pos="VERB">stata</wf>
+         <wf lemma="impropriamente" pos="ADV">impropriamente</wf>
+         <wf lemma="influenzare" pos="VERB">influenzata</wf>
+         <wf lemma="dal" pos="X">dall'</wf>
+         <instance id="d000.s062.t007" lemma="opinione_pubblica" pos="NOUN">opinione_pubblica</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s063" source="semeval2013-it">
+         <wf lemma="Teletovic" pos="NOUN">Teletovic</wf>
+         <wf lemma="avere" pos="VERB">aveva</wf>
+         <wf lemma="già" pos="ADV">già</wf>
+         <wf lemma="cominciare" pos="VERB">cominciato</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="spiccare" pos="VERB">spiccare</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="migliore" pos="NOUN">migliore</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s063.t000" lemma="squadra" pos="NOUN">squadra</instance>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="@card@" pos="NOUN">13</wf>
+         <instance id="d000.s063.t001" lemma="punto" pos="NOUN">punti</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="anche" pos="ADV">anche</wf>
+         <wf lemma="se" pos="X">se</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="sei" pos="ADJ">sei</wf>
+         <instance id="d000.s063.t002" lemma="punto" pos="NOUN">punti</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="meno" pos="ADV">meno</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Splitter" pos="NOUN">Splitter</wf>
+         <wf lemma="fare" pos="VERB">facevano</wf>
+         <wf lemma="già" pos="ADV">già</wf>
+         <wf lemma="capire" pos="VERB">capire</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="essere" pos="VERB">sarebbe</wf>
+         <wf lemma="essere|stare" pos="VERB">stata</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="del" pos="X">delle</wf>
+         <wf lemma="migliore" pos="ADJ">migliori</wf>
+         <instance id="d000.s063.t003" lemma="notte" pos="NOUN">notti</instance>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s063.t004" lemma="brasiliano" pos="NOUN">Brasiliano</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s064" source="semeval2013-it">
+         <wf lemma="ma" pos="X">Ma</wf>
+         <wf lemma="solo" pos="ADV">solo</wf>
+         <wf lemma="circa" pos="ADV">circa</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s064.t000" lemma="metà" pos="NOUN">metà</instance>
+         <wf lemma="del" pos="X">degli</wf>
+         <instance id="d000.s064.t001" lemma="intervistato" pos="NOUN">intervistati</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s064.t002" lemma="messico" pos="NOUN">Messico</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <instance id="d000.s064.t003" lemma="brasile" pos="NOUN">Brasile</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <wf lemma="due" pos="ADJ">due</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="popoloso" pos="ADJ">popolose</wf>
+         <instance id="d000.s064.t004" lemma="regione" pos="NOUN">regioni</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="democratico" pos="ADJ">democratici</wf>
+         <wf lemma="convinto" pos="ADJ">convinti</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="trascinare" pos="VERB">trascinando</wf>
+         <wf lemma="verso" pos="X">verso</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="basso" pos="ADV">basso</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s064.t005" lemma="media" pos="NOUN">media</instance>
+         <wf lemma="regionale" pos="ADJ">regionale</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="vedere" pos="VERB">vedi</wf>
+         <instance id="d000.s064.t006" lemma="tabella" pos="NOUN">tabella</instance>
+         <wf lemma="@card@" pos="NOUN">2</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s065" source="semeval2013-it">
+         <wf lemma="ma" pos="X">Ma</wf>
+         <wf lemma="il" pos="X">gli</wf>
+         <instance id="d000.s065.t000" lemma="stati_uniti" pos="NOUN">Stati_Uniti</instance>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="vedere" pos="VERB">visti</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s065.t001" lemma="paese" pos="NOUN">paese</instance>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="influente" pos="ADJ">influente</wf>
+         <wf lemma="dal" pos="X">dagli</wf>
+         <instance id="d000.s065.t002" lemma="intervistato" pos="NOUN">intervistati</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s065.t003" lemma="messico" pos="NOUN">Messico</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="gran" pos="ADJ">gran</wf>
+         <instance id="d000.s065.t004" lemma="parte" pos="NOUN">parte</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="centro_america" pos="NOUN">Centro_America</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="mentre" pos="X">mentre</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s065.t005" lemma="venezuela" pos="NOUN">Venezuela</instance>
+         <wf lemma="godere" pos="VERB">gode</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="tale" pos="X">tale</wf>
+         <instance id="d000.s065.t006" lemma="distinzione" pos="NOUN">distinzione</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s065.t007" lemma="ecuador" pos="NOUN">Ecuador</instance>
+         <wf lemma="," pos="X">,</wf>
+         <instance id="d000.s065.t008" lemma="repubblica_dominicana" pos="NOUN">Repubblica_Dominicana</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <instance id="d000.s065.t009" lemma="nicaragua" pos="NOUN">Nicaragua</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s066" source="semeval2010-it">
+         <wf lemma="Il" pos="X">Il</wf>
+         <wf lemma="modello" pos="X">modello</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s066.t000" lemma="habitat" pos="NOUN">Habitat</instance>
+         <wf lemma="Potenziali" pos="X">Potenziali</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="modello" pos="X">modello</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Continuità" pos="X">Continuità</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="base" pos="X">base</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="rilievo" pos="X">rilievo</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="rete" pos="X">rete</wf>
+         <wf lemma="ecologica" pos="X">ecologica</wf>
+         <wf lemma="potenziale" pos="X">potenziale</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="espressa" pos="X">espressa</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="territorio" pos="X">territorio</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="esame" pos="X">esame</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="nei" pos="X">nei</wf>
+         <wf lemma="suoi" pos="X">suoi</wf>
+         <instance id="d000.s066.t001" lemma="elemento" pos="NOUN">elementi</instance>
+         <wf lemma="fondamentali" pos="X">fondamentali</wf>
+         <wf lemma=":" pos="X">:</wf>
+      </sentence>
+      <sentence id="d000.s067" source="semeval2013-it">
+         <wf lemma="per" pos="X">Per</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="solo" pos="ADJ">sola</wf>
+         <wf lemma="secondo" pos="ADJ">seconda</wf>
+         <instance id="d000.s067.t000" lemma="volta" pos="NOUN">volta</instance>
+         <wf lemma="da" pos="X">da</wf>
+         <wf lemma="quando" pos="ADV">quando</wf>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="iniziare" pos="VERB">iniziati</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s067.t001" lemma="sondaggio" pos="NOUN">sondaggi</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">gli</wf>
+         <instance id="d000.s067.t002" lemma="intervistato" pos="NOUN">intervistati</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="tutto" pos="ADJ">tutta</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s067.t003" lemma="america_latina" pos="NOUN">America_Latina</instance>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="suo" pos="X">suo</wf>
+         <instance id="d000.s067.t004" lemma="complesso" pos="NOUN">complesso</instance>
+         <wf lemma="citare" pos="VERB">citano</wf>
+         <wf lemma="maggiormente" pos="ADV">maggiormente</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s067.t005" lemma="crimine" pos="NOUN">crimine</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="piuttosto" pos="ADV">piuttosto</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s067.t006" lemma="disoccupazione" pos="NOUN">disoccupazione</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s067.t007" lemma="problema" pos="NOUN">problema</instance>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="importante" pos="ADJ">importante</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="rispettivo" pos="ADJ">rispettivo</wf>
+         <instance id="d000.s067.t008" lemma="paese" pos="NOUN">paese</instance>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="vedere" pos="VERB">vedi</wf>
+         <instance id="d000.s067.t009" lemma="grafico" pos="NOUN">grafico</instance>
+         <wf lemma="@card@" pos="NOUN">5</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s068" source="semeval2013-it">
+         <wf lemma="il" pos="X">La</wf>
+         <wf lemma="banca_d'investimento" pos="NOUN">banca d'investimento</wf>
+         <wf lemma="statunitense" pos="ADJ">statunitense</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="lehman_brothers" pos="NOUN">Lehman_Brothers</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="fallire" pos="VERB">fallita</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <instance id="d000.s068.t000" lemma="settembre" pos="NOUN">settembre</instance>
+         <wf lemma="@card@" pos="NOUN">2008</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <instance id="d000.s068.t001" lemma="culmine" pos="NOUN">culmine</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <wf lemma="crisi_finanziaria" pos="NOUN">crisi_finanziaria</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s069" source="semeval2015-it">
+         <wf pos="X">Il</wf>
+         <instance id="d000.s069.t000" lemma="progetto" pos="NOUN">progetto</instance>
+         <instance id="d000.s069.t001" lemma="esaminare" pos="VERB">esamina</instance>
+         <wf pos="X">anche</wf>
+         <instance id="d000.s069.t002" lemma="iniziativa" pos="NOUN">iniziative</instance>
+         <wf lemma="volto" pos="ADJ">volte</wf>
+         <wf pos="X">a</wf>
+         <wf lemma="lottare" pos="VERB">lottare</wf>
+         <wf pos="X">contro</wf>
+         <wf pos="X">la</wf>
+         <instance id="d000.s069.t003" lemma="discriminazione" pos="NOUN">discriminazione</instance>
+         <instance id="d000.s069.t004" lemma="basare" pos="VERB">basata</instance>
+         <wf pos="X">sull'</wf>
+         <instance id="d000.s069.t005" lemma="età" pos="NOUN">età</instance>
+         <wf pos="X">nelle</wf>
+         <instance id="d000.s069.t006" lemma="zona" pos="NOUN">zone</instance>
+         <instance id="d000.s069.t007" lemma="rurale" pos="ADJ">rurali</instance>
+         <wf pos="X">e</wf>
+         <wf pos="X">nelle</wf>
+         <instance id="d000.s069.t008" lemma="piccolo" pos="ADJ">piccole</instance>
+         <wf pos="X">e</wf>
+         <instance id="d000.s069.t009" lemma="medio" pos="ADJ">medie</instance>
+         <instance id="d000.s069.t010" lemma="impresa" pos="NOUN">imprese</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s070" source="semeval2015-it">
+         <wf pos="X">La</wf>
+         <instance id="d000.s070.t000" lemma="fondazione" pos="NOUN">Fondazione</instance>
+         <instance id="d000.s070.t001" lemma="intendere" pos="VERB">intende</instance>
+         <instance id="d000.s070.t002" lemma="documentare" pos="VERB">documentare</instance>
+         <wf pos="X">le</wf>
+         <instance id="d000.s070.t003" lemma="caratteristica" pos="NOUN">caratteristiche</instance>
+         <wf pos="X">delle</wf>
+         <instance id="d000.s070.t004" lemma="barriera" pos="NOUN">barriere</instance>
+         <wf lemma="inerente" pos="ADJ">inerenti</wf>
+         <wf pos="X">all'</wf>
+         <instance id="d000.s070.t005" lemma="età" pos="NOUN">età</instance>
+         <wf pos="X">a</wf>
+         <instance id="d000.s070.t006" lemma="livello" pos="NOUN">livello</instance>
+         <wf pos="X">di</wf>
+         <instance id="d000.s070.t007" lemma="assunzione" pos="NOUN">assunzione</instance>
+         <wf pos="X">e</wf>
+         <instance id="d000.s070.t008" lemma="formazione" pos="NOUN">formazione</instance>
+         <wf pos="X">e</wf>
+         <instance id="d000.s070.t009" lemma="analizzare" pos="VERB">analizzarne</instance>
+         <wf pos="X">le</wf>
+         <instance id="d000.s070.t010" lemma="causa" pos="NOUN">cause</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s071" source="semeval2010-it">
+         <wf lemma="Nel" pos="X">Nel</wf>
+         <wf lemma="loro" pos="X">loro</wf>
+         <wf lemma="insieme" pos="X">insieme</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="trezze" pos="X">trezze</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="rappresentano" pos="X">rappresentano</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="uniche" pos="X">uniche</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="isole" pos="X">isole</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="substrato" pos="X">substrato</wf>
+         <wf lemma="naturale" pos="X">naturale</wf>
+         <wf lemma="solido" pos="X">solido</wf>
+         <wf lemma="nell'" pos="X">nell'</wf>
+         <wf lemma="omogenea" pos="X">omogenea</wf>
+         <wf lemma="distesa" pos="X">distesa</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s071.t000" lemma="fondale" pos="NOUN">fondali</instance>
+         <wf lemma="sabbiosi-fangosi" pos="X">sabbiosi-fangosi</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="Golfo" pos="X">Golfo</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Trieste" pos="X">Trieste</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s072" source="semeval2015-it">
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf lemma="bloccare" pos="VERB">blocca</wf>
+         <wf pos="X">un</wf>
+         <wf lemma="recettore" pos="NOUN">recettore</wf>
+         <wf pos="X">della</wf>
+         <wf lemma="neurochinina" pos="NOUN">neurochinina</wf>
+         <wf pos="X">(</wf>
+         <wf lemma="nk1" pos="NOUN">NK1</wf>
+         <wf pos="X">)</wf>
+         <wf pos="X">che</wf>
+         <wf lemma="agire" pos="VERB">agisce</wf>
+         <wf pos="X">a</wf>
+         <wf lemma="livello" pos="NOUN">livello</wf>
+         <wf pos="X">del</wf>
+         <instance id="d000.s072.t000" lemma="sistema_nervoso" pos="NOUN">sistema_nervoso</instance>
+         <wf lemma="centrale" pos="ADJ">centrale</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s073" source="semeval2010-it">
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="rilevano" pos="X">rilevano</wf>
+         <wf lemma="inoltre" pos="X">inoltre</wf>
+         <wf lemma="piccole" pos="X">piccole</wf>
+         <instance id="d000.s073.t000" lemma="percentuale" pos="NOUN">percentuali</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="cloriti" pos="X">cloriti</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="vermiculiti" pos="X">vermiculiti</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="epidoti" pos="X">epidoti</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="pirosseni" pos="X">pirosseni</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="titanite" pos="X">titanite</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s074" source="semeval2013-it">
+         <wf lemma="il" pos="X">Gli</wf>
+         <instance id="d000.s074.t000" lemma="avvocato" pos="NOUN">avvocati</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="signor" pos="NOUN">signor</wf>
+         <wf lemma="Hayes" pos="NOUN">Hayes</wf>
+         <wf lemma="insistere" pos="VERB">insistono</wf>
+         <wf lemma="su" pos="X">su</wf>
+         <wf lemma="questo" pos="X">questa</wf>
+         <instance id="d000.s074.t001" lemma="affermazione" pos="NOUN">affermazione</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s075" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <instance id="d000.s075.t000" lemma="mercato" pos="NOUN">mercato</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="bond" pos="NOUN">bond</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="scendere|scernere" pos="VERB">sceso</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s076" source="semeval2010-it">
+         <wf lemma="Oceani" pos="X">Oceani</wf>
+         <wf lemma="Atlantico" pos="X">Atlantico</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="Pacifico" pos="X">Pacifico</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="partire" pos="X">partire</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="1970" pos="X">1970</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="mascherano" pos="X">mascherano</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <instance id="d000.s076.t000" lemma="diminuzione" pos="NOUN">diminuzione</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="molte" pos="X">molte</wf>
+         <wf lemma="specie" pos="X">specie</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s076.t001" lemma="pesce" pos="NOUN">pesci</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="specialmente" pos="X">specialmente</wf>
+         <wf lemma="quelle" pos="X">quelle</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="valore" pos="X">valore</wf>
+         <wf lemma="commerciale" pos="X">commerciale</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="merluzzo" pos="X">merluzzo</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="tonno" pos="X">tonno</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="diminuiscono" pos="X">diminuiscono</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="causa" pos="X">causa</wf>
+         <wf lemma="dell'" pos="X">dell'</wf>
+         <wf lemma="eccesso" pos="X">eccesso</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="pesca" pos="X">pesca</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="così" pos="X">così</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="tartarughe" pos="X">tartarughe</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="altre" pos="X">altre</wf>
+         <wf lemma="specie" pos="X">specie</wf>
+         <wf lemma="catturate" pos="X">catturate</wf>
+         <wf lemma="accidentalmente" pos="X">accidentalmente</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="by-catch" pos="X">by-catch</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s077" source="semeval2010-it">
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s077.t000" lemma="affioramento" pos="NOUN">affioramenti</instance>
+         <wf lemma="rocciosi" pos="X">rocciosi</wf>
+         <wf lemma="individuati" pos="X">individuati</wf>
+         <wf lemma="nei" pos="X">nei</wf>
+         <instance id="d000.s077.t001" lemma="fondale" pos="NOUN">fondali</instance>
+         <wf lemma="poco" pos="X">poco</wf>
+         <wf lemma="profondi" pos="X">profondi</wf>
+         <wf lemma="del" pos="X">del</wf>
+      </sentence>
+      <sentence id="d000.s078" source="semeval2013-it">
+         <wf lemma="il" pos="X">La</wf>
+         <instance id="d000.s078.t000" lemma="battaglia" pos="NOUN">battaglia</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="corso" pos="NOUN">corso</wf>
+         <wf lemma="consistere" pos="VERB">consiste</wf>
+         <wf lemma="tanto" pos="ADV">tanto</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="salvare" pos="VERB">salvare</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <wf lemma="singolo" pos="ADJ">singole</wf>
+         <instance id="d000.s078.t001" lemma="economia" pos="NOUN">economie</instance>
+         <wf lemma="quanto" pos="ADJ">quanto</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="salvare" pos="VERB">salvare</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s078.t002" lemma="pianeta" pos="NOUN">pianeta</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s078.t003" lemma="Cina" pos="NOUN">Cina</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="il" pos="X">gli</wf>
+         <instance id="d000.s078.t004" lemma="stati_uniti" pos="NOUN">Stati_Uniti</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s078.t005" lemma="lotta" pos="NOUN">lotta</instance>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="rispettivo" pos="ADJ">rispettivi</wf>
+         <instance id="d000.s078.t006" lemma="dovere" pos="NOUN">doveri</instance>
+         <wf lemma="mentre" pos="X">mentre</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <instance id="d000.s078.t007" lemma="nazione" pos="NOUN">nazioni</instance>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="povero" pos="ADJ">povere</wf>
+         <wf lemma="insistere" pos="VERB">insistono</wf>
+         <wf lemma="sul" pos="X">sul</wf>
+         <wf lemma="fatto" pos="NOUN">fatto</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <wf lemma="ventiquattro" pos="ADJ">ventiquattro</wf>
+         <instance id="d000.s078.t008" lemma="nazione" pos="NOUN">nazioni</instance>
+         <wf lemma="mondiale" pos="ADJ">mondiali</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="influente" pos="ADJ">influenti</wf>
+         <wf lemma="stare" pos="VERB">stanno</wf>
+         <wf lemma="ignorare" pos="VERB">ignorando</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <wf lemma="imperativo" pos="NOUN">imperativo</wf>
+         <wf lemma="scientifico" pos="ADJ">scientifico</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="agire" pos="VERB">agire</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s078.t009" lemma="modo" pos="NOUN">modo</instance>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="decisivo" pos="ADJ">decisivo</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s079" source="semeval2013-it">
+         <wf lemma="ma" pos="X">Ma</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s079.t000" lemma="umore" pos="NOUN">umore</instance>
+         <wf lemma="vario" pos="ADJ">varia</wf>
+         <wf lemma="notevolmente" pos="ADV">notevolmente</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s079.t001" lemma="paese" pos="NOUN">paese</instance>
+         <wf lemma="a" pos="X">a</wf>
+         <instance id="d000.s079.t002" lemma="paese" pos="NOUN">paese</instance>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="vedere" pos="VERB">vedi</wf>
+         <instance id="d000.s079.t003" lemma="grafico" pos="NOUN">grafico</instance>
+         <wf lemma="@card@" pos="NOUN">4</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s080" source="semeval2013-it">
+         <wf lemma="trucco" pos="NOUN">Trucchi</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="quello" pos="X">quelli</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Alonso" pos="NOUN">Alonso</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="Ramos" pos="NOUN">Ramos</wf>
+         <wf lemma="prima" pos="ADV">prima</wf>
+         <wf lemma="del" pos="X">dell'</wf>
+         <wf lemma="Ajax" pos="NOUN">Ajax</wf>
+         <wf lemma="dimostrare" pos="VERB">dimostrano</wf>
+         <instance id="d000.s080.t000" lemma="furbizia" pos="NOUN">furbizia</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="ma" pos="X">ma</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s080.t001" lemma="volontà" pos="NOUN">volontà</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="ottenere" pos="VERB">ottenere</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s080.t002" lemma="annullamento" pos="NOUN">annullamento</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="sanzione" pos="NOUN">sanzione</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s081" source="semeval2015-it">
+         <wf lemma="salvare" pos="VERB">Salva</wf>
+         <wf pos="X">il</wf>
+         <wf lemma="log" pos="NOUN">log</wf>
+         <wf pos="X">e</wf>
+         <wf pos="X">tutti</wf>
+         <wf pos="X">i</wf>
+         <instance id="d000.s081.t000" lemma="risultato" pos="NOUN">risultati</instance>
+         <wf pos="X">su</wf>
+         <instance id="d000.s081.t001" lemma="file" pos="NOUN">file</instance>
+         <instance id="d000.s081.t002" lemma="html" pos="NOUN">HTML</instance>
+         <wf pos="X">che</wf>
+         <wf lemma="potere" pos="VERB">può</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <instance id="d000.s081.t003" lemma="stampare" pos="VERB">stampato</instance>
+         <wf pos="X">o</wf>
+         <wf lemma="pubblicare" pos="VERB">pubblicato</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s082" source="semeval2010-it">
+         <wf lemma="Per" pos="X">Per</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s082.t000" lemma="composizione" pos="NOUN">composizione</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s082.t001" lemma="roccia" pos="NOUN">roccia</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="certi" pos="X">certi</wf>
+         <wf lemma="casi" pos="X">casi</wf>
+         <wf lemma="può" pos="X">può</wf>
+         <wf lemma="presentare" pos="X">presentare</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="carattere" pos="X">carattere</wf>
+         <wf lemma="più" pos="X">più</wf>
+         <wf lemma="compatto" pos="X">compatto</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="dove" pos="X">dove</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="granuli" pos="X">granuli</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="arrotondati" pos="X">arrotondati</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="rappresentati" pos="X">rappresentati</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <wf lemma="carbonati" pos="X">carbonati</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="90%" pos="X">90%</wf>
+         <wf lemma="granuli" pos="X">granuli</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="quarzo" pos="X">quarzo</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="feldspati" pos="X">feldspati</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="plagioclasi" pos="X">plagioclasi</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="zeoliti" pos="X">zeoliti</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="probabile" pos="X">probabile</wf>
+         <instance id="d000.s082.t002" lemma="origine" pos="NOUN">origine</instance>
+         <wf lemma="secondaria" pos="X">secondaria</wf>
+         <wf lemma=":" pos="X">:</wf>
+      </sentence>
+      <sentence id="d000.s083" source="semeval2013-it">
+         <wf lemma="un'" pos="X">Un'</wf>
+         <wf lemma="altro" pos="ADJ">altro</wf>
+         <wf lemma="studio" pos="NOUN">studio</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="sponsorizzare" pos="VERB">sponsorizzato</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="cena" pos="NOUN">cena</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="Jones" pos="NOUN">Jones</wf>
+         <wf lemma="day" pos="NOUN">Day</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="curare" pos="VERB">cura</wf>
+         <wf lemma="il" pos="X">gli</wf>
+         <instance id="d000.s083.t000" lemma="interesse" pos="NOUN">interessi</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="del" pos="X">delle</wf>
+         <wf lemma="associazione" pos="NOUN">associazioni</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s083.t001" lemma="commercio" pos="NOUN">commercio</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="contestare" pos="VERB">contestato</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s083.t002" lemma="legge" pos="NOUN">legge</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="federazione" pos="NOUN">Federazione</wf>
+         <wf lemma="nazionale" pos="NOUN">Nazionale</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <wf lemma="Independent" pos="NOUN">Independent</wf>
+         <wf lemma="business" pos="NOUN">Business</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s084" source="semeval2010-it">
+         <wf lemma="In" pos="X">In</wf>
+         <wf lemma="merito" pos="X">merito</wf>
+         <wf lemma="alla" pos="X">alla</wf>
+         <wf lemma="conservazione" pos="X">conservazione</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <instance id="d000.s084.t000" lemma="diversità" pos="NOUN">diversità</instance>
+         <wf lemma="biologica" pos="X">biologica</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="paesaggio" pos="X">paesaggio</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="Pan" pos="X">Pan</wf>
+         <wf lemma="European" pos="X">European</wf>
+         <wf lemma="Biological" pos="X">Biological</wf>
+         <wf lemma="and" pos="X">and</wf>
+         <wf lemma="Landscape" pos="X">Landscape</wf>
+         <wf lemma="Diversity" pos="X">Diversity</wf>
+         <wf lemma="Strategy" pos="X">Strategy</wf>
+         <wf lemma="''" pos="X">''</wf>
+      </sentence>
+      <sentence id="d000.s085" source="semeval2015-it">
+         <wf lemma="potere" pos="VERB">Possiamo</wf>
+         <instance id="d000.s085.t000" lemma="usare" pos="VERB">usare</instance>
+         <wf lemma="plus" pos="NOUN">plus()</wf>
+         <wf pos="X">,</wf>
+         <instance id="d000.s085.t001" lemma="times" pos="NOUN">times()</instance>
+         <wf pos="X">e</wf>
+         <wf lemma="qualunque" pos="ADJ">qualunque</wf>
+         <instance id="d000.s085.t002" lemma="cosa" pos="NOUN">cosa</instance>
+         <wf pos="X">che</wf>
+         <instance id="d000.s085.t003" lemma="avere" pos="VERB">ha</instance>
+         <wf pos="X">un</wf>
+         <instance id="d000.s085.t004" lemma="operatore" pos="NOUN">operatore</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s086" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <instance id="d000.s086.t000" lemma="regolatore" pos="NOUN">regolatore</instance>
+         <wf lemma="esigere" pos="VERB">esige</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s086.t001" lemma="banca" pos="NOUN">banca</instance>
+         <wf lemma="con" pos="X">con</wf>
+         <instance id="d000.s086.t002" lemma="sede" pos="NOUN">sede</instance>
+         <wf lemma="a" pos="X">a</wf>
+         <instance id="d000.s086.t003" lemma="Francoforte" pos="NOUN">Francoforte</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="assumere" pos="VERB">assuma</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s086.t004" lemma="responsabilità" pos="NOUN">responsabilità</instance>
+         <wf lemma="del" pos="X">delle</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <instance id="d000.s086.t005" lemma="perdita" pos="NOUN">perdite</instance>
+         <wf lemma="sostanziale" pos="ADJ">sostanziali</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="ma" pos="X">ma</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="ancora" pos="ADV">ancora</wf>
+         <wf lemma="specificare" pos="VERB">specificato</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s086.t006" lemma="somma" pos="NOUN">somma</instance>
+         <wf lemma="esatto" pos="ADJ">esatta</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s087" source="semeval2010-it">
+         <wf lemma="L'" pos="X">L'</wf>
+         <wf lemma="Oceano" pos="X">Oceano</wf>
+         <wf lemma="Meridionale" pos="X">Meridionale</wf>
+         <wf lemma="include" pos="X">include</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="mari" pos="X">mari</wf>
+         <wf lemma="intorno" pos="X">intorno</wf>
+         <wf lemma="all'" pos="X">all'</wf>
+         <wf lemma="Antartide" pos="X">Antartide</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="suo" pos="X">suo</wf>
+         <wf lemma="confine" pos="X">confine</wf>
+         <wf lemma="settentrionale" pos="X">settentrionale</wf>
+         <wf lemma="coincide" pos="X">coincide</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s087.t000" lemma="linea" pos="NOUN">linea</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="latitudine" pos="X">latitudine</wf>
+         <wf lemma="60" pos="X">60</wf>
+         <wf lemma="°" pos="X">°</wf>
+         <wf lemma="S." pos="X">S.</wf>
+      </sentence>
+      <sentence id="d000.s088" source="semeval2013-it">
+         <wf lemma="al" pos="X">Alla</wf>
+         <instance id="d000.s088.t000" lemma="fine" pos="NOUN">fine</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s088.t001" lemma="difesa" pos="NOUN">difesa</instance>
+         <wf lemma="dire" pos="VERB">dice</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="ci" pos="X">ci</wf>
+         <wf lemma="essere|sonare" pos="VERB">sono</wf>
+         <wf lemma="essere|stare" pos="VERB">stati</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="@card@" pos="NOUN">140,000</wf>
+         <instance id="d000.s088.t002" lemma="messaggio" pos="NOUN">messaggi</instance>
+         <wf lemma="Twitter" pos="NOUN">Twitter</wf>
+         <wf lemma="sul" pos="X">sul</wf>
+         <instance id="d000.s088.t003" lemma="processo" pos="NOUN">processo</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="occupare" pos="VERB">occupava</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s088.t004" lemma="stupro" pos="NOUN">stupro</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <instance id="d000.s088.t005" lemma="bambino" pos="NOUN">bambini</instance>
+         <wf lemma="legato" pos="ADJ">legati</wf>
+         <wf lemma="al" pos="X">ai</wf>
+         <wf lemma="loro" pos="X">loro</wf>
+         <instance id="d000.s088.t006" lemma="letto" pos="NOUN">letti</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <instance id="d000.s088.t007" lemma="casa" pos="NOUN">casa</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="essere|stare" pos="VERB">stata</wf>
+         <wf lemma="dare" pos="VERB">data</wf>
+         <wf lemma="al" pos="X">alle</wf>
+         <instance id="d000.s088.t008" lemma="fiamma" pos="NOUN">fiamme</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s089" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <instance id="d000.s089.t000" lemma="sostegno" pos="NOUN">sostegno</instance>
+         <wf lemma="al" pos="X">alla</wf>
+         <instance id="d000.s089.t001" lemma="democrazia" pos="NOUN">democrazia</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s089.t002" lemma="america_latina" pos="NOUN">America_Latina</instance>
+         <wf lemma="continuare" pos="VERB">continua</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="salire" pos="VERB">salire</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="poco" pos="ADV">poco</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="poco" pos="ADV">poco</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="così" pos="ADV">così</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="quello" pos="X">quello</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <instance id="d000.s089.t003" lemma="impresa_privata" pos="NOUN">imprese_private</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s090" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <instance id="d000.s090.t000" lemma="fatto" pos="NOUN">fatto</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="avere" pos="VERB">abbia</wf>
+         <wf lemma="reggere" pos="VERB">retto</wf>
+         <wf lemma="durante" pos="X">durante</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="crisi_finanziaria" pos="NOUN">crisi_finanziaria</wf>
+         <wf lemma="mondiale" pos="ADJ">mondiale</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="probabilmente" pos="ADV">probabilmente</wf>
+         <wf lemma="perché" pos="ADV">perché</wf>
+         <wf lemma="molto" pos="ADJ">molti</wf>
+         <instance id="d000.s090.t001" lemma="paese" pos="NOUN">paesi</instance>
+         <wf lemma="del" pos="X">dell'</wf>
+         <instance id="d000.s090.t002" lemma="America_Latina" pos="NOUN">America_Latina</instance>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="subito" pos="ADV">subito</wf>
+         <wf lemma="solo" pos="ADV">solo</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="breve" pos="ADJ">breve</wf>
+         <instance id="d000.s090.t003" lemma="recessione" pos="NOUN">recessione</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="godere" pos="VERB">goduto</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="forte" pos="ADJ">forte</wf>
+         <instance id="d000.s090.t004" lemma="ripresa" pos="NOUN">ripresa</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s091" source="semeval2010-it">
+         <wf lemma="Successivamente" pos="X">Successivamente</wf>
+         <wf lemma="alla" pos="X">alla</wf>
+         <wf lemma="fase" pos="X">fase</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="rilievo" pos="X">rilievo</wf>
+         <wf lemma="side" pos="X">side</wf>
+         <wf lemma="scan" pos="X">scan</wf>
+         <wf lemma="sonar" pos="X">sonar</wf>
+         <wf lemma="sarà" pos="X">sarà</wf>
+         <wf lemma="realizzato" pos="X">realizzato</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="rilievo" pos="X">rilievo</wf>
+         <wf lemma="batimetrico" pos="X">batimetrico</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="precisione" pos="X">precisione</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="eseguito" pos="X">eseguito</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="sistema" pos="X">sistema</wf>
+         <wf lemma="multibeam" pos="X">multibeam</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="finalizzato" pos="X">finalizzato</wf>
+         <wf lemma="alla" pos="X">alla</wf>
+         <wf lemma="definizione" pos="X">definizione</wf>
+         <wf lemma="tridimensionale" pos="X">tridimensionale</wf>
+         <wf lemma="degli" pos="X">degli</wf>
+         <instance id="d000.s091.t000" lemma="affioramento" pos="NOUN">affioramenti</instance>
+         <wf lemma="ritenuti" pos="X">ritenuti</wf>
+         <wf lemma="più" pos="X">più</wf>
+         <wf lemma="significativi" pos="X">significativi</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s092" source="semeval2013-it">
+         <wf lemma="il" pos="X">La</wf>
+         <instance id="d000.s092.t000" lemma="cena" pos="NOUN">cena</instance>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="svolgere" pos="VERB">svolta</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <instance id="d000.s092.t001" lemma="albergo" pos="NOUN">albergo</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s092.t002" lemma="Washington" pos="NOUN">Washington</instance>
+         <wf lemma="poco" pos="ADJ">poche</wf>
+         <instance id="d000.s092.t003" lemma="ora" pos="NOUN">ore</instance>
+         <wf lemma="dopo" pos="X">dopo</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s092.t004" lemma="riunione" pos="NOUN">riunione</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <instance id="d000.s092.t005" lemma="giudice" pos="NOUN">giudici</instance>
+         <wf lemma="sul" pos="X">sulla</wf>
+         <instance id="d000.s092.t006" lemma="causa" pos="NOUN">causa</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s093" source="semeval2010-it">
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="tegnùe" pos="X">tegnùe</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="antistanti" pos="X">antistanti</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s093.t000" lemma="costa" pos="NOUN">costa</instance>
+         <wf lemma="veneta" pos="X">veneta</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="ha" pos="X">ha</wf>
+         <wf lemma="eseguito" pos="X">eseguito</wf>
+         <wf lemma="alcune" pos="X">alcune</wf>
+         <wf lemma="indagini" pos="X">indagini</wf>
+         <wf lemma="geomorfologiche" pos="X">geomorfologiche</wf>
+         <wf lemma="sulle" pos="X">sulle</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="trezze" pos="X">trezze</wf>
+         <wf lemma="''" pos="X">''</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s094" source="semeval2015-it">
+         <wf pos="X">Inoltre</wf>
+         <wf pos="X">,</wf>
+         <wf pos="X">la</wf>
+         <instance id="d000.s094.t000" lemma="cura" pos="NOUN">cura</instance>
+         <wf pos="X">del</wf>
+         <instance id="d000.s094.t001" lemma="vomito" pos="NOUN">vomito</instance>
+         <wf lemma="dovere" pos="VERB">deve</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <instance id="d000.s094.t002" lemma="associare" pos="VERB">associata</instance>
+         <wf pos="X">ad</wf>
+         <wf pos="X">altre</wf>
+         <instance id="d000.s094.t003" lemma="misura" pos="NOUN">misure</instance>
+         <wf pos="X">di</wf>
+         <instance id="d000.s094.t004" lemma="supporto" pos="NOUN">supporto</instance>
+         <wf pos="X">o</wf>
+         <wf pos="X">ad</wf>
+         <wf pos="X">altre</wf>
+         <instance id="d000.s094.t005" lemma="terapia" pos="NOUN">terapie</instance>
+         <instance id="d000.s094.t006" lemma="veterinario" pos="ADJ">veterinarie</instance>
+         <wf pos="X">che</wf>
+         <instance id="d000.s094.t007" lemma="intervenire" pos="VERB">intervengano</instance>
+         <wf pos="X">sulle</wf>
+         <instance id="d000.s094.t008" lemma="causa" pos="NOUN">cause</instance>
+         <wf pos="X">del</wf>
+         <instance id="d000.s094.t009" lemma="vomito" pos="NOUN">vomito</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s095" source="semeval2013-it">
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="ma" pos="X">Ma</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s095.t000" lemma="arsenico" pos="NOUN">arsenico</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="sufficientemente" pos="ADV">sufficientemente</wf>
+         <wf lemma="divergere" pos="VERB">diverso</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="funzionare" pos="VERB">funzionare</wf>
+         <wf lemma="tanto" pos="ADV">tanto</wf>
+         <wf lemma="bene" pos="ADV">bene</wf>
+         <wf lemma="quanto" pos="ADV">quanto</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s095.t001" lemma="fosforo" pos="NOUN">fosforo</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="quanto" pos="ADV">quanto</wf>
+         <wf lemma="ridurre" pos="VERB">riduce</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s095.t002" lemma="efficienza" pos="NOUN">efficienza</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="nostro" pos="X">nostro</wf>
+         <instance id="d000.s095.t003" lemma="macchinario" pos="NOUN">macchinario</instance>
+         <wf lemma="biochimico" pos="ADJ">biochimico</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="spiegare" pos="VERB">spiegato</wf>
+         <wf lemma="Anbar" pos="NOUN">Anbar</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s096" source="semeval2013-it">
+         <wf lemma="tuttavia" pos="ADV">Tuttavia</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="Pnini" pos="NOUN">Pnini</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="Eidson" pos="NOUN">Eidson</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="migliore" pos="NOUN">migliori</wf>
+         <wf lemma="del" pos="X">della</wf>
+         <instance id="d000.s096.t000" lemma="squadra" pos="NOUN">squadra</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="non" pos="ADV">non</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="essere|sonare" pos="VERB">sono</wf>
+         <wf lemma="arrendere" pos="VERB">arresi</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="provare" pos="VERB">provato</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="tenere" pos="VERB">tenere</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s096.t001" lemma="gioco" pos="NOUN">gioco</instance>
+         <wf lemma="il" pos="X">la</wf>
+         <wf lemma="loro" pos="X">loro</wf>
+         <instance id="d000.s096.t002" lemma="squadra" pos="NOUN">squadra</instance>
+         <wf lemma="segnare" pos="VERB">segnando</wf>
+         <wf lemma="dal" pos="X">dalla</wf>
+         <instance id="d000.s096.t003" lemma="linea" pos="NOUN">linea</instance>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="tre_punti" pos="NOUN">tre_punti</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="@card@" pos="NOUN">70-77</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s097" source="semeval2010-it">
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="direttrici" pos="X">direttrici</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="nuova" pos="X">nuova</wf>
+         <instance id="d000.s097.t000" lemma="concezione" pos="NOUN">concezione</instance>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="n.5" pos="X">n.5</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="n.11" pos="X">n.11</wf>
+         <wf lemma="ambienti" pos="X">ambienti</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="cui" pos="X">cui</wf>
+         <wf lemma="gli" pos="X">gli</wf>
+         <wf lemma="ambiti" pos="X">ambiti</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s097.t001" lemma="tutela" pos="NOUN">tutela</instance>
+         <wf lemma="previsti" pos="X">previsti</wf>
+         <wf lemma="dagli" pos="X">dagli</wf>
+         <wf lemma="strumenti" pos="X">strumenti</wf>
+         <wf lemma="normativi" pos="X">normativi</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="scarsi" pos="X">scarsi</wf>
+         <wf lemma="ma" pos="X">ma</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="rivestono" pos="X">rivestono</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <wf lemma="ruolo" pos="X">ruolo</wf>
+         <wf lemma="strategico" pos="X">strategico</wf>
+         <wf lemma="non" pos="X">non</wf>
+         <wf lemma="solo" pos="X">solo</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="punto" pos="X">punto</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="vista" pos="X">vista</wf>
+         <wf lemma="ambientale" pos="X">ambientale</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="quanto" pos="X">quanto</wf>
+         <instance id="d000.s097.t002" lemma="elemento" pos="NOUN">elementi</instance>
+         <wf lemma="essenziali" pos="X">essenziali</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="connessione" pos="X">connessione</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="varie" pos="X">varie</wf>
+         <wf lemma="direttrici" pos="X">direttrici</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="rete" pos="X">rete</wf>
+         <wf lemma="ambientale" pos="X">ambientale</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="ma" pos="X">ma</wf>
+         <wf lemma="anche" pos="X">anche</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="punto" pos="X">punto</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="vista" pos="X">vista</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="ristrutturazione" pos="X">ristrutturazione</wf>
+         <wf lemma="più" pos="X">più</wf>
+         <wf lemma="generale" pos="X">generale</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="sistema" pos="X">sistema</wf>
+         <wf lemma="territoriale" pos="X">territoriale</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s098" source="semeval2015-it">
+         <wf pos="X">Le</wf>
+         <instance id="d000.s098.t000" lemma="compressa" pos="NOUN">compresse</instance>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf pos="X">di</wf>
+         <wf lemma="color" pos="NOUN">color</wf>
+         <instance id="d000.s098.t001" lemma="arancione" pos="ADJ">arancione</instance>
+         <instance id="d000.s098.t002" lemma="chiaro" pos="ADJ">chiaro</instance>
+         <wf pos="X">e</wf>
+         <instance id="d000.s098.t003" lemma="avere" pos="VERB">hanno</instance>
+         <wf pos="X">una</wf>
+         <instance id="d000.s098.t004" lemma="tacca" pos="NOUN">tacca</instance>
+         <wf pos="X">su</wf>
+         <wf lemma="entrambi" pos="ADJ">entrambi</wf>
+         <wf pos="X">i</wf>
+         <instance id="d000.s098.t005" lemma="lato" pos="NOUN">lati</instance>
+         <wf pos="X">,</wf>
+         <wf pos="X">per</wf>
+         <instance id="d000.s098.t006" lemma="facilitare" pos="VERB">facilitarne</instance>
+         <wf pos="X">la</wf>
+         <instance id="d000.s098.t007" lemma="divisione" pos="NOUN">divisione</instance>
+         <wf pos="X">in</wf>
+         <instance id="d000.s098.t008" lemma="due" pos="ADJ">due</instance>
+         <instance id="d000.s098.t009" lemma="metà" pos="NOUN">metà</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s099" source="semeval2013-it">
+         <wf lemma="il" pos="X">L'</wf>
+         <instance id="d000.s099.t000" lemma="arsenico" pos="NOUN">arsenico</instance>
+         <wf lemma="essere" pos="VERB">era</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="comune" pos="ADJ">comune</wf>
+         <wf lemma="nel" pos="X">nei</wf>
+         <wf lemma="primo" pos="ADJ">primi</wf>
+         <instance id="d000.s099.t001" lemma="tempo" pos="NOUN">tempi</instance>
+         <wf lemma="sul" pos="X">sulla</wf>
+         <instance id="d000.s099.t002" lemma="terra" pos="NOUN">Terra</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="dire" pos="VERB">detto</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="cui" pos="X">cui</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s099.t003" lemma="ricercatore" pos="NOUN">ricercatori</instance>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="ipotizzare" pos="VERB">ipotizzato</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="forma_di_vita" pos="NOUN">forme di vita</wf>
+         <wf lemma="primordiale" pos="ADJ">primordiali</wf>
+         <wf lemma="potere" pos="VERB">potrebbe</wf>
+         <wf lemma="avere" pos="VERB">averlo</wf>
+         <wf lemma="usare" pos="VERB">usato</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s100" source="semeval2015-it">
+         <wf pos="X">Quali</wf>
+         <instance id="d000.s100.t000" lemma="beneficio" pos="NOUN">benefici</instance>
+         <instance id="d000.s100.t001" lemma="avere" pos="VERB">ha</instance>
+         <instance id="d000.s100.t002" lemma="mostrare" pos="VERB">mostrato</instance>
+         <wf lemma="cerenia" pos="NOUN">Cerenia</wf>
+         <wf pos="X">nel</wf>
+         <wf lemma="corso" pos="NOUN">corso</wf>
+         <wf pos="X">degli</wf>
+         <wf lemma="studio" pos="NOUN">studi</wf>
+         <wf pos="X">?</wf>
+      </sentence>
+      <sentence id="d000.s101" source="semeval2010-it">
+         <wf lemma="L'" pos="X">L'</wf>
+         <wf lemma="obiettivo" pos="X">obiettivo</wf>
+         <wf lemma="primario" pos="X">primario</wf>
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="quello" pos="X">quello</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="definire" pos="X">definire</wf>
+         <wf lemma="procedure" pos="X">procedure</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s101.t000" lemma="analisi" pos="NOUN">analisi</instance>
+         <wf lemma="utili" pos="X">utili</wf>
+         <wf lemma="della" pos="X">della</wf>
+         <wf lemma="continuità" pos="X">continuità</wf>
+         <wf lemma="ambientale" pos="X">ambientale</wf>
+         <wf lemma="espressa" pos="X">espressa</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="paesaggio" pos="X">paesaggio</wf>
+         <wf lemma="primo" pos="X">primo</wf>
+         <wf lemma="passo" pos="X">passo</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="l'" pos="X">l'</wf>
+         <instance id="d000.s101.t001" lemma="identificazione" pos="NOUN">identificazione</instance>
+         <wf lemma="degli" pos="X">degli</wf>
+         <instance id="d000.s101.t002" lemma="elemento" pos="NOUN">elementi</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="base" pos="X">base</wf>
+         <wf lemma="necessari" pos="X">necessari</wf>
+         <wf lemma="all'" pos="X">all'</wf>
+         <wf lemma="individuazione" pos="X">individuazione</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="potenziali" pos="X">potenziali</wf>
+         <wf lemma="reti" pos="X">reti</wf>
+         <wf lemma="ecologiche" pos="X">ecologiche</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="Sigura" pos="X">Sigura</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="risultati" pos="X">risultati</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="corso" pos="X">corso</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s101.t003" lemma="pubblicazione" pos="NOUN">pubblicazione</instance>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s102" source="semeval2010-it">
+         <wf lemma="Lo" pos="X">Lo</wf>
+         <wf lemma="scopo" pos="X">scopo</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <instance id="d000.s102.t000" lemma="ricerca" pos="NOUN">ricerche</instance>
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="stato" pos="X">stato</wf>
+         <wf lemma="quello" pos="X">quello</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="valutare" pos="X">valutare</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="biodiversità" pos="X">biodiversità</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="modelli" pos="X">modelli</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="distribuzione" pos="X">distribuzione</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <wf lemma="popolamenti" pos="X">popolamenti</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s102.t001" lemma="corallo" pos="NOUN">coralli</instance>
+         <wf lemma="molli" pos="X">molli</wf>
+         <wf lemma="intorno" pos="X">intorno</wf>
+         <wf lemma="all'" pos="X">all'</wf>
+         <instance id="d000.s102.t002" lemma="isola" pos="NOUN">isola</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Siladen" pos="X">Siladen</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="cinque" pos="X">cinque</wf>
+         <instance id="d000.s102.t003" lemma="isola" pos="NOUN">isole</instance>
+         <wf lemma="presenti" pos="X">presenti</wf>
+         <wf lemma="nel" pos="X">nel</wf>
+         <instance id="d000.s102.t004" lemma="parco" pos="NOUN">parco</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s103" source="semeval2013-it">
+         <wf lemma="il" pos="X">La</wf>
+         <instance id="d000.s103.t000" lemma="questione" pos="NOUN">questione</instance>
+         <wf lemma="Twitter" pos="NOUN">Twitter</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="solo" pos="ADV">solo</wf>
+         <wf lemma="uno" pos="ADJ">uno</wf>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="tanto" pos="ADJ">tanti</wf>
+         <instance id="d000.s103.t001" lemma="aspetto" pos="NOUN">aspetti</instance>
+         <wf lemma="delineare" pos="VERB">delineati</wf>
+         <wf lemma="dal" pos="X">dagli</wf>
+         <instance id="d000.s103.t002" lemma="avvocato" pos="NOUN">avvocati</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="signor" pos="NOUN">signor</wf>
+         <wf lemma="Hayes" pos="NOUN">Hayes</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="potere" pos="VERB">possono</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <wf lemma="discutere" pos="VERB">discussi</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <instance id="d000.s103.t003" lemma="anno" pos="NOUN">anni</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="ritardare" pos="VERB">ritardando</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <instance id="d000.s103.t004" lemma="sentenza" pos="NOUN">sentenza</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s104" source="semeval2015-it">
+         <wf pos="X">La</wf>
+         <instance id="d000.s104.t000" lemma="ricerca" pos="NOUN">ricerca</instance>
+         <instance id="d000.s104.t001" lemma="avere" pos="VERB">ha</instance>
+         <wf pos="X">per</wf>
+         <instance id="d000.s104.t002" lemma="oggetto" pos="NOUN">oggetto</instance>
+         <instance id="d000.s104.t003" lemma="sette" pos="ADJ">sette</instance>
+         <instance id="d000.s104.t004" lemma="stati" pos="NOUN">Stati</instance>
+         <instance id="d000.s104.t005" lemma="membro" pos="NOUN">membri</instance>
+         <wf pos="X">:</wf>
+         <wf lemma="belgio" pos="NOUN">Belgio</wf>
+         <wf pos="X">,</wf>
+         <wf lemma="francia" pos="NOUN">Francia</wf>
+         <wf pos="X">,</wf>
+         <wf lemma="germania" pos="NOUN">Germania</wf>
+         <wf pos="X">,</wf>
+         <wf lemma="grecia" pos="NOUN">Grecia</wf>
+         <wf pos="X">,</wf>
+         <wf lemma="italia" pos="NOUN">Italia</wf>
+         <wf pos="X">,</wf>
+         <wf lemma="paesi" pos="NOUN">Paesi</wf>
+         <wf lemma="basso" pos="ADJ">Bassi</wf>
+         <wf pos="X">e</wf>
+         <instance id="d000.s104.t006" lemma="regno" pos="NOUN">Regno</instance>
+         <instance id="d000.s104.t007" lemma="unito" pos="ADJ">Unito</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s105" source="semeval2013-it">
+         <wf lemma="il" pos="X">Gli</wf>
+         <wf lemma="attuale" pos="ADJ">attuali</wf>
+         <wf lemma="accordo" pos="NOUN">accordi</wf>
+         <wf lemma="essere" pos="VERB">sono</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s105.t000" lemma="primo" pos="NOUN">primi</instance>
+         <wf lemma="nel" pos="X">nel</wf>
+         <wf lemma="loro" pos="X">loro</wf>
+         <wf lemma="genere" pos="NOUN">genere</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s106" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="ampio" pos="ADJ">ampio</wf>
+         <wf lemma="standard_&amp;_poor's" pos="NOUN">Standard_&amp;_Poor's</wf>
+         <wf lemma="@card@" pos="NOUN">500</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="avanzare" pos="VERB">avanzato</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="@card@" pos="NOUN">0.37</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="@card@" pos="NOUN">4.06</wf>
+         <instance id="d000.s106.t000" lemma="punto" pos="NOUN">punti</instance>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="quota" pos="NOUN">quota</wf>
+         <wf lemma="@card@" pos="NOUN">1106.41</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s107" source="semeval2013-it">
+         <wf lemma="nel" pos="X">Nel</wf>
+         <wf lemma="@card@" pos="NOUN">2005</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s107.t000" lemma="paura" pos="NOUN">paura</instance>
+         <wf lemma="del" pos="X">dell'</wf>
+         <instance id="d000.s107.t001" lemma="invasione" pos="NOUN">invasione</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <instance id="d000.s107.t002" lemma="territorio" pos="NOUN">territorio</instance>
+         <wf lemma="nazionale" pos="ADJ">nazionale</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s107.t003" lemma="parte" pos="NOUN">parte</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="orda" pos="NOUN">orde</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s107.t004" lemma="idraulico" pos="NOUN">idraulici</instance>
+         <wf lemma="polacco" pos="ADJ">polacchi</wf>
+         <wf lemma="essere" pos="VERB">era</wf>
+         <wf lemma="sentire" pos="VERB">sentita</wf>
+         <wf lemma="sia" pos="X">sia</wf>
+         <wf lemma="dal" pos="X">dalla</wf>
+         <instance id="d000.s107.t005" lemma="sinistra" pos="NOUN">sinistra</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="dal" pos="X">dalla</wf>
+         <instance id="d000.s107.t006" lemma="destra" pos="NOUN">destra</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s108" source="semeval2015-it">
+         <wf pos="X">Per</wf>
+         <wf pos="X">il</wf>
+         <instance id="d000.s108.t000" lemma="trattamento" pos="NOUN">trattamento</instance>
+         <wf pos="X">di</wf>
+         <wf lemma="follow-up" pos="NOUN">follow-up</wf>
+         <wf pos="X">,</wf>
+         <wf pos="X">le</wf>
+         <instance id="d000.s108.t001" lemma="compressa" pos="NOUN">compresse</instance>
+         <wf lemma="potere" pos="VERB">possono</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <instance id="d000.s108.t002" lemma="somministrare" pos="VERB">somministrate</instance>
+         <wf pos="X">dal</wf>
+         <instance id="d000.s108.t003" lemma="padrone" pos="NOUN">padrone</instance>
+         <wf pos="X">del</wf>
+         <instance id="d000.s108.t004" lemma="cane" pos="NOUN">cane</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s109" source="semeval2013-it">
+         <wf lemma="il" pos="X">La</wf>
+         <wf lemma="solo" pos="ADJ">sola</wf>
+         <instance id="d000.s109.t000" lemma="espansione" pos="NOUN">espansione</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="raduno" pos="NOUN">raduno</wf>
+         <wf lemma="--" pos="NOUN">--</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="cui" pos="X">cui</wf>
+         <wf lemma="@card@" pos="NOUN">13.000</wf>
+         <instance id="d000.s109.t001" lemma="persona" pos="NOUN">persone</instance>
+         <wf lemma="entrare" pos="VERB">entrano</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="uscire" pos="VERB">escono</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <instance id="d000.s109.t002" lemma="centro_congressi" pos="NOUN">centro_congressi</instance>
+         <wf lemma="ogni" pos="ADJ">ogni</wf>
+         <instance id="d000.s109.t003" lemma="giorno" pos="NOUN">giorno</instance>
+         <wf lemma="," pos="X">,</wf>
+         <instance id="d000.s109.t004" lemma="attivista" pos="NOUN">attivisti</instance>
+         <instance id="d000.s109.t005" lemma="chitarrista" pos="NOUN">chitarristi</instance>
+         <wf lemma="allestire" pos="VERB">allestiscono</wf>
+         <wf lemma="show" pos="NOUN">show</wf>
+         <wf lemma="notturno" pos="ADJ">notturni</wf>
+         <wf lemma="deridere" pos="VERB">deridendo</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <instance id="d000.s109.t006" lemma="paese" pos="NOUN">paesi</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="pensare" pos="VERB">pensano</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="stare" pos="VERB">stiano</wf>
+         <wf lemma="vendere" pos="VERB">vendendo</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <instance id="d000.s109.t007" lemma="proposta" pos="NOUN">proposte</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="bozza" pos="NOUN">bozze</wf>
+         <wf lemma="venire" pos="VERB">vengono</wf>
+         <wf lemma="passare" pos="VERB">passate</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s109.t008" lemma="mano" pos="NOUN">mano</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s109.t009" lemma="mano" pos="NOUN">mano</instance>
+         <wf lemma="su" pos="X">su</wf>
+         <instance id="d000.s109.t010" lemma="carta" pos="NOUN">carta</instance>
+         <wf lemma="piuttosto" pos="ADV">piuttosto</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <instance id="d000.s109.t011" lemma="e-mail" pos="NOUN">e-mail</instance>
+         <wf lemma="--" pos="NOUN">--</wf>
+         <wf lemma="sollevare" pos="VERB">solleva</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="sfida" pos="NOUN">sfida</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s110" source="semeval2015-it">
+         <wf lemma="potere" pos="VERB">Puoi</wf>
+         <instance id="d000.s110.t000" lemma="impostare" pos="VERB">impostare</instance>
+         <wf pos="X">un</wf>
+         <instance id="d000.s110.t001" lemma="diverso" pos="ADJ">diverso</instance>
+         <instance id="d000.s110.t002" lemma="colore" pos="NOUN">colore</instance>
+         <wf pos="X">per</wf>
+         <instance id="d000.s110.t003" lemma="ogni" pos="ADJ">ogni</instance>
+         <wf lemma="grafico" pos="NOUN">grafico</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s111" source="semeval2010-it">
+         <wf lemma="Questo" pos="X">Questo</wf>
+         <wf lemma="indice" pos="X">indice</wf>
+         <wf lemma="mostra" pos="X">mostra</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <instance id="d000.s111.t000" lemma="media" pos="NOUN">media</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="declino" pos="X">declino</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="31%" pos="X">31%</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="specie" pos="X">specie</wf>
+         <wf lemma="terrestri" pos="X">terrestri</wf>
+         <wf lemma="dal" pos="X">dal</wf>
+         <wf lemma="1970" pos="X">1970</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="2003" pos="X">2003</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s112" source="semeval2015-it">
+         <instance id="d000.s112.t000" lemma="invece" pos="ADV">Invece</instance>
+         <wf pos="X">,</wf>
+         <wf pos="X">i</wf>
+         <instance id="d000.s112.t001" lemma="paziente" pos="NOUN">pazienti</instance>
+         <wf pos="X">il</wf>
+         <wf pos="X">cui</wf>
+         <instance id="d000.s112.t002" lemma="tumore" pos="NOUN">tumore</instance>
+         <instance id="d000.s112.t003" lemma="interessare" pos="VERB">interessava</instance>
+         <instance id="d000.s112.t004" lemma="cellula" pos="NOUN">cellule</instance>
+         <wf lemma="squamoso" pos="ADJ">squamose</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <instance id="d000.s112.t005" lemma="riportare" pos="VERB">riportato</instance>
+         <instance id="d000.s112.t006" lemma="tempo" pos="NOUN">tempi</instance>
+         <wf pos="X">di</wf>
+         <instance id="d000.s112.t007" lemma="sopravvivenza" pos="NOUN">sopravvivenza</instance>
+         <wf pos="X">più</wf>
+         <instance id="d000.s112.t008" lemma="breve" pos="ADJ">brevi</instance>
+         <wf pos="X">se</wf>
+         <instance id="d000.s112.t009" lemma="trattare" pos="VERB">trattati</instance>
+         <wf pos="X">con</wf>
+         <wf lemma="alimta" pos="NOUN">Alimta</wf>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s113" source="semeval2013-it">
+         <wf lemma="il" pos="X">Le</wf>
+         <instance id="d000.s113.t000" lemma="compagnia" pos="NOUN">compagnie</instance>
+         <wf lemma="americano" pos="ADJ">americane</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="ottenere" pos="VERB">ottenuto</wf>
+         <wf lemma="due" pos="ADJ">due</wf>
+         <wf lemma="solo" pos="ADJ">sole</wf>
+         <instance id="d000.s113.t001" lemma="autorizzazione" pos="NOUN">autorizzazioni</instance>
+         <wf lemma="ad" pos="X">ad</wf>
+         <wf lemma="operare" pos="VERB">operare</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="quello" pos="X">quelle</wf>
+         <wf lemma="vendere" pos="VERB">vendute</wf>
+         <wf lemma="al" pos="X">all'</wf>
+         <instance id="d000.s113.t002" lemma="asta" pos="NOUN">asta</instance>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="il" pos="X">i</wf>
+         <wf lemma="@card@" pos="NOUN">10</wf>
+         <instance id="d000.s113.t003" lemma="lotto" pos="NOUN">lotti</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s114" source="semeval2013-it">
+         <instance id="d000.s114.t000" lemma="venerdì" pos="NOUN">Venerdì</instance>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s114.t001" lemma="borsa_valori_di_new_york" pos="NOUN">borsa_valori_di_New_York</instance>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="chiudere" pos="VERB">chiuso</wf>
+         <wf lemma="senza" pos="X">senza</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="particolare" pos="ADJ">particolare</wf>
+         <instance id="d000.s114.t002" lemma="tendenza" pos="NOUN">tendenza</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <instance id="d000.s114.t003" lemma="mercato" pos="NOUN">mercato</instance>
+         <wf lemma="combattere" pos="VERB">combattuto</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="il" pos="X">gli</wf>
+         <wf lemma="indicatore" pos="NOUN">indicatori</wf>
+         <wf lemma="del" pos="X">degli</wf>
+         <instance id="d000.s114.t004" lemma="stati_uniti" pos="NOUN">Stati_Uniti</instance>
+         <wf lemma="migliore" pos="ADJ">migliori</wf>
+         <wf lemma="del" pos="X">delle</wf>
+         <instance id="d000.s114.t005" lemma="previsione" pos="NOUN">previsioni</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="un" pos="X">un</wf>
+         <instance id="d000.s114.t006" lemma="dollaro" pos="NOUN">dollaro</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s114.t007" lemma="ripresa" pos="NOUN">ripresa</instance>
+         <wf lemma=":" pos="X">:</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s114.t008" lemma="dow_jones" pos="NOUN">Dow_Jones</instance>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="guadagnare" pos="VERB">guadagnato</wf>
+         <wf lemma="il" pos="X">lo</wf>
+         <wf lemma="@card@" pos="NOUN">0.63</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="ma" pos="X">ma</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s114.t009" lemma="NASDAQ" pos="NOUN">NASDAQ</instance>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="scendere|scernere" pos="VERB">sceso</wf>
+         <wf lemma="del" pos="X">dello</wf>
+         <wf lemma="@card@" pos="NOUN">0.03</wf>
+         <wf lemma="%" pos="X">%</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s115" source="semeval2010-it">
+         <wf lemma="Avvalendosi" pos="X">Avvalendosi</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="competenze" pos="X">competenze</wf>
+         <wf lemma="acquisite" pos="X">acquisite</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="RIMA-OGS" pos="X">RIMA-OGS</wf>
+         <wf lemma="intende" pos="X">intende</wf>
+         <wf lemma="fornire" pos="X">fornire</wf>
+         <wf lemma="una" pos="X">una</wf>
+         <wf lemma="caratterizzazione" pos="X">caratterizzazione</wf>
+         <wf lemma="dei" pos="X">dei</wf>
+         <instance id="d000.s115.t000" lemma="fondo" pos="NOUN">fondi</instance>
+         <wf lemma="duri" pos="X">duri</wf>
+         <wf lemma="tramite" pos="X">tramite</wf>
+         <wf lemma="l'" pos="X">l'</wf>
+         <wf lemma="uso" pos="X">uso</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="sistemi" pos="X">sistemi</wf>
+         <wf lemma="geofisici" pos="X">geofisici</wf>
+         <wf lemma="," pos="X">,</wf>
+         <instance id="d000.s115.t001" lemma="analisi" pos="NOUN">analisi</instance>
+         <wf lemma="geochimiche" pos="X">geochimiche</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="datazione" pos="X">datazione</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="radiocarbonio" pos="X">radiocarbonio</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <instance id="d000.s115.t002" lemma="determinazione" pos="NOUN">determinazione</instance>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="proprietà" pos="X">proprietà</wf>
+         <wf lemma="sprettrali" pos="X">sprettrali</wf>
+         <wf lemma="SEM-EDX-WDS" pos="X">SEM-EDX-WDS</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s116" source="semeval2010-it">
+         <wf lemma="Il" pos="X">Il</wf>
+         <wf lemma="rapido" pos="X">rapido</wf>
+         <instance id="d000.s116.t000" lemma="tasso" pos="NOUN">tasso</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="declino" pos="X">declino</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="specie" pos="X">specie</wf>
+         <wf lemma="tropicali" pos="X">tropicali</wf>
+         <wf lemma="riflette" pos="X">riflette</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="perdita" pos="X">perdita</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s116.t001" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="naturali" pos="X">naturali</wf>
+         <wf lemma="trasformati" pos="X">trasformati</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="terre" pos="X">terre</wf>
+         <wf lemma="coltivate" pos="X">coltivate</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="pascoli" pos="X">pascoli</wf>
+         <wf lemma="ai" pos="X">ai</wf>
+         <wf lemma="tropici" pos="X">tropici</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="1950" pos="X">1950</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="1990" pos="X">1990</wf>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="Figura" pos="X">Figura</wf>
+         <wf lemma="9" pos="X">9</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s116.t002" lemma="conversione" pos="NOUN">conversione</instance>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="terre" pos="X">terre</wf>
+         <wf lemma="coltivate" pos="X">coltivate</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <instance id="d000.s116.t003" lemma="elemento" pos="NOUN">elemento</instance>
+         <wf lemma="trainante" pos="X">trainante</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s117" source="semeval2010-it">
+         <wf lemma="Negli" pos="X">Negli</wf>
+         <wf lemma="ecosistemi" pos="X">ecosistemi</wf>
+         <wf lemma="temperati" pos="X">temperati</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <instance id="d000.s117.t000" lemma="conversione" pos="NOUN">conversione</instance>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s117.t001" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="naturali" pos="X">naturali</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="terre" pos="X">terre</wf>
+         <wf lemma="coltivate" pos="X">coltivate</wf>
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="avvenuta" pos="X">avvenuta</wf>
+         <wf lemma="prima" pos="X">prima</wf>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="1950" pos="X">1950</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="quando" pos="X">quando</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="suppone" pos="X">suppone</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="popolazioni" pos="X">popolazioni</wf>
+         <wf lemma="delle" pos="X">delle</wf>
+         <wf lemma="specie" pos="X">specie</wf>
+         <wf lemma="temperate" pos="X">temperate</wf>
+         <wf lemma="siano" pos="X">siano</wf>
+         <wf lemma="diminuite" pos="X">diminuite</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="prima" pos="X">prima</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="stabilizzarsi" pos="X">stabilizzarsi</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s118" source="semeval2013-it">
+         <wf lemma="nel" pos="X">Nel</wf>
+         <wf lemma="suo" pos="X">suo</wf>
+         <instance id="d000.s118.t000" lemma="programma" pos="NOUN">programma</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="francois_hollande" pos="NOUN">Francois_Hollande</wf>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="limitare" pos="VERB">limita</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <instance id="d000.s118.t001" lemma="banalità" pos="NOUN">banalità</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="dire" pos="VERB">dicendo</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="co-sviluppo" pos="NOUN">co-sviluppo</wf>
+         <wf lemma="consentire" pos="VERB">consentirebbe</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="nostro" pos="X">nostro</wf>
+         <instance id="d000.s118.t002" lemma="problema" pos="NOUN">problema</instance>
+         <wf lemma="del" pos="X">dell'</wf>
+         <instance id="d000.s118.t003" lemma="immigrazione" pos="NOUN">immigrazione</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <wf lemma="risolvere" pos="VERB">risolto</wf>
+         <wf lemma="." pos="X">.</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+      </sentence>
+      <sentence id="d000.s119" source="semeval2015-it">
+         <instance id="d000.s119.t000" lemma="sintesi" pos="NOUN">Sintesi</instance>
+         <instance id="d000.s119.t001" lemma="destinare" pos="VERB">destinata</instance>
+         <wf pos="X">al</wf>
+         <instance id="d000.s119.t002" lemma="pubblico" pos="NOUN">pubblico</instance>
+      </sentence>
+      <sentence id="d000.s120" source="semeval2010-it">
+         <wf lemma="Questi" pos="X">Questi</wf>
+         <instance id="d000.s120.t000" lemma="affioramento" pos="NOUN">affioramenti</instance>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="costituiti" pos="X">costituiti</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s120.t001" lemma="sabbia" pos="NOUN">sabbie</instance>
+         <wf lemma="cementate" pos="X">cementate</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="ricoperte" pos="X">ricoperte</wf>
+         <wf lemma="da" pos="X">da</wf>
+         <wf lemma="un'" pos="X">un'</wf>
+         <wf lemma="intensa" pos="X">intensa</wf>
+         <wf lemma="colonizzazione" pos="X">colonizzazione</wf>
+         <wf lemma="biogena" pos="X">biogena</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s121" source="semeval2015-it">
+         <instance id="d000.s121.t000" lemma="eseguire" pos="VERB">Esegue</instance>
+         <wf pos="X">le</wf>
+         <instance id="d000.s121.t001" lemma="istruzione" pos="NOUN">istruzioni</instance>
+         <instance id="d000.s121.t002" lemma="presente" pos="ADJ">presenti</instance>
+         <wf pos="X">in</wf>
+         <wf pos="X">un</wf>
+         <instance id="d000.s121.t003" lemma="file" pos="NOUN">file</instance>
+         <wf pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s122" source="semeval2010-it">
+         <wf lemma="Le" pos="X">Le</wf>
+         <wf lemma="trezze" pos="X">trezze</wf>
+         <wf lemma="ospitano" pos="X">ospitano</wf>
+         <wf lemma="popolamenti" pos="X">popolamenti</wf>
+         <wf lemma="bentonici" pos="X">bentonici</wf>
+         <wf lemma="riconosciuti" pos="X">riconosciuti</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <instance id="d000.s122.t000" lemma="termine" pos="NOUN">termine</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="coralligeno" pos="X">coralligeno</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="piattaforma" pos="X">piattaforma</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <instance id="d000.s122.t001" lemma="roccia" pos="NOUN">rocce</instance>
+         <wf lemma="si" pos="X">si</wf>
+         <wf lemma="accrescono" pos="X">accrescono</wf>
+         <wf lemma="come" pos="X">come</wf>
+         <wf lemma="veri" pos="X">veri</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="propri" pos="X">propri</wf>
+         <wf lemma="reef" pos="X">reef</wf>
+         <wf lemma="tropicali" pos="X">tropicali</wf>
+         <wf lemma="ad" pos="X">ad</wf>
+         <wf lemma="opera" pos="X">opera</wf>
+         <wf lemma="degli" pos="X">degli</wf>
+         <wf lemma="organismi" pos="X">organismi</wf>
+         <wf lemma="biocostruttori" pos="X">biocostruttori</wf>
+         <wf lemma="tra" pos="X">tra</wf>
+         <wf lemma="cui" pos="X">cui</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="più" pos="X">più</wf>
+         <wf lemma="importanti" pos="X">importanti</wf>
+         <wf lemma="sembrano" pos="X">sembrano</wf>
+         <wf lemma="essere" pos="X">essere</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="alghe" pos="X">alghe</wf>
+         <wf lemma="calcaree" pos="X">calcaree</wf>
+         <wf lemma="incrostanti" pos="X">incrostanti</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="madreporari" pos="X">madreporari</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="briozoi" pos="X">briozoi</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="policheti" pos="X">policheti</wf>
+         <wf lemma="serpulidi" pos="X">serpulidi</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s123" source="semeval2010-it">
+         <wf lemma="Tale" pos="X">Tale</wf>
+         <instance id="d000.s123.t000" lemma="fenomeno" pos="NOUN">fenomeno</instance>
+         <wf lemma="presenta" pos="X">presenta</wf>
+         <wf lemma="due" pos="X">due</wf>
+         <wf lemma="componenti" pos="X">componenti</wf>
+         <wf lemma=":" pos="X">:</wf>
+      </sentence>
+      <sentence id="d000.s124" source="semeval2013-it">
+         <wf lemma="il" pos="X">Il</wf>
+         <wf lemma="trend" pos="NOUN">trend</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="essere|stare" pos="VERB">stato</wf>
+         <wf lemma="supportare" pos="VERB">supportato</wf>
+         <wf lemma="dal" pos="X">dalla</wf>
+         <wf lemma="pubblicazione" pos="NOUN">pubblicazione</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s124.t000" lemma="indicatore_economico" pos="NOUN">indicatori_economici</instance>
+         <wf lemma="migliore" pos="ADJ">migliori</wf>
+         <wf lemma="del" pos="X">delle</wf>
+         <instance id="d000.s124.t001" lemma="previsione" pos="NOUN">previsioni</instance>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="contribuire" pos="VERB">contribuito</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="migliorare" pos="VERB">migliorare</wf>
+         <wf lemma="il" pos="X">l'</wf>
+         <instance id="d000.s124.t002" lemma="opinione" pos="NOUN">opinione</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s124.t003" lemma="mercato" pos="NOUN">mercato</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s124.t004" lemma="relazione" pos="NOUN">relazione</instance>
+         <wf lemma="al" pos="X">alla</wf>
+         <instance id="d000.s124.t005" lemma="robustezza" pos="NOUN">robustezza</instance>
+         <wf lemma="del" pos="X">della</wf>
+         <wf lemma="ripresa_economica" pos="NOUN">ripresa_economica</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="&quot;" pos="X">&quot;</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="riassumere" pos="VERB">riassumono</wf>
+         <wf lemma="il" pos="X">gli</wf>
+         <instance id="d000.s124.t006" lemma="analista" pos="NOUN">analisti</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="Charles" pos="NOUN">Charles</wf>
+         <wf lemma="Schwab" pos="NOUN">Schwab</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s125" source="semeval2013-it">
+         <wf lemma="il" pos="X">L'</wf>
+         <wf lemma="azienda_pubblica" pos="NOUN">azienda_pubblica</wf>
+         <wf lemma="China_National_Petroleum_Corporation" pos="NOUN">China_National_Petroleum_Corporation</wf>
+         <wf lemma="avere" pos="VERB">ha</wf>
+         <wf lemma="fare" pos="VERB">fatto</wf>
+         <instance id="d000.s125.t000" lemma="offerta" pos="NOUN">offerte</instance>
+         <wf lemma="su" pos="X">su</wf>
+         <wf lemma="più" pos="ADV">più</wf>
+         <wf lemma="contrarre" pos="VERB">contratti</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="qualunque" pos="ADJ">qualunque</wf>
+         <wf lemma="altro" pos="ADJ">altra</wf>
+         <instance id="d000.s125.t001" lemma="compagnia" pos="NOUN">compagnia</instance>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="se" pos="X">se</wf>
+         <wf lemma="ne" pos="ADV">ne</wf>
+         <wf lemma="essere" pos="VERB">è</wf>
+         <wf lemma="andare" pos="VERB">andata</wf>
+         <wf lemma="con" pos="X">con</wf>
+         <wf lemma="numeroso" pos="ADJ">numerose</wf>
+         <instance id="d000.s125.t002" lemma="partecipazione" pos="NOUN">partecipazioni</instance>
+         <wf lemma="in" pos="X">in</wf>
+         <instance id="d000.s125.t003" lemma="contratto" pos="NOUN">contratti</instance>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="due" pos="ADJ">due</wf>
+         <wf lemma="del" pos="X">dei</wf>
+         <wf lemma="principale" pos="ADJ">principali</wf>
+         <instance id="d000.s125.t004" lemma="lotto" pos="NOUN">lotti</instance>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s126" source="semeval2013-it">
+         <wf lemma="alcuno" pos="X">Alcuni</wf>
+         <instance id="d000.s126.t000" lemma="avvocato" pos="NOUN">avvocati</instance>
+         <wf lemma="avere" pos="VERB">hanno</wf>
+         <wf lemma="dire" pos="VERB">detto</wf>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="il" pos="X">il</wf>
+         <wf lemma="riesame" pos="NOUN">riesame</wf>
+         <wf lemma="del" pos="X">delle</wf>
+         <instance id="d000.s126.t001" lemma="corte_d'appello" pos="NOUN">corti_d'appello</instance>
+         <wf lemma="riguardo" pos="NOUN">riguardo</wf>
+         <wf lemma="il" pos="X">la</wf>
+         <instance id="d000.s126.t002" lemma="condanna" pos="NOUN">condanna</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <wf lemma="signor" pos="NOUN">signor</wf>
+         <wf lemma="Hayes" pos="NOUN">Hayes</wf>
+         <wf lemma="," pos="X">,</wf>
+         <instance id="d000.s126.t003" lemma="mezzo_secolo" pos="NOUN">mezzo_secolo</instance>
+         <wf lemma="dopo" pos="ADV">dopo</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="potere" pos="VERB">potrebbe</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <wf lemma="incuriosire" pos="VERB">incuriosito</wf>
+         <wf lemma="dal" pos="X">dall'</wf>
+         <instance id="d000.s126.t004" lemma="argomento" pos="NOUN">argomento</instance>
+         <wf lemma="secondo" pos="ADJ">secondo</wf>
+         <wf lemma="cui" pos="X">cui</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <wf lemma="nuovo" pos="ADJ">nuove</wf>
+         <instance id="d000.s126.t005" lemma="regola" pos="NOUN">regole</instance>
+         <wf lemma="potere" pos="VERB">potrebbero</wf>
+         <wf lemma="essere" pos="VERB">essere</wf>
+         <wf lemma="necessario" pos="ADJ">necessarie</wf>
+         <instance id="d000.s126.t006" lemma="ora" pos="NOUN">ora</instance>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="governare" pos="VERB">governare</wf>
+         <wf lemma="il" pos="X">le</wf>
+         <wf lemma="modalità" pos="NOUN">modalità</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s126.t007" lemma="comunicazione" pos="NOUN">comunicazione</instance>
+         <wf lemma="da" pos="X">da</wf>
+         <instance id="d000.s126.t008" lemma="aula" pos="NOUN">aule</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s126.t009" lemma="tribunale" pos="NOUN">tribunale</instance>
+         <wf lemma="che" pos="X">che</wf>
+         <wf lemma="essere" pos="VERB">erano</wf>
+         <wf lemma="inimmaginabile" pos="ADJ">inimmaginabili</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <instance id="d000.s126.t010" lemma="momento" pos="NOUN">momento</instance>
+         <wf lemma="del" pos="X">del</wf>
+         <instance id="d000.s126.t011" lemma="caso" pos="NOUN">caso</instance>
+         <wf lemma="dottore" pos="NOUN">dottor</wf>
+         <wf lemma="Sheppard" pos="NOUN">Sheppard</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s127" source="semeval2010-it">
+         <wf lemma="I" pos="X">I</wf>
+         <wf lemma="biomi" pos="X">biomi</wf>
+         <wf lemma="sono" pos="X">sono</wf>
+         <wf lemma="basati" pos="X">basati</wf>
+         <wf lemma="sulla" pos="X">sulla</wf>
+         <wf lemma="copertura" pos="X">copertura</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s127.t000" lemma="habitat" pos="NOUN">habitat</instance>
+         <wf lemma="(" pos="X">(</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="terra" pos="X">terra</wf>
+         <wf lemma="agricola" pos="X">agricola</wf>
+         <wf lemma="ed" pos="X">ed</wf>
+         <wf lemma="urbana" pos="X">urbana</wf>
+         <wf lemma="è" pos="X">è</wf>
+         <wf lemma="classificata" pos="X">classificata</wf>
+         <wf lemma="in" pos="X">in</wf>
+         <wf lemma="rapporto" pos="X">rapporto</wf>
+         <wf lemma="al" pos="X">al</wf>
+         <wf lemma="tipo" pos="X">tipo</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="vegetazione" pos="X">vegetazione</wf>
+         <wf lemma="potenziale" pos="X">potenziale</wf>
+         <wf lemma=")" pos="X">)</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="i" pos="X">i</wf>
+         <wf lemma="reami" pos="X">reami</wf>
+         <wf lemma="vengono" pos="X">vengono</wf>
+         <wf lemma="definiti" pos="X">definiti</wf>
+         <wf lemma="secondo" pos="X">secondo</wf>
+         <wf lemma="la" pos="X">la</wf>
+         <wf lemma="loro" pos="X">loro</wf>
+         <wf lemma="storia" pos="X">storia</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <instance id="d000.s127.t001" lemma="evoluzione" pos="NOUN">evoluzione</instance>
+         <wf lemma="biologica" pos="X">biologica</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+      <sentence id="d000.s128" source="semeval2010-it">
+         <wf lemma="I" pos="X">I</wf>
+         <instance id="d000.s128.t000" lemma="dato" pos="NOUN">dati</instance>
+         <wf lemma="verranno" pos="X">verranno</wf>
+         <wf lemma="acquisiti" pos="X">acquisiti</wf>
+         <wf lemma="tramite" pos="X">tramite</wf>
+         <wf lemma="imbarco" pos="X">imbarco</wf>
+         <wf lemma="diretto" pos="X">diretto</wf>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="ricercatori" pos="X">ricercatori</wf>
+         <wf lemma="a" pos="X">a</wf>
+         <wf lemma="bordo" pos="X">bordo</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="dove" pos="X">dove</wf>
+         <wf lemma="le" pos="X">le</wf>
+         <wf lemma="catture" pos="X">catture</wf>
+         <wf lemma="effettuate" pos="X">effettuate</wf>
+         <wf lemma="verranno" pos="X">verranno</wf>
+         <wf lemma="distinte" pos="X">distinte</wf>
+         <wf lemma="per" pos="X">per</wf>
+         <wf lemma="area" pos="X">area</wf>
+         <wf lemma="," pos="X">,</wf>
+         <wf lemma="e" pos="X">e</wf>
+         <wf lemma="tramite" pos="X">tramite</wf>
+         <wf lemma="successive" pos="X">successive</wf>
+         <instance id="d000.s128.t001" lemma="analisi" pos="NOUN">analisi</instance>
+         <wf lemma="di" pos="X">di</wf>
+         <wf lemma="laboratorio" pos="X">laboratorio</wf>
+         <wf lemma="." pos="X">.</wf>
+      </sentence>
+   </text>
+</corpus>
