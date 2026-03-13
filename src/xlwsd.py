@@ -2,18 +2,21 @@ from dataclasses import dataclass, field
 from typing import Literal
 
 import requests_cache
+from requests_cache import DO_NOT_CACHE, NEVER_EXPIRE
+from dotenv import load_dotenv
 from lxml import etree
 
+from aya import AyaClient, format_msg
+
+urls_expire_after = {
+    "*.babelnet.io": NEVER_EXPIRE,
+    "*": DO_NOT_CACHE,
+}
 requests_cache.install_cache(
     "babelnet_cache",
     allowable_methods=["GET", "POST"],
-    expire_after=None,
+    urls_expire_after=urls_expire_after,
 )
-
-import babelnet as bn  # noqa: E402
-from babelnet.language import Language  # noqa: E402
-from babelnet.pos import POS  # noqa: E402
-from babelnet.resources import BabelSynsetID  # noqa: E402
 
 
 @dataclass
@@ -24,6 +27,9 @@ class Word:
     is_instance: bool
     instance_id: str | None = None
     bn_ids: list[str] = field(default_factory=list)
+
+    def __str__(self) -> str:
+        return f"{self.lemma}#{self.pos}"
 
 
 @dataclass
@@ -42,6 +48,18 @@ class Corpus:
     lang: str
     source: str
     sentences: list[Sentence] = field(default_factory=list)
+
+
+def parse_inventory(fpath: str, polysemy: bool = True) -> dict[str, list[str]]:
+    inventory: dict[str, list[str]] = {}
+    with open(fpath) as f:
+        for line in f:
+            fields = line.split("\t")
+            ids = [s.strip() for s in fields[1:]]
+            if polysemy and len(ids) <= 1:
+                continue
+            inventory[fields[0]] = ids
+    return inventory
 
 
 def parse_doc(
@@ -104,18 +122,6 @@ def parse_doc(
     return corpus
 
 
-iso2babelnet_lang = {
-    "en": Language.EN,
-}
-
-wsd2bn_pos = {
-    "NOUN": POS.NOUN,
-    "VERB": POS.VERB,
-    "ADJ": POS.ADJ,
-    "ADV": POS.ADV,
-}
-
-
 @dataclass
 class Data:
     lemma: str
@@ -125,6 +131,22 @@ class Data:
 
 
 def get_data(id: str) -> Data | None:
+    import babelnet as bn
+    from babelnet.pos import POS
+    from babelnet.language import Language
+    from babelnet.resources import BabelSynsetID
+
+    wsd2bn_lang = {
+        "en": Language.EN,
+    }
+
+    wsd2bn_pos = {
+        "NOUN": POS.NOUN,
+        "VERB": POS.VERB,
+        "ADJ": POS.ADJ,
+        "ADV": POS.ADV,
+    }
+
     synset = bn.get_synset(BabelSynsetID(id))
     if synset is None:
         print(f"synset for '{id}' not found")
@@ -149,11 +171,26 @@ def get_data(id: str) -> Data | None:
 
 
 if __name__ == "__main__":
-    corpus = parse_doc("test", "en", "art")
-    lang = iso2babelnet_lang[corpus.lang]
+    load_dotenv()
 
-    print(get_data("bn:00017671n"))
+    corpus = parse_doc("test", "en")
+    sense_inventory = parse_inventory(
+        "./xl-wsd/inventories/inventory.en.txt", polysemy=True
+    )
 
+    aya_client = AyaClient()
+
+    for sent in corpus.sentences:
+        for word in sent.words:
+            if not word.is_instance:
+                continue
+
+            senses = sense_inventory.get(word.__str__())
+            if senses is None or len(senses) <= 1:
+                continue
+
+            msg = format_msg(word.text, sent.text)
+            response = aya_client("tiny-aya-global", msg)
     # for sent in corpus.sentences:
     #     print(sent.text)
     #     for word in sent.words:
