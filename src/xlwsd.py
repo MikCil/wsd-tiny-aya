@@ -5,8 +5,57 @@ import requests_cache
 from requests_cache import DO_NOT_CACHE, NEVER_EXPIRE
 from dotenv import load_dotenv
 from lxml import etree
+from rich.console import Console
+from rich.text import Text
+from rich.table import Table
+from rich import box
 
 from aya import AyaClient, format_msg
+
+
+def display_wsd_result(
+    console: Console,
+    sentence: str,
+    target_word: str,
+    lemma: str,
+    pos: str,
+    prediction: str,
+) -> None:
+    """Display a WSD result in a simple table format."""
+    # Highlight target word in sentence
+    highlighted_text = Text()
+    remaining = sentence
+    target_lower = target_word.lower()
+
+    while remaining:
+        idx = remaining.lower().find(target_lower)
+        if idx == -1:
+            highlighted_text.append(remaining)
+            break
+        if idx > 0:
+            highlighted_text.append(remaining[:idx])
+        end_idx = idx + len(target_word)
+        target_match = remaining[idx:end_idx]
+        highlighted_text.append(target_match, style="bold bright_yellow")
+        remaining = remaining[end_idx:]
+
+    # Create table with word info, sentence, and prediction
+    table = Table(
+        show_header=False,
+        box=box.SIMPLE_HEAD,
+        pad_edge=False,
+        padding=(0, 1),
+    )
+    table.add_column(style="dim", justify="right", no_wrap=True)
+    table.add_column()
+
+    table.add_row("Word", f"[bold]{lemma}[/bold]#[dim]{pos}[/dim]")
+    table.add_row("Context", highlighted_text)
+    table.add_row("Prediction", f"[green]{prediction}[/green]")
+
+    console.print(table)
+    console.print()
+
 
 urls_expire_after = {
     "*.babelnet.io": NEVER_EXPIRE,
@@ -173,6 +222,7 @@ def get_data(id: str) -> Data | None:
 if __name__ == "__main__":
     load_dotenv()
 
+    console = Console()
     corpus = parse_doc("test", "en")
     sense_inventory = parse_inventory(
         "./xl-wsd/inventories/inventory.en.txt", polysemy=True
@@ -191,14 +241,12 @@ if __name__ == "__main__":
 
             msg = format_msg(word.text, sent.text)
             response = aya_client("tiny-aya-global", msg)
-    # for sent in corpus.sentences:
-    #     print(sent.text)
-    #     for word in sent.words:
-    #         if word.bn_ids:
-    #             print(word.text)
-    #             pos = wsd2bn_pos[word.pos]
-    #
-    #             for bn_id in word.bn_ids:
-    #                 gloss = get_glosses(bn_id)
-    #                 print(gloss)
-    #             break
+
+            display_wsd_result(
+                console=console,
+                sentence=sent.text,
+                target_word=word.text,
+                lemma=word.lemma,
+                pos=word.pos,
+                prediction=response,
+            )
