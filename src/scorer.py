@@ -2,6 +2,22 @@ import torch
 from rich import print
 from torch.nn.functional import cosine_similarity, normalize
 from transformers import AutoModel, AutoTokenizer
+from sentence_transformers import SentenceTransformer
+
+
+class SBERTScore:
+    def __init__(self, model_id: str):
+        self.model = SentenceTransformer(model_id, device="mps")
+
+    def score(self, ref: str, pred: str) -> torch.Tensor:
+        encoded_ref = self.model.encode(ref)
+        encoded_pred = self.model.encode(pred)
+        return self.model.similarity(encoded_ref, encoded_pred)
+
+    def score_batch(self, refs: list[str], preds: list[str]) -> torch.Tensor:
+        encoded_ref = self.model.encode(refs)
+        encoded_preds = self.model.encode(preds)
+        return self.model.similarity_pairwise(encoded_ref, encoded_preds)
 
 
 class BERTScore:
@@ -35,7 +51,7 @@ class BERTScore:
 
 
 if __name__ == "__main__":
-    scorer = BERTScore(model_id="sentence-transformers/all-MiniLM-L6-v2")
+    scorer = SBERTScore(model_id="paraphrase-multilingual-mpnet-base-v2")
     tiny_aya = "A mole is a small, usually circular or oval-shaped, non-cancerous growth on the skin, often caused by a concentration of pigment cells."
 
     defs = [

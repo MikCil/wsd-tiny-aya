@@ -1,16 +1,33 @@
 from dataclasses import dataclass, field
 from typing import Literal
 
+import logging
+
 import requests_cache
-from requests_cache import DO_NOT_CACHE, NEVER_EXPIRE
 from dotenv import load_dotenv
 from lxml import etree
-from rich.console import Console
-from rich.text import Text
-from rich.table import Table
+from requests_cache import DO_NOT_CACHE, NEVER_EXPIRE
 from rich import box
+from rich.console import Console
+from rich.table import Table
+from rich.text import Text
 
 from aya import AyaClient, format_msg
+from scorer import SBERTScore
+
+logging.getLogger("babelnet").setLevel(logging.WARNING)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("transformers").setLevel(logging.ERROR)
+
+urls_expire_after = {
+    "*babelnet.io*": NEVER_EXPIRE,
+    "*": DO_NOT_CACHE,
+}
+requests_cache.install_cache(
+    "babelnet_cache",
+    allowable_methods=["GET", "POST"],
+    urls_expire_after=urls_expire_after,
+)
 
 
 def display_wsd_result(
@@ -55,17 +72,6 @@ def display_wsd_result(
 
     console.print(table)
     console.print()
-
-
-urls_expire_after = {
-    "*.babelnet.io": NEVER_EXPIRE,
-    "*": DO_NOT_CACHE,
-}
-requests_cache.install_cache(
-    "babelnet_cache",
-    allowable_methods=["GET", "POST"],
-    urls_expire_after=urls_expire_after,
-)
 
 
 @dataclass
@@ -179,10 +185,10 @@ class Data:
     sense: str
 
 
-def get_data(id: str) -> Data | None:
+def get_babelnet_data(id: str) -> Data | None:
     import babelnet as bn
-    from babelnet.pos import POS
     from babelnet.language import Language
+    from babelnet.pos import POS
     from babelnet.resources import BabelSynsetID
 
     wsd2bn_lang = {
@@ -219,34 +225,93 @@ def get_data(id: str) -> Data | None:
     )
 
 
+@dataclass
+class Eval:
+    model: str
+    lang: str
+    target_word: str
+    pos: str
+    ref: str
+    pred: str
+    score: float
+
+
 if __name__ == "__main__":
     load_dotenv()
 
     console = Console()
-    corpus = parse_doc("test", "en")
-    sense_inventory = parse_inventory(
-        "./xl-wsd/inventories/inventory.en.txt", polysemy=True
-    )
-
     aya_client = AyaClient()
+    scorer = SBERTScore("paraphrase-multilingual-mpnet-base-v2")
 
-    for sent in corpus.sentences:
-        for word in sent.words:
-            if not word.is_instance:
-                continue
+    models = [
+        "tiny-aya-global",
+        "tiny-aya-fire",
+    ]
+    langs = [
+        "en",
+    ]
 
-            senses = sense_inventory.get(word.__str__())
-            if senses is None or len(senses) <= 1:
-                continue
+    evals: list[Eval] = []
 
-            msg = format_msg(word.text, sent.text)
-            response = aya_client("tiny-aya-global", msg)
+    for lang in langs:
+        lang_start = time.time()
 
-            display_wsd_result(
-                console=console,
-                sentence=sent.text,
-                target_word=word.text,
-                lemma=word.lemma,
-                pos=word.pos,
-                prediction=response,
+        for model in models:
+            model_start = time.time()
+
+            print(f"\nProcessing dev set for '{lang}' on '{model}'")
+
+            corpus = parse_doc("dev", lang)
+            sense_inventory = parse_inventory(
+                f"./xl-wsd/inventories/inventory.{lang}.txt"
             )
+
+            n = len(corpus.sentences)
+            for i, sent in enumerate(corpus.sentences):
+                for word in sent.words:
+                    if not word.is_instance:
+                        continue
+
+                    bn_ids = sense_inventory.get(word.__str__())
+                    if bn_ids is None:
+                        continue
+
+                    bn_data = get_babelnet_data(bn_ids[0])
+                    if bn_data is None:
+                        continue
+
+                    ref = bn_data.gloss
+
+                    msg = format_msg(word.text, sent.text)
+                    print(msg)
+                    pred = aya_client(model, msg)
+                    score = float(scorer.score(ref, pred))
+
+                    evals.append(
+                        Eval(
+                            model=model,
+                            lang=lang,
+                            target_word=word.text,
+                            pos=word.pos,
+                            ref=ref,
+                            pred=pred,
+                            score=score,
+                        )
+                    )
+                pct = int((i + 1) / n * 100)
+                if pct % 5 == 0 and (i == 0 or int(i / n * 100) % 5 != 0):
+                    print(f"{pct}% complete")
+
+            model_scores = [
+                e.score for e in evals if e.model == model and e.lang == lang
+            ]
+            model_avg = sum(model_scores) / len(model_scores) if model_scores else 0
+            print(
+                f"Model '{model}' took {time.time() - model_start:.1f}s. Avg Score={model_avg:.3f}"
+            )
+
+        lang_scores = [e.score for e in evals if e.lang == lang]
+        lang_avg = sum(lang_scores) / len(lang_scores) if lang_scores else 0
+        print(
+            f"Language '{lang}' took {time.time() - lang_start:.1f}s. Avg Score={lang_avg:.3f}"
+        )

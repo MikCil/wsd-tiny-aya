@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 def format_msg(lemma: str, instance: str) -> str:
     return (
-        f'Give a brief definition of the word "{lemma}" in the sentence given as'
+        f'Give a brief definition of the word "{lemma}" in the sentence given as '
         f'input. Generate only the definition.\n\nInput: "{instance}"'
     )
 
