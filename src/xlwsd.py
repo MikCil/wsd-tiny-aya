@@ -230,6 +230,7 @@ class Eval:
     model: str
     lang: str
     target_word: str
+    context: str
     pos: str
     ref: str
     pred: str
@@ -239,31 +240,22 @@ class Eval:
 if __name__ == "__main__":
     load_dotenv()
 
-    console = Console()
-    aya_client = AyaClient()
-    scorer = SBERTScore("paraphrase-multilingual-mpnet-base-v2")
-
     models = [
         "tiny-aya-global",
         "tiny-aya-fire",
     ]
-    langs = [
-        "en",
-    ]
-
-    evals: list[Eval] = []
+    langs = ["en"]
+    instances: list[Eval] = []
 
     for lang in langs:
-        lang_start = time.time()
+        corpus = parse_doc("dev", lang)
+        sense_inventory = parse_inventory(f"./xl-wsd/inventories/inventory.{lang}.txt")
+        n = len(corpus.sentences)
 
+        # Collect
         for model in models:
-            model_start = time.time()
+            print(f"Processing dev set for '{lang}' on '{model}'")
 
-            print(f"\nProcessing dev set for '{lang}' on '{model}'")
-
-            corpus = parse_doc("dev", lang)
-
-            n = len(corpus.sentences)
             for i, sent in enumerate(corpus.sentences):
                 for word in sent.words:
                     if not word.is_instance:
@@ -278,38 +270,28 @@ if __name__ == "__main__":
                     if bn_data is None:
                         continue
 
-                    ref = bn_data.gloss
-
-                    msg = format_msg(word.text, sent.text)
-                    print(msg)
-                    pred = aya_client(model, msg)
-                    score = float(scorer.score(ref, pred))
-
-                    evals.append(
+                    instances.append(
                         Eval(
                             model=model,
                             lang=lang,
+                            context=sent.text,
                             target_word=word.text,
                             pos=word.pos,
-                            ref=ref,
-                            pred=pred,
-                            score=score,
+                            ref=bn_data.gloss,
+                            pred="",
+                            score=0.0,
                         )
                     )
-                pct = int((i + 1) / n * 100)
-                if pct % 5 == 0 and (i == 0 or int(i / n * 100) % 5 != 0):
-                    print(f"{pct}% complete")
 
-            model_scores = [
-                e.score for e in evals if e.model == model and e.lang == lang
-            ]
-            model_avg = sum(model_scores) / len(model_scores) if model_scores else 0
-            print(
-                f"Model '{model}' took {time.time() - model_start:.1f}s. Avg Score={model_avg:.3f}"
-            )
-
-        lang_scores = [e.score for e in evals if e.lang == lang]
-        lang_avg = sum(lang_scores) / len(lang_scores) if lang_scores else 0
-        print(
-            f"Language '{lang}' took {time.time() - lang_start:.1f}s. Avg Score={lang_avg:.3f}"
-        )
+    # Process
+    aya_client = AyaClient()
+    scorer = SBERTScore("paraphrase-multilingual-mpnet-base-v2")
+    preds = [
+        aya_client(inst.model, format_msg(inst.target_word, inst.context))
+        for inst in instances
+    ]
+    refs = [inst.ref for inst in instances]
+    scores = scorer.score_batch(refs, preds)
+    for inst, pred, score in zip(instances, preds, scores):
+        inst.pred = pred
+        inst.score = float(score)
