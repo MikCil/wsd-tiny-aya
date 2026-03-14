@@ -262,9 +262,6 @@ if __name__ == "__main__":
             print(f"\nProcessing dev set for '{lang}' on '{model}'")
 
             corpus = parse_doc("dev", lang)
-            sense_inventory = parse_inventory(
-                f"./xl-wsd/inventories/inventory.{lang}.txt"
-            )
 
             n = len(corpus.sentences)
             for i, sent in enumerate(corpus.sentences):
@@ -272,8 +269,9 @@ if __name__ == "__main__":
                     if not word.is_instance:
                         continue
 
-                    bn_ids = sense_inventory.get(word.__str__())
-                    if bn_ids is None:
+                    # Use gold synset
+                    bn_ids = word.bn_ids
+                    if len(bn_ids) == 0:
                         continue
 
                     bn_data = get_babelnet_data(bn_ids[0])
