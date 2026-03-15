@@ -1,6 +1,5 @@
 babelnet_conf.yml
 babelnet_cache.sqlite
 .env
-xl-wsd
 __pycache__
 cache

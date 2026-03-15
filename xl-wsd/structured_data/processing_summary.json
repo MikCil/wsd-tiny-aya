@@ -1,0 +1,199 @@
+{
+  "datasets": {
+    "test-bg": {
+      "total_instances": 9968,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 3440,
+      "became_monosemous_after_filtering": 3937,
+      "gold_answer_lacks_gloss": 886,
+      "kept": 1705,
+      "language": "BG",
+      "output_file": "xl-wsd\\structured_data\\test-bg.jsonl"
+    },
+    "test-ca": {
+      "total_instances": 1947,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 170,
+      "became_monosemous_after_filtering": 715,
+      "gold_answer_lacks_gloss": 591,
+      "kept": 471,
+      "language": "CA",
+      "output_file": "xl-wsd\\structured_data\\test-ca.jsonl"
+    },
+    "test-da": {
+      "total_instances": 3502,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 1526,
+      "became_monosemous_after_filtering": 1365,
+      "gold_answer_lacks_gloss": 207,
+      "kept": 404,
+      "language": "DA",
+      "output_file": "xl-wsd\\structured_data\\test-da.jsonl"
+    },
+    "test-de": {
+      "total_instances": 862,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 861,
+      "became_monosemous_after_filtering": 0,
+      "gold_answer_lacks_gloss": 0,
+      "kept": 1,
+      "language": "DE",
+      "output_file": "xl-wsd\\structured_data\\test-de.jsonl"
+    },
+    "test-en": {
+      "total_instances": 8062,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 1303,
+      "became_monosemous_after_filtering": 4872,
+      "gold_answer_lacks_gloss": 1363,
+      "kept": 524,
+      "language": "EN",
+      "output_file": "xl-wsd\\structured_data\\test-en.jsonl"
+    },
+    "test-en-coarse": {
+      "total_instances": 1816,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 328,
+      "became_monosemous_after_filtering": 1076,
+      "gold_answer_lacks_gloss": 133,
+      "kept": 279,
+      "language": "EN",
+      "output_file": "xl-wsd\\structured_data\\test-en-coarse.jsonl"
+    },
+    "test-es": {
+      "total_instances": 1851,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 270,
+      "became_monosemous_after_filtering": 231,
+      "gold_answer_lacks_gloss": 216,
+      "kept": 1134,
+      "language": "ES",
+      "output_file": "xl-wsd\\structured_data\\test-es.jsonl"
+    },
+    "test-et": {
+      "total_instances": 1999,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 732,
+      "became_monosemous_after_filtering": 952,
+      "gold_answer_lacks_gloss": 103,
+      "kept": 212,
+      "language": "ET",
+      "output_file": "xl-wsd\\structured_data\\test-et.jsonl"
+    },
+    "test-eu": {
+      "total_instances": 1580,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 247,
+      "became_monosemous_after_filtering": 719,
+      "gold_answer_lacks_gloss": 352,
+      "kept": 262,
+      "language": "EU",
+      "output_file": "xl-wsd\\structured_data\\test-eu.jsonl"
+    },
+    "test-fr": {
+      "total_instances": 1160,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 358,
+      "became_monosemous_after_filtering": 185,
+      "gold_answer_lacks_gloss": 119,
+      "kept": 498,
+      "language": "FR",
+      "output_file": "xl-wsd\\structured_data\\test-fr.jsonl"
+    },
+    "test-gl": {
+      "total_instances": 2561,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 638,
+      "became_monosemous_after_filtering": 1736,
+      "gold_answer_lacks_gloss": 108,
+      "kept": 79,
+      "language": "GL",
+      "output_file": "xl-wsd\\structured_data\\test-gl.jsonl"
+    },
+    "test-hr": {
+      "total_instances": 6333,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 2887,
+      "became_monosemous_after_filtering": 2930,
+      "gold_answer_lacks_gloss": 232,
+      "kept": 284,
+      "language": "HR",
+      "output_file": "xl-wsd\\structured_data\\test-hr.jsonl"
+    },
+    "test-hu": {
+      "total_instances": 4428,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 1565,
+      "became_monosemous_after_filtering": 2216,
+      "gold_answer_lacks_gloss": 306,
+      "kept": 341,
+      "language": "HU",
+      "output_file": "xl-wsd\\structured_data\\test-hu.jsonl"
+    },
+    "test-it": {
+      "total_instances": 2278,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 398,
+      "became_monosemous_after_filtering": 141,
+      "gold_answer_lacks_gloss": 129,
+      "kept": 1610,
+      "language": "IT",
+      "output_file": "xl-wsd\\structured_data\\test-it.jsonl"
+    },
+    "test-ja": {
+      "total_instances": 7602,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 2155,
+      "became_monosemous_after_filtering": 467,
+      "gold_answer_lacks_gloss": 320,
+      "kept": 4660,
+      "language": "JA",
+      "output_file": "xl-wsd\\structured_data\\test-ja.jsonl"
+    },
+    "test-ko": {
+      "total_instances": 3796,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 1550,
+      "became_monosemous_after_filtering": 341,
+      "gold_answer_lacks_gloss": 106,
+      "kept": 1799,
+      "language": "KO",
+      "output_file": "xl-wsd\\structured_data\\test-ko.jsonl"
+    },
+    "test-nl": {
+      "total_instances": 4400,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 973,
+      "became_monosemous_after_filtering": 1531,
+      "gold_answer_lacks_gloss": 801,
+      "kept": 1095,
+      "language": "NL",
+      "output_file": "xl-wsd\\structured_data\\test-nl.jsonl"
+    },
+    "test-sl": {
+      "total_instances": 2032,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 109,
+      "became_monosemous_after_filtering": 894,
+      "gold_answer_lacks_gloss": 543,
+      "kept": 486,
+      "language": "SL",
+      "output_file": "xl-wsd\\structured_data\\test-sl.jsonl"
+    },
+    "test-zh": {
+      "total_instances": 9568,
+      "no_gold_annotation": 0,
+      "not_in_polysemous_inventory": 1175,
+      "became_monosemous_after_filtering": 6308,
+      "gold_answer_lacks_gloss": 927,
+      "kept": 1158,
+      "language": "ZH",
+      "output_file": "xl-wsd\\structured_data\\test-zh.jsonl"
+    }
+  },
+  "totals": {
+    "datasets_processed": 19,
+    "instances_kept": 17002,
+    "instances_filtered": 58743
+  }
+}
