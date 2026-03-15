@@ -1,19 +1,14 @@
+import logging
+from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Literal
 
-import logging
-
 import requests_cache
-from dotenv import load_dotenv
-from lxml import etree
 from requests_cache import DO_NOT_CACHE, NEVER_EXPIRE
 from rich import box
 from rich.console import Console
 from rich.table import Table
 from rich.text import Text
-
-from aya import AyaClient, format_msg
-from scorer import SBERTScore
 
 logging.getLogger("babelnet").setLevel(logging.WARNING)
 logging.getLogger("httpx").setLevel(logging.WARNING)
@@ -120,6 +115,8 @@ def parse_inventory(fpath: str, polysemy: bool = True) -> dict[str, list[str]]:
 def parse_doc(
     dataset: Literal["test", "dev"], lang: str, lemma: str | None = None
 ) -> Corpus:
+    from lxml import etree
+
     n = f"{dataset}-{lang}"
     gold_fpath = f"./xl-wsd/evaluation_datasets/{n}/{n}.gold.key.txt"
     xml_fpath = f"./xl-wsd/evaluation_datasets/{n}/{n}.data.xml"
@@ -233,65 +230,126 @@ class Eval:
     context: str
     pos: str
     ref: str
-    pred: str
-    score: float
+    pred: str | None = None
+    sbert_score: float | None = None
+    bert_score: float | None = None
+    bleurt_score: float | None = None
+
+
+def clean(text: str) -> str:
+    if text.startswith("Definition:"):
+        text = text.replace("Definition:", "", 1)
+        text = text.replace("*", "", -1)
+        text = text.strip()
+    return text
 
 
 if __name__ == "__main__":
+    import os
+
+    from dotenv import load_dotenv
+    from rich.console import Console
+
+    from aya import AyaClient, format_msg
+    from scorer import BERTScore, BLEURTScore, SBERTScore
+
     load_dotenv()
 
-    models = [
-        "tiny-aya-global",
-        "tiny-aya-fire",
-    ]
     langs = ["en"]
-    instances: list[Eval] = []
+    eval_items: list[dict] = []
 
     for lang in langs:
         corpus = parse_doc("dev", lang)
-        sense_inventory = parse_inventory(f"./xl-wsd/inventories/inventory.{lang}.txt")
-        n = len(corpus.sentences)
 
-        # Collect
+        for i, sent in enumerate(corpus.sentences):
+            for word in sent.words:
+                if not word.is_instance:
+                    continue
+
+                # Use gold synset
+                bn_ids = word.bn_ids
+                if len(bn_ids) == 0:
+                    continue
+
+                bn_data = get_babelnet_data(bn_ids[0])
+                if bn_data is None:
+                    continue
+
+                eval_items.append(
+                    {
+                        "lang": lang,
+                        "context": sent.text,
+                        "target_word": word.text,
+                        "pos": word.pos,
+                        "ref": bn_data.gloss,
+                    }
+                )
+
+    aya_client = AyaClient()
+    models = [
+        "tiny-aya-global",
+        # "tiny-aya-fire",
+    ]
+    instances: list[Eval] = []
+    refs = []
+    preds = []
+    for item in eval_items:
         for model in models:
-            print(f"Processing dev set for '{lang}' on '{model}'")
+            pred = aya_client(model, format_msg(item["target_word"], item["context"]))
+            pred = clean(pred)
+            preds.append(pred)
+            refs.append(item["ref"])
 
-            for i, sent in enumerate(corpus.sentences):
-                for word in sent.words:
-                    if not word.is_instance:
-                        continue
-
-                    # Use gold synset
-                    bn_ids = word.bn_ids
-                    if len(bn_ids) == 0:
-                        continue
-
-                    bn_data = get_babelnet_data(bn_ids[0])
-                    if bn_data is None:
-                        continue
-
-                    instances.append(
-                        Eval(
-                            model=model,
-                            lang=lang,
-                            context=sent.text,
-                            target_word=word.text,
-                            pos=word.pos,
-                            ref=bn_data.gloss,
-                            pred="",
-                            score=0.0,
-                        )
-                    )
+            # Create the Eval instance directly
+            instances.append(
+                Eval(
+                    model=model,
+                    pred=pred,
+                    **item,
+                )
+            )
 
     # Process
-    aya_client = AyaClient()
-    scorer = SBERTScore("paraphrase-multilingual-mpnet-base-v2")
-    preds = [
-        aya_client(inst.model, format_msg(inst.target_word, inst.context))
-        for inst in instances
-    ]
-    refs = [inst.ref for inst in instances]
-    scores = scorer.score_batch(refs, preds)
-    for inst, pred, score in zip(instances, preds, scores):
-        inst.pred = pred
-        inst.score = float(score)
+    scorers = (
+        SBERTScore("paraphrase-multilingual-mpnet-base-v2"),
+        BLEURTScore("BLEURT-20-D6"),
+        BERTScore("bert-base-multilingual-cased"),
+    )
+
+    # Compute all scores in batch
+    sbert_scores = scorers[0].score_batch(refs, preds)
+    bleurt_scores = scorers[1].score_batch(refs, preds)
+    bert_scores = scorers[2].score_batch(refs, preds)
+
+    # Single pass: assign scores and aggregate
+    overall = {"sbert": 0.0, "bert": 0.0, "bleurt": 0.0, "count": 0}
+    by_lang = defaultdict(
+        lambda: {"sbert": 0.0, "bert": 0.0, "bleurt": 0.0, "count": 0}
+    )
+    by_model = defaultdict(
+        lambda: {"sbert": 0.0, "bert": 0.0, "bleurt": 0.0, "count": 0}
+    )
+
+    for inst, sb, bl, be in zip(instances, sbert_scores, bleurt_scores, bert_scores):
+        inst.sbert_score = float(sb) if sb is not None else None
+        inst.bleurt_score = float(bl) if bl is not None else None
+        inst.bert_score = float(be) if be is not None else None
+
+        sbert = inst.sbert_score or 0.0
+        bert = inst.bert_score or 0.0
+        bleurt = inst.bleurt_score or 0.0
+
+        overall["sbert"] += sbert
+        overall["bert"] += bert
+        overall["bleurt"] += bleurt
+        overall["count"] += 1
+
+        by_lang[inst.lang]["sbert"] += sbert
+        by_lang[inst.lang]["bert"] += bert
+        by_lang[inst.lang]["bleurt"] += bleurt
+        by_lang[inst.lang]["count"] += 1
+
+        by_model[inst.model]["sbert"] += sbert
+        by_model[inst.model]["bert"] += bert
+        by_model[inst.model]["bleurt"] += bleurt
+        by_model[inst.model]["count"] += 1

@@ -1,53 +1,59 @@
 import torch
-from rich import print
-from torch.nn.functional import cosine_similarity, normalize
-from transformers import AutoModel, AutoTokenizer
+from bert_score import BERTScorer
+from bleurt import score as Bleurt
 from sentence_transformers import SentenceTransformer
 
 
-class SBERTScore:
+class BLEURTScore:
     def __init__(self, model_id: str):
-        self.model = SentenceTransformer(model_id, device="mps")
+        self.model = Bleurt.BleurtScorer(model_id)
+
+    def score(self, ref: str, pred: str) -> float:
+        return self.model.score(references=[ref], candidates=[pred])
+
+    def score_batch(self, refs: list[str], preds: list[str]) -> list[float]:
+        return self.model.score(references=refs, candidates=preds)
+
+
+class SBERTScore:
+    def __init__(self, model_id: str, device: str = "mps"):
+        self.model = SentenceTransformer(model_id, device=device)
+        self.device = device
+        self.encode_opts = {"convert_to_tensor": True, "device": self.device}
 
     def score(self, ref: str, pred: str) -> torch.Tensor:
-        encoded_ref = self.model.encode(ref)
-        encoded_pred = self.model.encode(pred)
+        encoded_ref = self.model.encode(ref, convert_to_tensor=True, device=self.device)
+        encoded_pred = self.model.encode(
+            pred, convert_to_tensor=True, device=self.device
+        )
         return self.model.similarity(encoded_ref, encoded_pred)
 
     def score_batch(self, refs: list[str], preds: list[str]) -> torch.Tensor:
-        encoded_ref = self.model.encode(refs)
-        encoded_preds = self.model.encode(preds)
+        encoded_ref = self.model.encode(
+            refs, convert_to_tensor=True, device=self.device
+        )
+        encoded_preds = self.model.encode(
+            preds, convert_to_tensor=True, device=self.device
+        )
         return self.model.similarity_pairwise(encoded_ref, encoded_preds)
 
 
 class BERTScore:
-    def __init__(self, model_id: str):
-        self.tokenizer: AutoTokenizer = AutoTokenizer.from_pretrained(
-            model_id, use_fast=True
-        )
-        self.model: AutoModel = AutoModel.from_pretrained(model_id)
-
-    def _mean_pooling(
-        self, output: torch.Tensor, attention_mask: torch.Tensor
-    ) -> torch.Tensor:
-        token_embeddings = output[0]
-        input_mask_expanded = (
-            attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
-        )
-        return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(
-            input_mask_expanded.sum(1), min=1e-9
+    def __init__(self, model_id: str, device):
+        self.model = BERTScorer(
+            lang="en",
+            model_type=model_id,
+            device=device,
+            rescale_with_baseline=True,
         )
 
-    def score(self, ref: str, candidate: str) -> torch.Tensor:
-        encoded_input = self.tokenizer(
-            [ref, candidate], padding=True, truncation=True, return_tensors="pt"
-        )
-        with torch.no_grad():
-            model_output = self.model(**encoded_input)
-        embeddings = self._mean_pooling(model_output, encoded_input["attention_mask"])
-        embeddings = normalize(embeddings, p=2, dim=1)
+    def score(self, ref: str, pred: str) -> torch.Tensor:
+        P, R, F1 = self.model.score(pred, ref)
+        return F1
 
-        return cosine_similarity(embeddings[0:1], embeddings[1:2], dim=1)
+    def score_batch(self, refs: list[str], preds: list[str]) -> torch.Tensor:
+        P, R, F1 = self.model.score(preds, refs)
+        return F1
 
 
 if __name__ == "__main__":
