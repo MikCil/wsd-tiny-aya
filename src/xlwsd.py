@@ -245,6 +245,8 @@ def clean(text: str) -> str:
 
 
 if __name__ == "__main__":
+    import csv
+    import dataclasses
     import os
 
     from dotenv import load_dotenv
@@ -353,3 +355,13 @@ if __name__ == "__main__":
         by_model[inst.model]["bert"] += bert
         by_model[inst.model]["bleurt"] += bleurt
         by_model[inst.model]["count"] += 1
+
+    csv_fpath = "wsd_results.csv"
+    with open(csv_fpath, "w", newline="", encoding="utf-8") as f:
+        fieldnames = [field.name for field in dataclasses.fields(Eval)]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for inst in instances:
+            writer.writerow(dataclasses.asdict(inst))
+    print(f"Results saved to {csv_fpath}")
