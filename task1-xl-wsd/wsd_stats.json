@@ -1,0 +1,1061 @@
+{
+  "global": {
+    "correct": 8308,
+    "total": 17143,
+    "accuracy": 0.4846292947558
+  },
+  "by_language": {
+    "Bulgarian": {
+      "correct": 1072,
+      "total": 1704,
+      "accuracy": 0.6291079812206573
+    },
+    "Catalan": {
+      "correct": 239,
+      "total": 471,
+      "accuracy": 0.5074309978768577
+    },
+    "Danish": {
+      "correct": 215,
+      "total": 396,
+      "accuracy": 0.5429292929292929
+    },
+    "German": {
+      "correct": 158,
+      "total": 255,
+      "accuracy": 0.6196078431372549
+    },
+    "English": {
+      "correct": 489,
+      "total": 796,
+      "accuracy": 0.614321608040201
+    },
+    "Spanish": {
+      "correct": 656,
+      "total": 1131,
+      "accuracy": 0.5800176834659593
+    },
+    "Estonian": {
+      "correct": 111,
+      "total": 196,
+      "accuracy": 0.5663265306122449
+    },
+    "Basque": {
+      "correct": 132,
+      "total": 256,
+      "accuracy": 0.515625
+    },
+    "French": {
+      "correct": 270,
+      "total": 494,
+      "accuracy": 0.5465587044534413
+    },
+    "Galician": {
+      "correct": 42,
+      "total": 79,
+      "accuracy": 0.5316455696202531
+    },
+    "Croatian": {
+      "correct": 148,
+      "total": 284,
+      "accuracy": 0.5211267605633803
+    },
+    "Hungarian": {
+      "correct": 194,
+      "total": 336,
+      "accuracy": 0.5773809523809523
+    },
+    "Italian": {
+      "correct": 761,
+      "total": 1606,
+      "accuracy": 0.4738480697384807
+    },
+    "Japanese": {
+      "correct": 1884,
+      "total": 4638,
+      "accuracy": 0.40620957309184996
+    },
+    "Korean": {
+      "correct": 684,
+      "total": 1799,
+      "accuracy": 0.3802112284602557
+    },
+    "Dutch": {
+      "correct": 521,
+      "total": 1094,
+      "accuracy": 0.47623400365630714
+    },
+    "Slovenian": {
+      "correct": 229,
+      "total": 469,
+      "accuracy": 0.488272921108742
+    },
+    "Chinese": {
+      "correct": 502,
+      "total": 1138,
+      "accuracy": 0.44112478031634444
+    }
+  },
+  "by_pos": {
+    "NOUN": {
+      "correct": 6702,
+      "total": 13535,
+      "accuracy": 0.4951606944957
+    },
+    "ADJ": {
+      "correct": 758,
+      "total": 1695,
+      "accuracy": 0.4471976401179941
+    },
+    "VERB": {
+      "correct": 734,
+      "total": 1740,
+      "accuracy": 0.4218390804597701
+    },
+    "ADV": {
+      "correct": 114,
+      "total": 173,
+      "accuracy": 0.6589595375722543
+    }
+  },
+  "by_candidate_count": {
+    "3": {
+      "correct": 1892,
+      "total": 3905,
+      "accuracy": 0.4845070422535,
+      "random_baseline": 0.3442594963721674
+    },
+    "2": {
+      "correct": 4498,
+      "total": 7628,
+      "accuracy": 0.5896696381751,
+      "random_baseline": 0.5088489774514946
+    },
+    "4": {
+      "correct": 878,
+      "total": 2098,
+      "accuracy": 0.4184938046224,
+      "random_baseline": 0.2603670162059104
+    },
+    "5": {
+      "correct": 392,
+      "total": 1217,
+      "accuracy": 0.3221035332785,
+      "random_baseline": 0.2110106820049252
+    },
+    "6": {
+      "correct": 262,
+      "total": 858,
+      "accuracy": 0.30536130536130535,
+      "random_baseline": 0.1773504273504276
+    },
+    "7": {
+      "correct": 161,
+      "total": 498,
+      "accuracy": 0.3232931726907631,
+      "random_baseline": 0.15834767641996575
+    },
+    "9": {
+      "correct": 54,
+      "total": 216,
+      "accuracy": 0.25,
+      "random_baseline": 0.1167695473251026
+    },
+    "8": {
+      "correct": 72,
+      "total": 289,
+      "accuracy": 0.2491349480968858,
+      "random_baseline": 0.14835640138408304
+    },
+    "11": {
+      "correct": 32,
+      "total": 132,
+      "accuracy": 0.24242424242424243,
+      "random_baseline": 0.107438016528926
+    },
+    "16": {
+      "correct": 1,
+      "total": 6,
+      "accuracy": 0.16666666666666666,
+      "random_baseline": 0.07291666666666667
+    },
+    "14": {
+      "correct": 7,
+      "total": 34,
+      "accuracy": 0.20588235294117646,
+      "random_baseline": 0.08823529411764708
+    },
+    "12": {
+      "correct": 18,
+      "total": 73,
+      "accuracy": 0.2465753424657534,
+      "random_baseline": 0.08904109589041088
+    },
+    "10": {
+      "correct": 24,
+      "total": 106,
+      "accuracy": 0.22641509433962265,
+      "random_baseline": 0.11792452830188659
+    },
+    "13": {
+      "correct": 2,
+      "total": 14,
+      "accuracy": 0.14285714285714285,
+      "random_baseline": 0.08791208791208789
+    },
+    "15": {
+      "correct": 9,
+      "total": 39,
+      "accuracy": 0.23076923076923078,
+      "random_baseline": 0.06666666666666671
+    },
+    "17": {
+      "correct": 3,
+      "total": 16,
+      "accuracy": 0.1875,
+      "random_baseline": 0.07720588235294118
+    },
+    "22": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0,
+      "random_baseline": 0.09090909090909091
+    },
+    "21": {
+      "correct": 3,
+      "total": 9,
+      "accuracy": 0.3333333333333333,
+      "random_baseline": 0.047619047619047616
+    },
+    "19": {
+      "correct": 0,
+      "total": 2,
+      "accuracy": 0.0,
+      "random_baseline": 0.05263157894736842
+    },
+    "18": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0,
+      "random_baseline": 0.05555555555555555
+    }
+  },
+  "discarded": {
+    "total": 114,
+    "by_language": {
+      "Bulgarian": 1,
+      "Danish": 8,
+      "English": 7,
+      "Spanish": 3,
+      "Estonian": 16,
+      "Basque": 6,
+      "French": 4,
+      "Hungarian": 5,
+      "Italian": 4,
+      "Japanese": 22,
+      "Dutch": 1,
+      "Slovenian": 17,
+      "Chinese": 20
+    },
+    "instance_ids": [
+      {
+        "id": "d000.s407.t000",
+        "language": "Bulgarian",
+        "surface": "буква",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s334.t000",
+        "language": "Danish",
+        "surface": "skam",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s336.t000",
+        "language": "Danish",
+        "surface": "besættelsen",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s618.t000",
+        "language": "Danish",
+        "surface": "kort",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1412.t000",
+        "language": "Danish",
+        "surface": "historie",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1988.t000",
+        "language": "Danish",
+        "surface": "tone",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2255.t000",
+        "language": "Danish",
+        "surface": "dag",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2605.t000",
+        "language": "Danish",
+        "surface": "bus",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3220.t000",
+        "language": "Danish",
+        "surface": "vaccination",
+        "occurrences": 4,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s015.t003",
+        "language": "English",
+        "surface": "homeless",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s018.t008",
+        "language": "English",
+        "surface": "homeless",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d004.s019.t006",
+        "language": "English",
+        "surface": "one",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "senseval2.d000.s000.t005",
+        "language": "English",
+        "surface": "English",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "senseval2.d000.s046.t004",
+        "language": "English",
+        "surface": "vicar",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "senseval2.d001.s047.t006",
+        "language": "English",
+        "surface": "then",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "senseval2.d002.s067.t010",
+        "language": "English",
+        "surface": "less",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s081.t005",
+        "language": "Spanish",
+        "surface": "liga",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s316.t000",
+        "language": "Spanish",
+        "surface": "añadir",
+        "occurrences": 3,
+        "tagged": 2
+      },
+      {
+        "id": "d000.s316.t005",
+        "language": "Spanish",
+        "surface": "añadir",
+        "occurrences": 3,
+        "tagged": 2
+      },
+      {
+        "id": "d000.s087.t000",
+        "language": "Estonian",
+        "surface": "rähn",
+        "occurrences": 4,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s145.t000",
+        "language": "Estonian",
+        "surface": "naine",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s289.t000",
+        "language": "Estonian",
+        "surface": "kägu",
+        "occurrences": 3,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s300.t000",
+        "language": "Estonian",
+        "surface": "skeptik",
+        "occurrences": 3,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s316.t000",
+        "language": "Estonian",
+        "surface": "sisu",
+        "occurrences": 3,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s652.t000",
+        "language": "Estonian",
+        "surface": "rahu",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s729.t000",
+        "language": "Estonian",
+        "surface": "Keeglit",
+        "occurrences": 3,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s834.t000",
+        "language": "Estonian",
+        "surface": "looduses",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s959.t000",
+        "language": "Estonian",
+        "surface": "majad",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1052.t000",
+        "language": "Estonian",
+        "surface": "päike",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1225.t000",
+        "language": "Estonian",
+        "surface": "leiutise",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1423.t000",
+        "language": "Estonian",
+        "surface": "Lõvi",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1454.t000",
+        "language": "Estonian",
+        "surface": "litri",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1465.t000",
+        "language": "Estonian",
+        "surface": "ässa",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1500.t000",
+        "language": "Estonian",
+        "surface": "pikkus",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1726.t000",
+        "language": "Estonian",
+        "surface": "Karjääri",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s150.t000",
+        "language": "Basque",
+        "surface": "Irrati",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s297.t000",
+        "language": "Basque",
+        "surface": "libera",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s317.t000",
+        "language": "Basque",
+        "surface": "programa",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s430.t000",
+        "language": "Basque",
+        "surface": "boz",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1269.t000",
+        "language": "Basque",
+        "surface": "Zuzenbidea",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1445.t000",
+        "language": "Basque",
+        "surface": "aire",
+        "occurrences": 3,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s069.t002",
+        "language": "French",
+        "surface": "joueurs",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s072.t003",
+        "language": "French",
+        "surface": "arsenic",
+        "occurrences": 3,
+        "tagged": 2
+      },
+      {
+        "id": "d000.s072.t006",
+        "language": "French",
+        "surface": "arsenic",
+        "occurrences": 3,
+        "tagged": 2
+      },
+      {
+        "id": "d000.s127.t004",
+        "language": "French",
+        "surface": "procès",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s181.t000",
+        "language": "Hungarian",
+        "surface": "ír",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s415.t000",
+        "language": "Hungarian",
+        "surface": "milliméter",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s833.t000",
+        "language": "Hungarian",
+        "surface": "centiméter",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1787.t000",
+        "language": "Hungarian",
+        "surface": "káposzta",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s4282.t000",
+        "language": "Hungarian",
+        "surface": "osztálya",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s011.t008",
+        "language": "Italian",
+        "surface": "raccomandata",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s182.t001",
+        "language": "Italian",
+        "surface": "Corte_Suprema",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s414.t010",
+        "language": "Italian",
+        "surface": "Stati",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s420.t004",
+        "language": "Italian",
+        "surface": "politica",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s170.t000",
+        "language": "Japanese",
+        "surface": "終え",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1583.t000",
+        "language": "Japanese",
+        "surface": "宇宙",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1670.t000",
+        "language": "Japanese",
+        "surface": "ケース",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1992.t000",
+        "language": "Japanese",
+        "surface": "衝撃",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2019.t000",
+        "language": "Japanese",
+        "surface": "流れ",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2393.t000",
+        "language": "Japanese",
+        "surface": "無制限",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2555.t000",
+        "language": "Japanese",
+        "surface": "バレル",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2799.t000",
+        "language": "Japanese",
+        "surface": "深い",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2900.t000",
+        "language": "Japanese",
+        "surface": "人",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3521.t000",
+        "language": "Japanese",
+        "surface": "穏やか",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3524.t000",
+        "language": "Japanese",
+        "surface": "大きい",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3738.t000",
+        "language": "Japanese",
+        "surface": "続ける",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3793.t000",
+        "language": "Japanese",
+        "surface": "教育",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3840.t000",
+        "language": "Japanese",
+        "surface": "地下鉄",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s4978.t000",
+        "language": "Japanese",
+        "surface": "健全",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s4986.t000",
+        "language": "Japanese",
+        "surface": "近い",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s5455.t000",
+        "language": "Japanese",
+        "surface": "オブジェクト",
+        "occurrences": 3,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6172.t000",
+        "language": "Japanese",
+        "surface": "受け",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6183.t000",
+        "language": "Japanese",
+        "surface": "恐ろしい",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6826.t000",
+        "language": "Japanese",
+        "surface": "ローター",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6992.t000",
+        "language": "Japanese",
+        "surface": "家",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s7067.t000",
+        "language": "Japanese",
+        "surface": "順序",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s2926.t000",
+        "language": "Dutch",
+        "surface": "boef",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s166.t000",
+        "language": "Slovenian",
+        "surface": "knjiga",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s205.t000",
+        "language": "Slovenian",
+        "surface": "politiko",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s269.t000",
+        "language": "Slovenian",
+        "surface": "DELO",
+        "occurrences": 4,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s622.t000",
+        "language": "Slovenian",
+        "surface": "podjetja",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s903.t000",
+        "language": "Slovenian",
+        "surface": "države",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1310.t000",
+        "language": "Slovenian",
+        "surface": "ure",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1357.t000",
+        "language": "Slovenian",
+        "surface": "knjig",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1371.t000",
+        "language": "Slovenian",
+        "surface": "podjetja",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1412.t000",
+        "language": "Slovenian",
+        "surface": "območja",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1510.t000",
+        "language": "Slovenian",
+        "surface": "klub",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1522.t000",
+        "language": "Slovenian",
+        "surface": "Podjetje",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1554.t000",
+        "language": "Slovenian",
+        "surface": "država",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1611.t000",
+        "language": "Slovenian",
+        "surface": "hiše",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1702.t000",
+        "language": "Slovenian",
+        "surface": "politiko",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1935.t000",
+        "language": "Slovenian",
+        "surface": "podjetja",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1981.t000",
+        "language": "Slovenian",
+        "surface": "glasov",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1990.t000",
+        "language": "Slovenian",
+        "surface": "držav",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s622.t000",
+        "language": "Chinese",
+        "surface": "室",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s980.t000",
+        "language": "Chinese",
+        "surface": "数",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1020.t000",
+        "language": "Chinese",
+        "surface": "天",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1573.t000",
+        "language": "Chinese",
+        "surface": "名",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s1983.t002",
+        "language": "Chinese",
+        "surface": "病症",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3123.t000",
+        "language": "Chinese",
+        "surface": "公司",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3344.t000",
+        "language": "Chinese",
+        "surface": "法律",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3370.t000",
+        "language": "Chinese",
+        "surface": "金",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s3806.t000",
+        "language": "Chinese",
+        "surface": "园",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s4236.t000",
+        "language": "Chinese",
+        "surface": "地",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s5063.t000",
+        "language": "Chinese",
+        "surface": "线",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s5920.t000",
+        "language": "Chinese",
+        "surface": "系统",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6337.t000",
+        "language": "Chinese",
+        "surface": "月",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6868.t000",
+        "language": "Chinese",
+        "surface": "户",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s6872.t000",
+        "language": "Chinese",
+        "surface": "金",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s7632.t000",
+        "language": "Chinese",
+        "surface": "香",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s8555.t000",
+        "language": "Chinese",
+        "surface": "金",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s8612.t000",
+        "language": "Chinese",
+        "surface": "教室",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s9006.t000",
+        "language": "Chinese",
+        "surface": "道",
+        "occurrences": 2,
+        "tagged": 1
+      },
+      {
+        "id": "d000.s9096.t000",
+        "language": "Chinese",
+        "surface": "室",
+        "occurrences": 2,
+        "tagged": 1
+      }
+    ]
+  }
+}
