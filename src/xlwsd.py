@@ -1,18 +1,18 @@
 import logging
-from collections import defaultdict
+from collections.abc import Iterator, Mapping
 from dataclasses import dataclass, field
-from typing import Literal
+from functools import lru_cache
+from typing import Any, Literal
 
 import requests_cache
 from requests_cache import DO_NOT_CACHE, NEVER_EXPIRE
-from rich import box
-from rich.console import Console
-from rich.table import Table
-from rich.text import Text
 
 logging.getLogger("babelnet").setLevel(logging.WARNING)
 logging.getLogger("httpx").setLevel(logging.WARNING)
-logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("sentence_transformers.SentenceTransformer").setLevel(logging.ERROR)
+logging.getLogger("huggingface_hub.utils._http").setLevel(logging.ERROR)
+logging.getLogger("tensorflow").setLevel(logging.ERROR)
+logging.getLogger("absl").setLevel(logging.ERROR)
 
 urls_expire_after = {
     "*babelnet.io*": NEVER_EXPIRE,
@@ -22,51 +22,8 @@ requests_cache.install_cache(
     "babelnet_cache",
     allowable_methods=["GET", "POST"],
     urls_expire_after=urls_expire_after,
+    allowable_codes=[200],
 )
-
-
-def display_wsd_result(
-    console: Console,
-    sentence: str,
-    target_word: str,
-    lemma: str,
-    pos: str,
-    prediction: str,
-) -> None:
-    """Display a WSD result in a simple table format."""
-    # Highlight target word in sentence
-    highlighted_text = Text()
-    remaining = sentence
-    target_lower = target_word.lower()
-
-    while remaining:
-        idx = remaining.lower().find(target_lower)
-        if idx == -1:
-            highlighted_text.append(remaining)
-            break
-        if idx > 0:
-            highlighted_text.append(remaining[:idx])
-        end_idx = idx + len(target_word)
-        target_match = remaining[idx:end_idx]
-        highlighted_text.append(target_match, style="bold bright_yellow")
-        remaining = remaining[end_idx:]
-
-    # Create table with word info, sentence, and prediction
-    table = Table(
-        show_header=False,
-        box=box.SIMPLE_HEAD,
-        pad_edge=False,
-        padding=(0, 1),
-    )
-    table.add_column(style="dim", justify="right", no_wrap=True)
-    table.add_column()
-
-    table.add_row("Word", f"[bold]{lemma}[/bold]#[dim]{pos}[/dim]")
-    table.add_row("Context", highlighted_text)
-    table.add_row("Prediction", f"[green]{prediction}[/green]")
-
-    console.print(table)
-    console.print()
 
 
 @dataclass
@@ -182,6 +139,7 @@ class Data:
     sense: str
 
 
+@lru_cache(maxsize=None)
 def get_babelnet_data(id: str) -> Data | None:
     import babelnet as bn
     from babelnet.language import Language
@@ -223,8 +181,7 @@ def get_babelnet_data(id: str) -> Data | None:
 
 
 @dataclass
-class Eval:
-    model: str
+class Eval(Mapping):
     lang: str
     target_word: str
     context: str
@@ -235,6 +192,15 @@ class Eval:
     bert_score: float | None = None
     bleurt_score: float | None = None
 
+    def __getitem__(self, key: str) -> Any:
+        return getattr(self, key)
+
+    def __iter__(self) -> Iterator[str]:
+        return iter(self.__dataclass_fields__)
+
+    def __len__(self) -> int:
+        return len(self.__dataclass_fields__)
+
 
 def clean(text: str) -> str:
     if text.startswith("Definition:"):
@@ -244,124 +210,195 @@ def clean(text: str) -> str:
     return text
 
 
-if __name__ == "__main__":
-    import csv
-    import dataclasses
-    import os
+def gather(set: Literal["test", "dev"], lang: str) -> list[Eval]:
+    print(f"ORGANISING DATA {set}-{lang}...")
+    corpus = parse_doc(set, lang)
 
-    from dotenv import load_dotenv
-    from rich.console import Console
+    eval_items: list[Eval] = []
+    loop = True
+    for i, sent in enumerate(corpus.sentences):
+        for word in sent.words:
+            if not word.is_instance:
+                continue
 
-    from aya import AyaClient, format_msg
-    from scorer import BERTScore, BLEURTScore, SBERTScore
+            # Use gold synset
+            bn_ids = word.bn_ids
+            if len(bn_ids) == 0:
+                continue
 
-    load_dotenv()
-
-    langs = ["en"]
-    eval_items: list[dict] = []
-
-    for lang in langs:
-        corpus = parse_doc("dev", lang)
-
-        for i, sent in enumerate(corpus.sentences):
-            for word in sent.words:
-                if not word.is_instance:
-                    continue
-
-                # Use gold synset
-                bn_ids = word.bn_ids
-                if len(bn_ids) == 0:
-                    continue
-
+            try:
                 bn_data = get_babelnet_data(bn_ids[0])
                 if bn_data is None:
                     continue
+            except Exception:
+                print("BabelNet limit reached")
+                loop = False
+                break
 
-                eval_items.append(
-                    {
-                        "lang": lang,
-                        "context": sent.text,
-                        "target_word": word.text,
-                        "pos": word.pos,
-                        "ref": bn_data.gloss,
-                    }
-                )
-
-    aya_client = AyaClient()
-    models = [
-        "tiny-aya-global",
-        # "tiny-aya-fire",
-    ]
-    instances: list[Eval] = []
-    refs = []
-    preds = []
-    for item in eval_items:
-        for model in models:
-            pred = aya_client(model, format_msg(item["target_word"], item["context"]))
-            pred = clean(pred)
-            preds.append(pred)
-            refs.append(item["ref"])
-
-            # Create the Eval instance directly
-            instances.append(
+            eval_items.append(
                 Eval(
-                    model=model,
-                    pred=pred,
-                    **item,
+                    lang=lang,
+                    context=sent.text,
+                    target_word=word.text,
+                    pos=word.pos,
+                    ref=bn_data.gloss,
                 )
             )
+        if not loop:
+            break
+    return eval_items
 
-    # Process
-    scorers = (
-        SBERTScore("paraphrase-multilingual-mpnet-base-v2"),
-        BLEURTScore("BLEURT-20-D6"),
-        BERTScore("bert-base-multilingual-cased"),
-    )
 
-    # Compute all scores in batch
-    sbert_scores = scorers[0].score_batch(refs, preds)
-    bleurt_scores = scorers[1].score_batch(refs, preds)
-    bert_scores = scorers[2].score_batch(refs, preds)
+def predict(model: str, eval_items: list[Eval]) -> list[Eval]:
+    """
+    Returns:
+        predictions
+        preds
+        refs
+    """
+    from aya import format_msg
 
-    # Single pass: assign scores and aggregate
-    overall = {"sbert": 0.0, "bert": 0.0, "bleurt": 0.0, "count": 0}
-    by_lang = defaultdict(
-        lambda: {"sbert": 0.0, "bert": 0.0, "bleurt": 0.0, "count": 0}
-    )
-    by_model = defaultdict(
-        lambda: {"sbert": 0.0, "bert": 0.0, "bleurt": 0.0, "count": 0}
-    )
+    print(f"PREDICTING SENSES [{model}]...")
 
-    for inst, sb, bl, be in zip(instances, sbert_scores, bleurt_scores, bert_scores):
-        inst.sbert_score = float(sb) if sb is not None else None
-        inst.bleurt_score = float(bl) if bl is not None else None
-        inst.bert_score = float(be) if be is not None else None
+    if "aya" in model:
+        from aya import AyaClient
 
-        sbert = inst.sbert_score or 0.0
-        bert = inst.bert_score or 0.0
-        bleurt = inst.bleurt_score or 0.0
+        client = AyaClient()
+    else:
+        from lmstudio import LMStudioClient
 
-        overall["sbert"] += sbert
-        overall["bert"] += bert
-        overall["bleurt"] += bleurt
-        overall["count"] += 1
+        client = LMStudioClient()
 
-        by_lang[inst.lang]["sbert"] += sbert
-        by_lang[inst.lang]["bert"] += bert
-        by_lang[inst.lang]["bleurt"] += bleurt
-        by_lang[inst.lang]["count"] += 1
+    predictions: list[Eval] = []
 
-        by_model[inst.model]["sbert"] += sbert
-        by_model[inst.model]["bert"] += bert
-        by_model[inst.model]["bleurt"] += bleurt
-        by_model[inst.model]["count"] += 1
+    for item in eval_items:
+        pred = client(model, format_msg(item.target_word, item.context))
+        pred = clean(pred)
+        item.pred = pred
+        predictions.append(item)
 
-    csv_fpath = "wsd_results.csv"
-    with open(csv_fpath, "w", newline="", encoding="utf-8") as f:
-        fieldnames = [field.name for field in dataclasses.fields(Eval)]
+    return predictions
+
+
+def score(
+    refs: list[str], preds: list[str]
+) -> tuple[list[float], list[float], list[float]]:
+    """
+    Returns:
+        sbert_scores
+        bleurt_scores
+        bert_scores
+    """
+    assert len(refs) == len(preds)
+    from scorer import BERTScore, BLEURTScore, SBERTScore
+
+    print("COMPUTING BERT SCORES...")
+    bert = BERTScore("roberta-large")
+    bert_scores = bert.score_batch(refs, preds)
+    del bert
+
+    print("COMPUTING SBERT SCORES...")
+    sbert = SBERTScore("paraphrase-multilingual-mpnet-base-v2")
+    sbert_scores = sbert.score_batch(refs, preds)
+    del sbert
+
+    print("COMPUTING BLEURT SCORES...")
+    bleurt = BLEURTScore("BLEURT-20-D6")
+    bleurt_scores = bleurt.score_batch(refs, preds)
+    del bleurt
+
+    return sbert_scores, bleurt_scores, bert_scores
+
+
+def save_checkpoint(fpath: str, data: list[Eval]):
+    import os
+
+    dirname, fname = os.path.split(fpath)
+    os.makedirs(dirname, exist_ok=True)
+    with open(fpath, "w", newline="", encoding="utf-8") as f:
+        fieldnames = list(Eval.__dataclass_fields__)
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
+        writer.writerows(data)
+    print(f"Saved at {fpath}")
 
-        for inst in instances:
-            writer.writerow(dataclasses.asdict(inst))
-    print(f"Results saved to {csv_fpath}")
+
+def load_checkpoint(fpath: str) -> list[Eval]:
+    items: list[Eval] = []
+    with open(fpath, "r", newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            item = Eval(
+                lang=row["lang"],
+                target_word=row["target_word"],
+                context=row["context"],
+                pos=row["pos"],
+                ref=row["ref"],
+                pred=row.get("pred") or None,
+                sbert_score=float(row["sbert_score"])
+                if row.get("sbert_score")
+                else None,
+                bert_score=float(row["bert_score"]) if row.get("bert_score") else None,
+                bleurt_score=float(row["bleurt_score"])
+                if row.get("bleurt_score")
+                else None,
+            )
+            items.append(item)
+    print(f"Loaded {fpath}")
+    return items
+
+
+if __name__ == "__main__":
+    import csv
+    import os
+
+    from dotenv import load_dotenv
+
+    load_dotenv()
+
+    portion = "test-ur"
+    dataset, lang = portion.split("-")
+
+    sense_path = f"./evals/{portion}/senses.csv"
+    if not os.path.isfile(sense_path):
+        eval_items = gather(dataset, lang)
+        save_checkpoint(sense_path, eval_items)
+
+    else:
+        eval_items = load_checkpoint(sense_path)
+    print(f"Got {len(eval_items)} items")
+
+    models = [
+        "tiny-aya-fire",
+        "tiny-aya-global",
+        "tiny-aya-water",
+        "gemma-2-2b-it",
+        "qwen2.5-3b-instruct",
+        "Qwen3.5-4B-GGUF",
+        "Qwen3.5-2B-GGUF",
+    ]
+
+    for model in models:
+        pred_path = f"./evals/{portion}/{model}-predictions.csv"
+        if not os.path.isfile(pred_path):
+            predictions = predict(model, eval_items)
+            save_checkpoint(pred_path, predictions)
+
+        else:
+            predictions = load_checkpoint(pred_path)
+        print(f"Got {len(eval_items)} items")
+
+        refs = [item.ref for item in predictions]
+        preds = [item.pred for item in predictions]
+
+        score_path = f"./evals/{portion}/{model}-scores.csv"
+        if not os.path.isfile(score_path):
+            sbert_scores, bleurt_scores, bert_scores = score(refs, preds)
+            for i, item in enumerate(eval_items):
+                item.sbert_score = sbert_scores[i]
+                item.bert_score = bert_scores[i]
+                item.bleurt_score = bleurt_scores[i]
+            save_checkpoint(score_path, eval_items)
+
+        else:
+            print("Done")

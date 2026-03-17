@@ -1,4 +1,3 @@
-import torch
 from bert_score import BERTScorer
 from bleurt import score as Bleurt
 from sentence_transformers import SentenceTransformer
@@ -21,25 +20,28 @@ class SBERTScore:
         self.device = device
         self.encode_opts = {"convert_to_tensor": True, "device": self.device}
 
-    def score(self, ref: str, pred: str) -> torch.Tensor:
+    def score(self, ref: str, pred: str) -> float:
         encoded_ref = self.model.encode(ref, convert_to_tensor=True, device=self.device)
         encoded_pred = self.model.encode(
             pred, convert_to_tensor=True, device=self.device
         )
-        return self.model.similarity(encoded_ref, encoded_pred)
+        return self.model.similarity(encoded_ref, encoded_pred).item()
 
-    def score_batch(self, refs: list[str], preds: list[str]) -> torch.Tensor:
+    def score_batch(self, refs: list[str], preds: list[str]) -> list[float]:
         encoded_ref = self.model.encode(
             refs, convert_to_tensor=True, device=self.device
         )
         encoded_preds = self.model.encode(
             preds, convert_to_tensor=True, device=self.device
         )
-        return self.model.similarity_pairwise(encoded_ref, encoded_preds)
+        return [
+            score.item()
+            for score in self.model.similarity_pairwise(encoded_ref, encoded_preds)
+        ]
 
 
 class BERTScore:
-    def __init__(self, model_id: str, device):
+    def __init__(self, model_id: str, device: str = "mps"):
         self.model = BERTScorer(
             lang="en",
             model_type=model_id,
@@ -47,11 +49,11 @@ class BERTScore:
             rescale_with_baseline=True,
         )
 
-    def score(self, ref: str, pred: str) -> torch.Tensor:
+    def score(self, ref: str, pred: str) -> float:
         P, R, F1 = self.model.score(pred, ref)
-        return F1
+        return F1.item()
 
-    def score_batch(self, refs: list[str], preds: list[str]) -> torch.Tensor:
+    def score_batch(self, refs: list[str], preds: list[str]) -> list[float]:
         P, R, F1 = self.model.score(preds, refs)
         return F1
 
