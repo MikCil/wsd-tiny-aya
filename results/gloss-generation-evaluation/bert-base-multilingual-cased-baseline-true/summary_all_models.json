@@ -1,0 +1,32 @@
+{
+  "gemma-3-4b": {
+    "total_instances": 27102,
+    "bertscore_f1": 0.396198,
+    "sbert_similarity": 0.55775,
+    "bleurt": 0.248667
+  },
+  "qwen3.5-4b": {
+    "total_instances": 27102,
+    "bertscore_f1": 0.403411,
+    "sbert_similarity": 0.553461,
+    "bleurt": 0.246428
+  },
+  "tiny-aya-finetune-task2": {
+    "total_instances": 27102,
+    "bertscore_f1": 0.512792,
+    "sbert_similarity": 0.629565,
+    "bleurt": 0.38316
+  },
+  "tiny-aya-global": {
+    "total_instances": 27102,
+    "bertscore_f1": 0.384091,
+    "sbert_similarity": 0.521065,
+    "bleurt": 0.270072
+  },
+  "tiny-aya-water": {
+    "total_instances": 27102,
+    "bertscore_f1": 0.390655,
+    "sbert_similarity": 0.535971,
+    "bleurt": 0.273605
+  }
+}
