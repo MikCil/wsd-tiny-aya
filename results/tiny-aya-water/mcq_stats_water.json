@@ -1,188 +1,188 @@
 {
   "global": {
-    "correct": 9859,
-    "total": 19988,
-    "accuracy": 0.4932459475685411
+    "correct": 13065,
+    "total": 27101,
+    "accuracy": 0.4820855318991919
   },
   "by_language": {
     "Bulgarian": {
-      "correct": 1075,
-      "total": 1704,
-      "accuracy": 0.630868544600939
+      "correct": 1079,
+      "total": 1703,
+      "accuracy": 0.6335877862595419
     },
     "Catalan": {
-      "correct": 188,
-      "total": 391,
-      "accuracy": 0.48081841432225064
+      "correct": 238,
+      "total": 471,
+      "accuracy": 0.505307855626327
     },
     "Danish": {
-      "correct": 152,
-      "total": 274,
-      "accuracy": 0.5547445255474452
+      "correct": 228,
+      "total": 396,
+      "accuracy": 0.5757575757575758
     },
     "German": {
-      "correct": 120,
-      "total": 236,
-      "accuracy": 0.5084745762711864
+      "correct": 130,
+      "total": 255,
+      "accuracy": 0.5098039215686274
     },
     "English": {
-      "correct": 5189,
-      "total": 10518,
-      "accuracy": 0.4933447423464537
+      "correct": 5197,
+      "total": 10522,
+      "accuracy": 0.4939175061775328
     },
     "Spanish": {
-      "correct": 579,
-      "total": 1035,
-      "accuracy": 0.5594202898550724
+      "correct": 686,
+      "total": 1221,
+      "accuracy": 0.5618345618345618
     },
     "Estonian": {
-      "correct": 57,
-      "total": 91,
-      "accuracy": 0.6263736263736264
+      "correct": 110,
+      "total": 196,
+      "accuracy": 0.5612244897959183
     },
     "Basque": {
-      "correct": 61,
-      "total": 123,
-      "accuracy": 0.4959349593495935
+      "correct": 120,
+      "total": 256,
+      "accuracy": 0.46875
     },
     "French": {
-      "correct": 165,
-      "total": 276,
-      "accuracy": 0.5978260869565217
+      "correct": 269,
+      "total": 489,
+      "accuracy": 0.5501022494887525
     },
     "Galician": {
-      "correct": 13,
-      "total": 33,
-      "accuracy": 0.3939393939393939
+      "correct": 44,
+      "total": 79,
+      "accuracy": 0.5569620253164557
     },
     "Croatian": {
-      "correct": 105,
-      "total": 191,
-      "accuracy": 0.5497382198952879
+      "correct": 153,
+      "total": 284,
+      "accuracy": 0.5387323943661971
     },
     "Hungarian": {
-      "correct": 116,
-      "total": 200,
-      "accuracy": 0.58
+      "correct": 192,
+      "total": 336,
+      "accuracy": 0.5714285714285714
     },
     "Italian": {
-      "correct": 516,
-      "total": 1115,
-      "accuracy": 0.46278026905829595
+      "correct": 806,
+      "total": 1754,
+      "accuracy": 0.45952109464082097
     },
     "Japanese": {
-      "correct": 1161,
-      "total": 2919,
-      "accuracy": 0.3977389516957862
+      "correct": 1876,
+      "total": 4638,
+      "accuracy": 0.40448469167744716
     },
     "Korean": {
-      "correct": 125,
-      "total": 324,
-      "accuracy": 0.38580246913580246
+      "correct": 698,
+      "total": 1799,
+      "accuracy": 0.3879933296275709
     },
     "Dutch": {
-      "correct": 63,
-      "total": 141,
-      "accuracy": 0.44680851063829785
+      "correct": 521,
+      "total": 1094,
+      "accuracy": 0.47623400365630714
     },
     "Slovenian": {
-      "correct": 9,
-      "total": 22,
-      "accuracy": 0.4090909090909091
+      "correct": 229,
+      "total": 469,
+      "accuracy": 0.488272921108742
     },
     "Chinese": {
-      "correct": 165,
-      "total": 395,
-      "accuracy": 0.4177215189873418
+      "correct": 489,
+      "total": 1139,
+      "accuracy": 0.4293239683933275
     }
   },
   "by_pos": {
     "NOUN": {
-      "correct": 7177,
-      "total": 13272,
-      "accuracy": 0.5407625075346595
+      "correct": 9878,
+      "total": 19175,
+      "accuracy": 0.5151499348109517
     },
     "ADJ": {
-      "correct": 1080,
-      "total": 2281,
-      "accuracy": 0.4734765453748356
+      "correct": 1305,
+      "total": 2813,
+      "accuracy": 0.4639175257731959
     },
     "VERB": {
-      "correct": 1378,
-      "total": 3972,
-      "accuracy": 0.3469284994964753
+      "correct": 1650,
+      "total": 4633,
+      "accuracy": 0.3561407295488884
     },
     "ADV": {
-      "correct": 224,
-      "total": 463,
-      "accuracy": 0.4838012958963283
+      "correct": 232,
+      "total": 480,
+      "accuracy": 0.48333333333333334
     }
   },
   "by_candidate_count": {
     "3": {
-      "correct": 1959,
-      "total": 3582,
-      "accuracy": 0.5469011725293133,
-      "random_baseline": 0.3333333333333355
+      "correct": 2639,
+      "total": 5187,
+      "accuracy": 0.5087719298245614,
+      "random_baseline": 0.3333333333333114
     },
     "2": {
-      "correct": 3838,
-      "total": 5968,
-      "accuracy": 0.6430965147453083,
+      "correct": 5653,
+      "total": 9131,
+      "accuracy": 0.6190997700142372,
       "random_baseline": 0.5
     },
     "4": {
-      "correct": 1266,
-      "total": 2593,
-      "accuracy": 0.4882375626687235,
+      "correct": 1604,
+      "total": 3477,
+      "accuracy": 0.46131722749496695,
       "random_baseline": 0.25
     },
     "5": {
-      "correct": 855,
-      "total": 1818,
-      "accuracy": 0.47029702970297027,
-      "random_baseline": 0.19999999999999335
+      "correct": 1010,
+      "total": 2367,
+      "accuracy": 0.42670046472327844,
+      "random_baseline": 0.19999999999999227
     },
     "6": {
-      "correct": 536,
-      "total": 1344,
-      "accuracy": 0.39880952380952384,
-      "random_baseline": 0.1666666666666637
+      "correct": 634,
+      "total": 1727,
+      "accuracy": 0.36711059640995947,
+      "random_baseline": 0.16666666666666538
     },
     "7": {
-      "correct": 463,
-      "total": 1389,
-      "accuracy": 0.3333333333333333,
-      "random_baseline": 0.14285714285714055
+      "correct": 510,
+      "total": 1567,
+      "accuracy": 0.32546266751754943,
+      "random_baseline": 0.14285714285714035
     },
     "9": {
-      "correct": 160,
-      "total": 527,
-      "accuracy": 0.3036053130929791,
-      "random_baseline": 0.11111111111111235
+      "correct": 180,
+      "total": 621,
+      "accuracy": 0.2898550724637681,
+      "random_baseline": 0.11111111111111265
     },
     "8": {
-      "correct": 189,
-      "total": 539,
-      "accuracy": 0.35064935064935066,
+      "correct": 216,
+      "total": 662,
+      "accuracy": 0.32628398791540786,
       "random_baseline": 0.125
     },
     "11": {
-      "correct": 121,
-      "total": 403,
-      "accuracy": 0.3002481389578164,
-      "random_baseline": 0.09090909090909097
+      "correct": 132,
+      "total": 439,
+      "accuracy": 0.30068337129840544,
+      "random_baseline": 0.09090909090909118
     },
     "12": {
-      "correct": 70,
-      "total": 213,
-      "accuracy": 0.3286384976525822,
-      "random_baseline": 0.08333333333333341
+      "correct": 72,
+      "total": 237,
+      "accuracy": 0.3037974683544304,
+      "random_baseline": 0.08333333333333329
     },
     "16": {
       "correct": 19,
-      "total": 85,
-      "accuracy": 0.2235294117647059,
+      "total": 87,
+      "accuracy": 0.21839080459770116,
       "random_baseline": 0.0625
     },
     "18": {
@@ -192,16 +192,16 @@
       "random_baseline": 0.05555555555555557
     },
     "10": {
-      "correct": 195,
-      "total": 577,
-      "accuracy": 0.3379549393414211,
-      "random_baseline": 0.10000000000000095
+      "correct": 206,
+      "total": 614,
+      "accuracy": 0.3355048859934853,
+      "random_baseline": 0.10000000000000098
     },
     "15": {
-      "correct": 26,
-      "total": 85,
-      "accuracy": 0.3058823529411765,
-      "random_baseline": 0.06666666666666667
+      "correct": 29,
+      "total": 96,
+      "accuracy": 0.3020833333333333,
+      "random_baseline": 0.06666666666666664
     },
     "28": {
       "correct": 4,
@@ -211,9 +211,9 @@
     },
     "21": {
       "correct": 12,
-      "total": 52,
-      "accuracy": 0.23076923076923078,
-      "random_baseline": 0.04761904761904761
+      "total": 58,
+      "accuracy": 0.20689655172413793,
+      "random_baseline": 0.047619047619047596
     },
     "30": {
       "correct": 4,
@@ -223,15 +223,15 @@
     },
     "19": {
       "correct": 8,
-      "total": 36,
-      "accuracy": 0.2222222222222222,
+      "total": 37,
+      "accuracy": 0.21621621621621623,
       "random_baseline": 0.05263157894736838
     },
     "14": {
-      "correct": 20,
-      "total": 101,
-      "accuracy": 0.19801980198019803,
-      "random_baseline": 0.07142857142857136
+      "correct": 21,
+      "total": 108,
+      "accuracy": 0.19444444444444445,
+      "random_baseline": 0.07142857142857134
     },
     "23": {
       "correct": 4,
@@ -240,9 +240,9 @@
       "random_baseline": 0.043478260869565195
     },
     "20": {
-      "correct": 20,
+      "correct": 19,
       "total": 50,
-      "accuracy": 0.4,
+      "accuracy": 0.38,
       "random_baseline": 0.04999999999999998
     },
     "34": {
@@ -259,15 +259,15 @@
     },
     "17": {
       "correct": 8,
-      "total": 34,
-      "accuracy": 0.23529411764705882,
-      "random_baseline": 0.058823529411764705
+      "total": 38,
+      "accuracy": 0.21052631578947367,
+      "random_baseline": 0.058823529411764684
     },
     "13": {
-      "correct": 37,
-      "total": 150,
-      "accuracy": 0.24666666666666667,
-      "random_baseline": 0.07692307692307677
+      "correct": 36,
+      "total": 156,
+      "accuracy": 0.23076923076923078,
+      "random_baseline": 0.07692307692307676
     },
     "27": {
       "correct": 2,
