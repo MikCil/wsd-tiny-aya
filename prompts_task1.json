@@ -1,0 +1,37 @@
+{
+  "English": "You are an expert linguist and lexicographer.\n\nGiven the word \"{target_token}\" in the input sentence, choose the correct meaning from the following:\n\n{candidates_list}.\n\nGenerate only the number of the selected option and nothing else.\n\nInput: {sentence}",
+  
+  "Basque": "Hizkuntzalari eta lexikografo aditua zara.\n\nSarrerako esaldiko \"{target_token}\" hitza emanda, aukeratu esanahi zuzena honako hauen artean:\n\n{candidates_list}.\n\nSortu soilik hautatutako aukeraren zenbakia eta besterik ez.\n\nSarrera: {sentence}",
+  
+  "Bulgarian": "Вие сте експерт лингвист и лексикограф.\n\nИмайки предвид думата \"{target_token}\" във въведеното изречение, изберете правилното значение от следните:\n\n{candidates_list}.\n\nГенерирайте само номера на избраната опция и нищо друго.\n\nВход: {sentence}",
+  
+  "Catalan": "Ets un expert lingüista i lexicògraf.\n\nDonada la paraula \"{target_token}\" a la frase d'entrada, tria el significat correcte entre els següents:\n\n{candidates_list}.\n\nGenera només el número de l'opció seleccionada i res més.\n\nEntrada: {sentence}",
+  
+  "Chinese": "您是一位资深的语言学家和词典编纂者。\n\n给定输入句子中的单词 \"{target_token}\"，请从以下选项中选择正确的含义：\n\n{candidates_list}。\n\n只生成所选选项的编号，不生成其他任何内容。\n\n输入：{sentence}",
+  
+  "Croatian": "Vi ste stručni lingvist i leksikograf.\n\nS obzirom na riječ \"{target_token}\" u ulaznoj rečenici, odaberite točno značenje između sljedećih:\n\n{candidates_list}.\n\nGenerirajte samo broj odabrane opcije i ništa više.\n\nUnos: {sentence}",
+  
+  "Danish": "Du er en ekspert i lingvistik og leksikografi.\n\nUd fra ordet \"{target_token}\" i inputsætningen skal du vælge den korrekte betydning blandt følgende:\n\n{candidates_list}.\n\nGenerer kun nummeret på den valgte mulighed og intet andet.\n\nInput: {sentence}",
+  
+  "Dutch": "Je bent een deskundige taalkundige en lexicograaf.\n\nGegeven het woord \"{target_token}\" in de invoerzin, kies de juiste betekenis uit de volgende opties:\n\n{candidates_list}.\n\nGenereer alleen het nummer van de geselecteerde optie en verder niets.\n\nInvoer: {sentence}",
+  
+  "Estonian": "Oled asjatundlik lingvist ja leksikograaf.\n\nArvestades sisendlause sõna \"{target_token}\", vali järgnevate hulgast õige tähendus:\n\n{candidates_list}.\n\nGenereeri ainult valitud valiku number ja ei midagi muud.\n\nSisend: {sentence}",
+  
+  "French": "Vous êtes un expert linguiste et lexicographe.\n\nÉtant donné le mot \"{target_token}\" dans la phrase d'entrée, choisissez la signification correcte parmi les propositions suivantes :\n\n{candidates_list}.\n\nGénérez uniquement le numéro de l'option sélectionnée et rien d'autre.\n\nEntrée : {sentence}",
+  
+  "Galician": "Es un lingüista e lexicógrafo experto.\n\nDada a palabra \"{target_token}\" na frase de entrada, escolle o significado correcto entre os seguintes:\n\n{candidates_list}.\n\nXera só o número da opción seleccionada e nada máis.\n\nEntrada: {sentence}",
+  
+  "German": "Sie sind ein erfahrener Linguist und Lexikograf.\n\nAusgehend von dem Wort \"{target_token}\" im Eingabesatz, wählen Sie die richtige Bedeutung aus den folgenden Optionen aus:\n\n{candidates_list}.\n\nGenerieren Sie nur die Nummer der ausgewählten Option und sonst nichts.\n\nEingabe: {sentence}",
+  
+  "Hungarian": "Ön egy szakértő nyelvész és lexikográfus.\n\nA bemeneti mondatban szereplő \"{target_token}\" szó alapján válassza ki a helyes jelentést az alábbiak közül:\n\n{candidates_list}.\n\nCsak a kiválasztott lehetőség számát generálja, és semmi mást.\n\nBemenet: {sentence}",
+  
+  "Italian": "Sei un esperto linguista e lessicografo.\n\nData la parola \"{target_token}\" nella frase di input, scegli il significato corretto tra i seguenti:\n\n{candidates_list}.\n\nGenera solo il numero dell'opzione selezionata e nient'altro.\n\nInput: {sentence}",
+  
+  "Japanese": "あなたは専門的な言語学者および辞書編纂者です。\n\n入力文中の単語 \"{target_token}\" について、以下の選択肢から正しい意味を選んでください：\n\n{candidates_list}。\n\n選択したオプションの番号のみを出力し、他には何も出力しないでください。\n\n入力：{sentence}",
+  
+  "Korean": "당신은 전문 언어학자이자 사전 편찬자입니다.\n\n입력 문장에 주어진 단어 \"{target_token}\"에 대해, 다음 중 올바른 의미를 선택하십시오:\n\n{candidates_list}.\n\n선택한 옵션의 번호만 생성하고 다른 것은 생성하지 마십시오.\n\n입력: {sentence}",
+  
+  "Slovenian": "Ste strokovni jezikoslovec in leksikograf.\n\nGlede na besedo \"{target_token}\" v vhodni povedi izberite pravilen pomen izmed naslednjih:\n\n{candidates_list}.\n\nUstvarite samo številko izbrane možnosti in ničesar drugega.\n\nVhod: {sentence}",
+  
+  "Spanish": "Eres un experto lingüista y lexicógrafo.\n\nDada la palabra \"{target_token}\" en la oración de entrada, elige el significado correcto entre los siguientes:\n\n{candidates_list}.\n\nGenera solo el número de la opción seleccionada y nada más.\n\nEntrada: {sentence}"
+}
